@@ -1,0 +1,50 @@
+img {
+
+  width: 40vw;
+}
+
+header { 
+  border-bottom: 1px solid black;
+}
+
+header div { 
+  display:flex;
+  flex-direction:row;
+}
+
+header div p { 
+  flex: 1;
+}
+
+
+* { 
+  font-family: Andika;
+}
+
+[lang="es"] {
+  color: green;
+}
+
+[lang="jmx"] {
+  color: blue;
+}
+
+[lang="en"] {
+  color: red;
+}
+
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+section#vocab {
+  flex: 1;
+}
+  
+section#text {
+  padding-left:3em;
+  flex: 3;
+}
+  
