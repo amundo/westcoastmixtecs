@@ -1,0 +1,2706 @@
+{
+  "type": "FeatureCollection",
+  "properties": {},
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.8825,
+          16.863611
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Non-indigenous",
+        "municipality": "Acapulco de Juarez",
+        "longitude": 16.863611,
+        "state": "GRO",
+        "place": "Acapulco de Juarez, Guerrero",
+        "latitude": -99.8825
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "",
+        "municipality": "Acozauca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "Alcozauca de Guerrero, Guerrero",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Almolonga de Ocampo",
+        "count": 2,
+        "notes": "",
+        "municipality": "Alcozauca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "Almolonga de Ocampo, Alcozauca de Guerrero, Guerrero",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Cuyuxtlahuac",
+        "count": 2,
+        "notes": "",
+        "municipality": "Alcozauca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "Cuyuxtlahuac, Alcozauca de Guerrero, Guerrero",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Ixcuinatoyac",
+        "count": 1,
+        "notes": "",
+        "municipality": "Alcozauca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "Ixcuinatoyac, Alcozauca de Guerrero, Guerrero",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Miguel el Grande",
+        "count": 3,
+        "notes": "",
+        "municipality": "Alcozauca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "San Miguel el Grande, Alcozauca de Guerrero, GRO",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Vicente Zoyatlan",
+        "count": 15,
+        "notes": "",
+        "municipality": "Alcozauca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "San Vicente Zoyatlan, Alcozauca de Guerrero, Guerrero",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Tlahuapa",
+        "count": 2,
+        "notes": "",
+        "municipality": "Alcozauca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "Tlahuapa, Alcozauca de Guerrero, Guerrero",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Xochapa",
+        "count": 4,
+        "notes": "",
+        "municipality": "Alcozauca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "Xochapa, Alcozauca de Guerrero, Guerrero",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3851987,
+          17.4608874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Cruz Fandango",
+        "count": 2,
+        "notes": "",
+        "municipality": "Alcozuaca de Guerrero",
+        "longitude": 17.4608874,
+        "state": "GRO",
+        "place": "Cruz Fandango, Alcozauca de Guerrero, Guerrero",
+        "latitude": -98.3851987
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.0930528,
+          16.9658305
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 3,
+        "notes": "Non-indigenous, Mixtec, Me'phaa",
+        "municipality": "Ayutla de los Libres",
+        "longitude": 16.9658305,
+        "state": "GRO",
+        "place": "Ayutla de los Libres, Guerrero",
+        "latitude": -99.0930528
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          17.2
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 3,
+        "notes": "",
+        "municipality": "Cochoapa el Grande",
+        "longitude": 17.2,
+        "state": "GRO",
+        "place": "Cochoapa el Grande, Guerrero",
+        "latitude": -98.45
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          17.2
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Cahuañaña",
+        "count": 1,
+        "notes": "",
+        "municipality": "Cochoapa el Grande",
+        "longitude": 17.2,
+        "state": "GRO",
+        "place": "Cahuañaña, Cochoapa El Grande, Guerrero",
+        "latitude": -98.45
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          17.2
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Calpanapa Viejo",
+        "count": 1,
+        "notes": "",
+        "municipality": "Cochoapa el Grande",
+        "longitude": 17.2,
+        "state": "GRO",
+        "place": "Calpanapa Viejo, Cochoapa el Grande, Guerrero",
+        "latitude": -98.45
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          17.2
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Loma Canoa",
+        "count": 2,
+        "notes": "",
+        "municipality": "Cochoapa el Grande",
+        "longitude": 17.2,
+        "state": "GRO",
+        "place": "Loma Canoa, Cochoapa el Grande, Guerrero",
+        "latitude": -98.45
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          17.2
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Ocotepec",
+        "count": 1,
+        "notes": "",
+        "municipality": "Cochoapa el Grande",
+        "longitude": 17.2,
+        "state": "GRO",
+        "place": "Ocotepec, Cochoapa el Grande, Guerrero",
+        "latitude": -98.45
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          17.2
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Rio Encajonado",
+        "count": 1,
+        "notes": "",
+        "municipality": "Cochoapa el Grande",
+        "longitude": 17.2,
+        "state": "GRO",
+        "place": "Rio Encajonado, Cochoapa el Grande, Guerrero",
+        "latitude": -98.45
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          17.2
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Miguel Amoltepec Viejo",
+        "count": 1,
+        "notes": "",
+        "municipality": "Cochoapa el Grande",
+        "longitude": 17.2,
+        "state": "GRO",
+        "place": "San Miguel Amoltepec Viejo, Cochoapa el Grande, Guerrero",
+        "latitude": -98.45
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.45,
+          17.2
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Rafael",
+        "count": 1,
+        "notes": "",
+        "municipality": "Cochoapa el Grande",
+        "longitude": 17.2,
+        "state": "GRO",
+        "place": "San Rafael, Cochoapa el Grande, Guerrero",
+        "latitude": -98.45
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.9714623,
+          16.6030715
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "Non-indigenous, Mixtec, Amuzgo",
+        "municipality": "Copala",
+        "longitude": 16.6030715,
+        "state": "GRO",
+        "place": "Copala, Guerrero",
+        "latitude": -98.9714623
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7133269,
+          17.462348
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Potoichan",
+        "count": 2,
+        "notes": "",
+        "municipality": "Copanatoyac",
+        "longitude": 17.462348,
+        "state": "GRO",
+        "place": "Potoichan, Copanatoyac, Guerrero",
+        "latitude": -98.7133269
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4759514,
+          16.7442207
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Igualapa",
+        "longitude": 16.7442207,
+        "state": "GRO",
+        "place": "Igualapa, Guerrero",
+        "latitude": -98.4759514
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4759514,
+          16.7442207
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Chacalapa",
+        "count": 2,
+        "notes": "",
+        "municipality": "Igualapa",
+        "longitude": 16.7442207,
+        "state": "GRO",
+        "place": "Chacalapa, Igualapa, Guerrero",
+        "latitude": -98.4759514
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4085373,
+          17.1937368
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 5,
+        "notes": "",
+        "municipality": "Metlatonoc",
+        "longitude": 17.1937368,
+        "state": "GRO",
+        "place": "Metlatonoc, Guerrero",
+        "latitude": -98.4085373
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4085373,
+          17.1937368
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Llano de las Flores",
+        "count": 1,
+        "notes": "",
+        "municipality": "Metlatonoc",
+        "longitude": 17.1937368,
+        "state": "GRO",
+        "place": "Llano de las Flores, Metlatonoc, Guerrero",
+        "latitude": -98.4085373
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4085373,
+          17.1937368
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Pablo Atzompo",
+        "count": 1,
+        "notes": "",
+        "municipality": "Metlatonoc",
+        "longitude": 17.1937368,
+        "state": "GRO",
+        "place": "San Pablo Atzompo, Metlatonoc, Guerrero",
+        "latitude": -98.4085373
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4054812,
+          16.6853987
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Non-indigenous, Amuzgo",
+        "municipality": "Ometepec",
+        "longitude": 16.6853987,
+        "state": "GRO",
+        "place": "Ometepec, Guerrero",
+        "latitude": -98.4054812
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7350079,
+          16.8070694
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Pascala del Oro",
+        "count": 3,
+        "notes": "",
+        "municipality": "San Luis Acatlan",
+        "longitude": 16.8070694,
+        "state": "GRO",
+        "place": "Pascala del Oro, San Luis Acatlan, Guerrero",
+        "latitude": -98.7350079
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.8697066,
+          18.3654775
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 3,
+        "notes": "Aztec",
+        "municipality": "Teloloapan",
+        "longitude": 18.3654775,
+        "state": "GRO",
+        "place": "Teloloapan, Guerrero",
+        "latitude": -99.8697066
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3000906,
+          16.8105347
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Cuananchinicha",
+        "count": 1,
+        "notes": "",
+        "municipality": "Tlacoachistlahuaca",
+        "longitude": 16.8105347,
+        "state": "GRO",
+        "place": "Cuananchinicha, Tlacoachistlahuaca, Guerrero",
+        "latitude": -98.3000906
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.576389,
+          17.546111
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 3,
+        "notes": "",
+        "municipality": "Tlapa de Comonfort",
+        "longitude": 17.546111,
+        "state": "GRO",
+        "place": "Tlapa de Comonfort, Guerrero",
+        "latitude": -98.576389
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.576389,
+          17.546111
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Tototepec",
+        "count": 5,
+        "notes": "",
+        "municipality": "Tlapa de Comonfort",
+        "longitude": 17.546111,
+        "state": "GRO",
+        "place": "Tototepec, Tlapa de Comonfort, Guerrero",
+        "latitude": -98.576389
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.241944,
+          16.791389
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Xochistlahuaca",
+        "longitude": 16.791389,
+        "state": "GRO",
+        "place": "Xochistlahuaca, Guerrero",
+        "latitude": -98.241944
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1858206,
+          17.6885367
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Aztec",
+        "municipality": "Zitlala",
+        "longitude": 17.6885367,
+        "state": "GRO",
+        "place": "Zitlala, Guerrero",
+        "latitude": -99.1858206
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.3471814,
+          19.07894
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Apatzingan",
+        "longitude": 19.07894,
+        "state": "MICH",
+        "place": "Apatzingan, Michoacan",
+        "latitude": -102.3471814
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6053164,
+          18.5375878
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Acatlan de Perez Figueroa",
+        "longitude": 18.5375878,
+        "state": "OAX",
+        "place": "Acatlan de Perez Figueroa, Oaxaca",
+        "latitude": -96.6053164
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9590192,
+          17.0270715
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Aguatlan",
+        "count": 1,
+        "notes": "",
+        "municipality": "Asuncion Cacalotepec",
+        "longitude": 17.0270715,
+        "state": "OAX",
+        "place": "Aguatlan, Asuncion Cacalotepec, Oaxaca",
+        "latitude": -95.9590192
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.216667,
+          17.45
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Asuncion Nochixtlan",
+        "longitude": 17.45,
+        "state": "OAX",
+        "place": "Asuncion Nochixtlan, Oaxaca",
+        "latitude": -97.216667
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.718889,
+          16.758889
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Asuncion Ocotlan",
+        "longitude": 16.758889,
+        "state": "OAX",
+        "place": "Asuncion Ocotlan, Oaxaca",
+        "latitude": -96.718889
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8431402,
+          16.6842005
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Chinantec",
+        "municipality": "Ayoquezco de Aldama",
+        "longitude": 16.6842005,
+        "state": "OAX",
+        "place": "Ayoquezco de Aldama, Oaxaca",
+        "latitude": -96.8431402
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2781574,
+          17.5320621
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "",
+        "municipality": "Calihuala",
+        "longitude": 17.5320621,
+        "state": "OAX",
+        "place": "Calihuala, Calihuala, Oaxaca",
+        "latitude": -98.2781574
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2741236,
+          17.2712655
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 6,
+        "notes": "",
+        "municipality": "Coicoyan de las Flores",
+        "longitude": 17.2712655,
+        "state": "OAX",
+        "place": "Coicoyan de las Flores, Coicoyan de las Flores, Oaxaca",
+        "latitude": -98.2741236
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.2741236,
+          17.2712655
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "La Trinidad",
+        "count": 2,
+        "notes": "",
+        "municipality": "Coicoyan de las Flores",
+        "longitude": 17.2712655,
+        "state": "OAX",
+        "place": "La Trinidad, Coicoyan de las Flores, Oaxaca",
+        "latitude": -98.2741236
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7306673,
+          16.5647494
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Heroica Ciudad de Ejutla de Crespo",
+        "longitude": 16.5647494,
+        "state": "OAX",
+        "place": "Heroica Ciudad de Ejutla de Crespo, Oaxaca",
+        "latitude": -96.7306673
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7306673,
+          16.5647494
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Barranca Larga",
+        "count": 1,
+        "notes": "",
+        "municipality": "Heroica Ciudad de Ejutla de Crespo",
+        "longitude": 16.5647494,
+        "state": "OAX",
+        "place": "Barranca Larga, Heroica Ciudad de Ejutla de Crespo, Oaxaca",
+        "latitude": -96.7306673
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0221197,
+          16.4406909
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Heroica Ciudad de Juchitan de Zaragoza",
+        "longitude": 16.4406909,
+        "state": "OAX",
+        "place": "Heroica Ciudad de Juchitan de Zaragoza, Oaxaca",
+        "latitude": -95.0221197
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6802361,
+          17.2675625
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 3,
+        "notes": "Non-indigenous, Mixtec, Triqui",
+        "municipality": "Heroica Ciudad de Tlaxiaco",
+        "longitude": 17.2675625,
+        "state": "OAX",
+        "place": "Heroica Cuidad de Tlaxiaco, Oaxaca",
+        "latitude": -97.6802361
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6802361,
+          17.2675625
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Felipe Tindaco",
+        "count": 1,
+        "notes": "",
+        "municipality": "Heroica Ciudad de Tlaxiaco",
+        "longitude": 17.2675625,
+        "state": "OAX",
+        "place": "San Felipe Tindaco, Heroica Ciudad de Tlaxiaco, Oaxaca",
+        "latitude": -97.6802361
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0489859,
+          17.5106174
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "",
+        "municipality": "Ixpantepec Nieves",
+        "longitude": 17.5106174,
+        "state": "OAX",
+        "place": "Ixpantepec Nieves, Oaxaca",
+        "latitude": -98.0489859
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0452994,
+          16.8854418
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Palomares",
+        "count": 1,
+        "notes": "",
+        "municipality": "Matias Romero Avendano",
+        "longitude": 16.8854418,
+        "state": "OAX",
+        "place": "Palomares, Matias Romero Avendano, Oaxaca",
+        "latitude": -95.0452994
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5943562,
+          16.3317796
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 7,
+        "notes": "",
+        "municipality": "Miahuatlan de Porfirio Diaz",
+        "longitude": 16.3317796,
+        "state": "OAX",
+        "place": "Miahuatlan de Porfirio Diaz, Oaxaca",
+        "latitude": -96.5943562
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.675,
+          16.791389
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Buena Vista",
+        "count": 1,
+        "notes": "",
+        "municipality": "Ocotlan de Morelos",
+        "longitude": 16.791389,
+        "state": "OAX",
+        "place": "Buena Vista, Ocotlan de Morelos, Oaxaca",
+        "latitude": -96.675
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4200279,
+          15.9258292
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "Non-indigenous",
+        "municipality": "Pluma Hidalgo",
+        "longitude": 15.9258292,
+        "state": "OAX",
+        "place": "Pluma Hidalgo, Oaxaca",
+        "latitude": -96.4200279
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0694471,
+          15.8655354
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "Non-indigenous",
+        "municipality": "Puerto Escondido",
+        "longitude": 15.8655354,
+        "state": "OAX",
+        "place": "Puerto Escondido, Oaxaca",
+        "latitude": -97.0694471
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9293247,
+          17.0320856
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Putla Villa de Guerrero",
+        "longitude": 17.0320856,
+        "state": "OAX",
+        "place": "Putla Villa de Guerrero, Oaxaca",
+        "latitude": -97.9293247
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7885304,
+          16.5085234
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 4,
+        "notes": "",
+        "municipality": "San Agustin Amatengo",
+        "longitude": 16.5085234,
+        "state": "OAX",
+        "place": "San Agustin Amatengo, Oaxaca",
+        "latitude": -96.7885304
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0147369,
+          17.6113217
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "",
+        "municipality": "San Agustin Atenango",
+        "longitude": 17.6113217,
+        "state": "OAX",
+        "place": "San Agustin Atenango, Oaxaca",
+        "latitude": -98.0147369
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8,
+          16.4
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Agustin Chayuco",
+        "longitude": 16.4,
+        "state": "OAX",
+        "place": "San Agustin Chayuco, Oaxaca",
+        "latitude": -97.8
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8579924,
+          16.5990472
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "Non-indigenous, Zapotec",
+        "municipality": "San Andres Zabache",
+        "longitude": 16.5990472,
+        "state": "OAX",
+        "place": "San Andres Zabache, Oaxaca",
+        "latitude": -96.8579924
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4101711,
+          16.3194787
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Agustin Mixtepec",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Cristobal Amatlan",
+        "longitude": 16.3194787,
+        "state": "OAX",
+        "place": "San Agustin Mixtepec, San Cristobal Amatlan, Oaxaca",
+        "latitude": -96.4101711
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7506374,
+          16.3209964
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Huave",
+        "municipality": "San Dionisio del Mar",
+        "longitude": 16.3209964,
+        "state": "OAX",
+        "place": "San Dionisio del Mar, Oaxaca",
+        "latitude": -94.7506374
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.268567,
+          17.4841139
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Francisco Tlapancingo",
+        "longitude": 17.4841139,
+        "state": "OAX",
+        "place": "San Francisco Tlapancingo, Oaxaca",
+        "latitude": -98.268567
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.268567,
+          17.4841139
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Guadalupe Nogales",
+        "count": 4,
+        "notes": "",
+        "municipality": "San Francisco Tlapancingo",
+        "longitude": 17.4841139,
+        "state": "OAX",
+        "place": "Guadalupe Nogales, San Francisco Tlapancingo, Oaxaca",
+        "latitude": -98.268567
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.268567,
+          17.4841139
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Marcos Natividad",
+        "count": 3,
+        "notes": "",
+        "municipality": "San Francisco Tlapancingo",
+        "longitude": 17.4841139,
+        "state": "OAX",
+        "place": "San Marcos Natividad, San Francisco Tlapancingo, Oaxaca",
+        "latitude": -98.268567
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.490774,
+          16.334628
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Yojuela",
+        "count": 6,
+        "notes": "Zapotec",
+        "municipality": "San Ildefonso Amatlan",
+        "longitude": 16.334628,
+        "state": "OAX",
+        "place": "Yojuela, San Ildefonso Amatlan, Oaxaca",
+        "latitude": -96.490774
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5839558,
+          17.0073658
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Mateo Macuilxochitl",
+        "count": 1,
+        "notes": "Zapotec, non-indigenous",
+        "municipality": "San Jeronimo Tlacochahuaya",
+        "longitude": 17.0073658,
+        "state": "OAX",
+        "place": "San Mateo Macuilxochitl, San Jeronimo Tlacochahuaya, Oaxaca",
+        "latitude": -96.5839558
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1047219,
+          17.6565312
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 15,
+        "notes": "",
+        "municipality": "San Jorge Nuchita",
+        "longitude": 17.6565312,
+        "state": "OAX",
+        "place": "San Jorge Nuchita, Oaxaca",
+        "latitude": -98.1047219
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1047219,
+          17.6565312
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Guadalupe de Morelos",
+        "count": 31,
+        "notes": "",
+        "municipality": "San Jorge Nuchita",
+        "longitude": 17.6565312,
+        "state": "OAX",
+        "place": "Guadalupe de Morelos, San Jorge Nuchita, Oaxaca",
+        "latitude": -98.1047219
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3347315,
+          16.3788539
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "",
+        "municipality": "San Jose Lachiguiri",
+        "longitude": 16.3788539,
+        "state": "OAX",
+        "place": "San Jose Lachiguiri, Oaxaca",
+        "latitude": -96.3347315
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3347315,
+          16.3788539
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 41,
+        "notes": "",
+        "municipality": "San Jose Lachiguiri",
+        "longitude": 16.3788539,
+        "state": "OAX",
+        "place": "San Jose Lachiguiri, Oaxaca",
+        "latitude": -96.3347315
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3347315,
+          16.3788539
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Nizagoche",
+        "count": 7,
+        "notes": "",
+        "municipality": "San Jose Lachiguiri",
+        "longitude": 16.3788539,
+        "state": "OAX",
+        "place": "Nizagoche, San Jose Lachiguiri, Oaxaca",
+        "latitude": -96.3347315
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3347315,
+          16.3788539
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Isidro La Chivigoza",
+        "count": 5,
+        "notes": "",
+        "municipality": "San Jose Lachiguiri",
+        "longitude": 16.3788539,
+        "state": "OAX",
+        "place": "San Isidro La Chivigoza, San Jose Lachiguiri, Oaxaca",
+        "latitude": -96.3347315
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4938791,
+          16.3191247
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "San José del Peñasco",
+        "longitude": 16.3191247,
+        "state": "OAX",
+        "place": "San José del Peñasco, Oaxaca",
+        "latitude": -96.4938791
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8327159,
+          17.3599967
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 4,
+        "notes": "",
+        "municipality": "San Juan Mixtepec - Distrito 08",
+        "longitude": 17.3599967,
+        "state": "OAX",
+        "place": "San Juan Mixtepec - Distrito 08, Oaxaca",
+        "latitude": -97.8327159
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8327159,
+          17.3599967
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Meson de Guadalupe",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Juan Mixtepec - Distrito 08",
+        "longitude": 17.3599967,
+        "state": "OAX",
+        "place": "Meson de Guadalupe, San Juan Mixtepec - Distrito 08, Oaxaca",
+        "latitude": -97.8327159
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.912798,
+          17.385929
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Juan Cahuayaxi",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Juan Mixtepec - Distrito 08",
+        "longitude": 17.385929,
+        "state": "OAX",
+        "place": "San Juan Cahuayaxi, San Juan Mixtepec Dto 08, Oaxaca",
+        "latitude": -97.912798
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.882757,
+          17.386113
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Santiago Tiño",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Juan Mixtepec - Distrito 08",
+        "longitude": 17.386113,
+        "state": "OAX",
+        "place": "Santiago Tiño, San Juan Mixtepec Dto 08, Oaxaca",
+        "latitude": -97.882757
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7051877,
+          17.3977716
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Juan Ñumi",
+        "longitude": 17.3977716,
+        "state": "OAX",
+        "place": "San Juan Ñumi, Oaxaca",
+        "latitude": -97.7051877
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 204,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Ahuajatla",
+        "count": 14,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Ahuajutla, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.261209,
+          17.39748
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Barrio del Carmen",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.39748,
+        "state": "OAX",
+        "place": "Barrio del Carmen, San Martin Peras, Oaxaca",
+        "latitude": -98.261209
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Chiñon",
+        "count": 13,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Chiñon, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "El Paredon",
+        "count": 5,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "El Paredon, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Guadalupe",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Guadalupe, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "La Escopeta",
+        "count": 2,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "La Escopeta, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "La Trinidad Peras",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "La Trinidad Peras, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Las Huertas",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Las Huertas, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Las Minas",
+        "count": 5,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Las Minas, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Piedra Azul",
+        "count": 5,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Piedra Azul, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Isidro La Raya",
+        "count": 7,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "San Isidro La Raya, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.9414162,
+          20.3810837
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Juan del Rio",
+        "count": 4,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 20.3810837,
+        "state": "OAX",
+        "place": "San Juan del Rio, San Martin Peras, Oaxaca",
+        "latitude": -99.9414162
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Marcos",
+        "count": 2,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "San Marcos, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Miguel Peras",
+        "count": 10,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "San Miguel Peras, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.233333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Santiago Petlacala",
+        "count": 10,
+        "notes": "",
+        "municipality": "San Martin Peras",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Santiago Petlacala, San Martin Peras, Oaxaca",
+        "latitude": -98.233333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2073106,
+          17.1598614
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Mateo Cajonos",
+        "longitude": 17.1598614,
+        "state": "OAX",
+        "place": "San Mateo Cajonos, Oaxaca",
+        "latitude": -96.2073106
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1936986,
+          17.6376102
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Miguel Chicahua",
+        "longitude": 17.6376102,
+        "state": "OAX",
+        "place": "San Miguel Chicahua, Oaxaca",
+        "latitude": -97.1936986
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98,
+          17.45
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Martin Sabinillo",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Miguel Tlacotepec",
+        "longitude": 17.45,
+        "state": "OAX",
+        "place": "San Martin Sabinillo, San Miguel Tlacotepec, Oaxaca",
+        "latitude": -98
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2850484,
+          16.2707185
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Pedro Mixtepec",
+        "longitude": 16.2707185,
+        "state": "OAX",
+        "place": "San Pedro Mixtepec, Oaxaca",
+        "latitude": -96.2850484
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4672856,
+          15.7489259
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Non-indigenous, Zapotec",
+        "municipality": "San Pedro Pochutla",
+        "longitude": 15.7489259,
+        "state": "OAX",
+        "place": "San Pedro Pochutla, Oaxaca",
+        "latitude": -96.4672856
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0308607,
+          16.7826999
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "La Soledad Salinas",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Pedro Quiatoni",
+        "longitude": 16.7826999,
+        "state": "OAX",
+        "place": "La Soledad Salinas, San Pedro Quiatoni, Oaxaca",
+        "latitude": -96.0308607
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.033333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "",
+        "municipality": "San Sebastian Tecomaxtlahuaca",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "San Sebastian Tecomaxtlahuaca, Oaxaca",
+        "latitude": -98.033333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.033333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Cañada de Lobo",
+        "count": 4,
+        "notes": "",
+        "municipality": "San Sebastian Tecomaxtlahuaca",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Cañada de Lobo, San Sebastian Tecomaxtlahuaca, Oaxaca",
+        "latitude": -98.033333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.033333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Guadalupe Nundaco",
+        "count": 5,
+        "notes": "",
+        "municipality": "San Sebastian Tecomaxtlahuaca",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Guadalupe Nundaco, San Sebastian Tecomaxtlahuaca, Oaxaca",
+        "latitude": -98.033333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.033333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Rio de Hielo",
+        "count": 2,
+        "notes": "",
+        "municipality": "San Sebastian Tecomaxtlahuaca",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "Rio de Hielo, San Sebastian Tecomaxtlahuaca, Oaxaca",
+        "latitude": -98.033333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.033333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Martin Duraznos",
+        "count": 51,
+        "notes": "",
+        "municipality": "San Sebastian Tecomaxtlahuaca",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "San Martin Duraznos, San Sebastian Tecomaxtlahuaca, Oaxaca",
+        "latitude": -98.033333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.033333,
+          17.35
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Mateo Tunuchi",
+        "count": 1,
+        "notes": "",
+        "municipality": "San Sebastian Tecomaxtlahuaca",
+        "longitude": 17.35,
+        "state": "OAX",
+        "place": "San Mateo Tunuchi, San Sebastian Tecomaxtlahuaca, Oaxaca",
+        "latitude": -98.033333
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.85,
+          16.383333
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Zapotec",
+        "municipality": "San Vicente Coatlan",
+        "longitude": 16.383333,
+        "state": "OAX",
+        "place": "San Vicente Coatlan, Oaxaca",
+        "latitude": -96.85
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6085921,
+          17.3968099
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 2,
+        "notes": "Zapotec",
+        "municipality": "Santa Ana Yareni",
+        "longitude": 17.3968099,
+        "state": "OAX",
+        "place": "Santa Ana Yareni, Oaxaca",
+        "latitude": -96.6085921
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.2843862,
+          16.3145975
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Zapotec",
+        "municipality": "Santa Catarina Quioquitani",
+        "longitude": 16.3145975,
+        "state": "OAX",
+        "place": "Santa Catarina Quioquitani",
+        "latitude": -96.2843862
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6736876,
+          16.3215262
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Zapotec",
+        "municipality": "Santa Cruz Xitla",
+        "longitude": 16.3215262,
+        "state": "OAX",
+        "place": "Santa Cruz Xitla, Oaxaca",
+        "latitude": -96.6736876
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.5462836,
+          15.7467124
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Francisco Cozoaltepec",
+        "count": 1,
+        "notes": "Non-indigenous, Zapotec",
+        "municipality": "Santa Maria Tonameca",
+        "longitude": 15.7467124,
+        "state": "OAX",
+        "place": "San Francisco Cozoaltepec, Santa Maria Tonameca, Oaxaca",
+        "latitude": -96.5462836
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3539893,
+          16.5597026
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Rio Mijangos",
+        "count": 1,
+        "notes": "Non-indigenous",
+        "municipality": "Santa Maria Zoquitlan",
+        "longitude": 16.5597026,
+        "state": "OAX",
+        "place": "Río Míjangos, Santa Maria Zoquitlan, Oaxaca",
+        "latitude": -96.3539893
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0106756,
+          17.3338551
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 11,
+        "notes": "",
+        "municipality": "Santiago Juxtlahuaca",
+        "longitude": 17.3338551,
+        "state": "OAX",
+        "place": "Santiago Juxtlahuaca, Oaxaca",
+        "latitude": -98.0106756
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0106756,
+          17.3338551
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "La Sabana",
+        "count": 1,
+        "notes": "Triqui",
+        "municipality": "Santiago Juxtlahuaca",
+        "longitude": 17.3338551,
+        "state": "OAX",
+        "place": "La Sabana, Santiago Juxtlahuaca, Oaxaca",
+        "latitude": -98.0106756
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0106756,
+          17.3338551
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Juan Piñas",
+        "count": 1,
+        "notes": "",
+        "municipality": "Santiago Juxtlahuaca",
+        "longitude": 17.3338551,
+        "state": "OAX",
+        "place": "San Juan Piñas, Santiago Juxtlahuaca, Oaxaca",
+        "latitude": -98.0106756
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.918889,
+          17.2375
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Santa Maria Yucunicoco",
+        "count": 7,
+        "notes": "",
+        "municipality": "Santiago Juxtlahuaca",
+        "longitude": 17.2375,
+        "state": "OAX",
+        "place": "Santa Maria Yucunicoco, Santiago Juxtlhuaca, Oaxaca",
+        "latitude": -97.918889
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0106756,
+          17.3338551
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Santiago Naranjos",
+        "count": 9,
+        "notes": "",
+        "municipality": "Santiago Juxtlahuaca",
+        "longitude": 17.3338551,
+        "state": "OAX",
+        "place": "Santiago Naranjos, Santiago Juxtlahuaca, Oaxaca",
+        "latitude": -98.0106756
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.183359,
+          17.268918
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Santos Reyes Zochiquilazola",
+        "count": 1,
+        "notes": "",
+        "municipality": "Santiago Juxtlahuaca",
+        "longitude": 17.268918,
+        "state": "OAX",
+        "place": "Santos Reyes Zochiquilazola, Santiago Juxtlhuaca, Oaxaca",
+        "latitude": -98.183359
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0106756,
+          17.3338551
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Union de Cardenas",
+        "count": 12,
+        "notes": "",
+        "municipality": "Santiago Juxtlahuaca",
+        "longitude": 17.3338551,
+        "state": "OAX",
+        "place": "Union de Cardenas, Santiago Juxtlahuaca, Oaxaca",
+        "latitude": -98.0106756
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.053687,
+          16.3411824
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Santiago Pinotepa Nacional",
+        "longitude": 16.3411824,
+        "state": "OAX",
+        "place": "Santiago Pinotepa Nacional, Oaxaca",
+        "latitude": -98.053687
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.566667,
+          16.883333
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Yolotepec de la Paz",
+        "count": 2,
+        "notes": "",
+        "municipality": "Santiago Yosondua",
+        "longitude": 16.883333,
+        "state": "OAX",
+        "place": "Yolotepec de la Paz, Santiago Yosondua, Oaxaca",
+        "latitude": -97.566667
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0909499,
+          17.4537264
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 3,
+        "notes": "",
+        "municipality": "Santiago del Rio",
+        "longitude": 17.4537264,
+        "state": "OAX",
+        "place": "Santiago del Rio, Oaxaca",
+        "latitude": -98.0909499
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0909499,
+          17.4537264
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Francisco Higos",
+        "count": 12,
+        "notes": "",
+        "municipality": "Santiago del Rio",
+        "longitude": 17.4537264,
+        "state": "OAX",
+        "place": "San Francisco Higos, Santiago del Rio, Oaxaca",
+        "latitude": -98.0909499
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9650566,
+          17.6732539
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Sebastian del Monte",
+        "count": 21,
+        "notes": "",
+        "municipality": "Santo Domingo Tonala",
+        "longitude": 17.6732539,
+        "state": "OAX",
+        "place": "San Sebastian del Monte, Santo Domingo Tonala, Oaxaca",
+        "latitude": -97.9650566
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9386769,
+          17.4377727
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Santos Reyes Tepejillo",
+        "longitude": 17.4377727,
+        "state": "OAX",
+        "place": "Santos Reyes Tepejillo, Oaxaca",
+        "latitude": -97.9386769
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1405049,
+          17.5047564
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "",
+        "municipality": "Silacayoapam",
+        "longitude": 17.5047564,
+        "state": "OAX",
+        "place": "Silacayoapam, Oaxaca",
+        "latitude": -98.1405049
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1405049,
+          17.5047564
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Los Reyes Michapa",
+        "count": 2,
+        "notes": "",
+        "municipality": "Silacayoapam",
+        "longitude": 17.5047564,
+        "state": "OAX",
+        "place": "Los Reyes Michapa, Silacayoapam, Oaxaca",
+        "latitude": -98.1405049
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1405049,
+          17.5047564
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Andres Montaña",
+        "count": 1,
+        "notes": "",
+        "municipality": "Silacayoapam",
+        "longitude": 17.5047564,
+        "state": "OAX",
+        "place": "San Andres Montaña, Silacayoapam, Oaxaca",
+        "latitude": -98.1405049
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1405049,
+          17.5047564
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Martin del Estado",
+        "count": 2,
+        "notes": "",
+        "municipality": "Silacayoapam",
+        "longitude": 17.5047564,
+        "state": "OAX",
+        "place": "San Martin del Estado, Silacayoapam, Oaxaca",
+        "latitude": -98.1405049
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.1405049,
+          17.5047564
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Santiago Asuncion",
+        "count": 10,
+        "notes": "",
+        "municipality": "Silacayoapam",
+        "longitude": 17.5047564,
+        "state": "OAX",
+        "place": "Santiago Asuncion, Silacayoapam, Oaxaca",
+        "latitude": -98.1405049
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8094397,
+          17.6526298
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "San Martin del Rio",
+        "count": 2,
+        "notes": "",
+        "municipality": "Tezoatlan de Segura y Luna",
+        "longitude": 17.6526298,
+        "state": "OAX",
+        "place": "San Martin del Rio, Tezoatlan de Segura y Luna, Oaxaca",
+        "latitude": -97.8094397
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9794689,
+          16.5116214
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 1,
+        "notes": "Non-indigenous, Zapotec",
+        "municipality": "Villa Sola de Vega",
+        "longitude": 16.5116214,
+        "state": "OAX",
+        "place": "Villa Sola de Vega, Oaxaca",
+        "latitude": -96.9794689
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7857356,
+          16.4585894
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 3,
+        "notes": "Non-indigenous",
+        "municipality": "Yogana",
+        "longitude": 16.4585894,
+        "state": "OAX",
+        "place": "Yogana, Oaxaca",
+        "latitude": -96.7857356
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9166671,
+          20.0833329
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "",
+        "count": 3,
+        "notes": "Non-indigenous",
+        "municipality": "Tlahuapan",
+        "longitude": 20.0833329,
+        "state": "PUE",
+        "place": "Tlahuapan, Puebla",
+        "latitude": -97.9166671
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8783886,
+          21.3366489
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "town": "Citlaltepec",
+        "count": 1,
+        "notes": "Aztec",
+        "municipality": "Citlaltepetl",
+        "longitude": 21.3366489,
+        "state": "VER",
+        "place": "Citlaltepec, Citlaltepetl, Veracruz",
+        "latitude": -97.8783886
+      }
+    }
+  ]
+}

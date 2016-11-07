@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Distancia</title>
+</head>
+<body>
+
+<input>
+<div id=results>
+<h2></h2>
+<ol></ol>
+</div>
+
+<script src=js/gju.js> </script>
+<script src=js/json2table.js></script>
+
+<script>
+
+var distance = (a,b) => gju.pointDistance(a.geometry, b.geometry);
+
+var byName = (geo, name) => {
+  var matches = geo.features.filter(f => f.properties.town.match(new RegExp(name)));
+  return matches.reverse()[0];
+}
+
+var nearestTowns = (geo, town) => {
+  var towns = geo.features.filter(f => f.properties.town);
+  towns.sort((a,b) => (distance(town, a) > distance(town, b)) ? 1 : -1)
+  return towns;
+}
+
+var 
+  compareWith = document.querySelector('#results h2'),
+  results = document.querySelector('#results ol'),
+  input = document.querySelector('input');
+
+window.app = {}
+fetch('micop_survey.geo.json')
+  .then(r => r.json())
+  .then(data => window.app.data = data)
+  .catch(e => console.log(e))
+
+var lookup = ev => {
+  results.innerHTML = '';
+  var query = input.value; 
+  var queryTown = byName(app.data, query);
+
+  compareWith.innerHTML = queryTown.properties.town;
+
+  if(query){
+    var sorted = nearestTowns(app.data, queryTown);
+    sorted
+      .forEach(other => {
+        results.insertAdjacentHTML('beforeend', `<p>${(distance(queryTown, other)/1000).toFixed(3)} - ${other.properties.town}</p>`)
+      })
+  }
+}
+  
+
+input.addEventListener('change', lookup);
+input.addEventListener('keyup', lookup);
+
+
+
+</script>
+
+  
+</body>
+</html>

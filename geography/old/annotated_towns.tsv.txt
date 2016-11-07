@@ -1,0 +1,138 @@
+Town	Count		Notes	Municipality	Longitude	State	Place	Latitude
+Town	Count		Notes	Municipality	Longitude	State	Place	Latitude
+	1	None	Non-indigenous	Acapulco de Juarez	16.863611	GRO	Acapulco de Juarez, Guerrero	-99.8825
+	2	None		Acozauca de Guerrero	17.4608874	GRO	Alcozauca de Guerrero, Guerrero	-98.3851987
+Almolonga de Ocampo	2	None		Alcozauca de Guerrero	17.4608874	GRO	Almolonga de Ocampo, Alcozauca de Guerrero, Guerrero	-98.3851987
+Cuyuxtlahuac	2	None		Alcozauca de Guerrero	17.4608874	GRO	Cuyuxtlahuac, Alcozauca de Guerrero, Guerrero	-98.3851987
+Ixcuinatoyac	1	None		Alcozauca de Guerrero	17.4608874	GRO	Ixcuinatoyac, Alcozauca de Guerrero, Guerrero	-98.3851987
+San Miguel el Grande	3	None		Alcozauca de Guerrero	17.4608874	GRO	San Miguel el Grande, Alcozauca de Guerrero, GRO	-98.3851987
+San Vicente Zoyatlan	15	None		Alcozauca de Guerrero	17.4608874	GRO	San Vicente Zoyatlan, Alcozauca de Guerrero, Guerrero	-98.3851987
+Tlahuapa	2	None		Alcozauca de Guerrero	17.4608874	GRO	Tlahuapa, Alcozauca de Guerrero, Guerrero	-98.3851987
+Xochapa	4	None		Alcozauca de Guerrero	17.4608874	GRO	Xochapa, Alcozauca de Guerrero, Guerrero	-98.3851987
+Cruz Fandango	2	None		Alcozuaca de Guerrero	17.4608874	GRO	Cruz Fandango, Alcozauca de Guerrero, Guerrero	-98.3851987
+	3	None	Non-indigenous, Mixtec, Me'phaa	Ayutla de los Libres	16.9658305	GRO	Ayutla de los Libres, Guerrero	-99.0930528
+	3	None		Cochoapa el Grande	17.2	GRO	Cochoapa el Grande, Guerrero	-98.45
+Cahuañaña	1	None		Cochoapa el Grande	17.2	GRO	Cahuañaña, Cochoapa El Grande, Guerrero	-98.45
+Calpanapa Viejo	1	None		Cochoapa el Grande	17.2	GRO	Calpanapa Viejo, Cochoapa el Grande, Guerrero	-98.45
+Loma Canoa	2	None		Cochoapa el Grande	17.2	GRO	Loma Canoa, Cochoapa el Grande, Guerrero	-98.45
+Ocotepec	1	None		Cochoapa el Grande	17.2	GRO	Ocotepec, Cochoapa el Grande, Guerrero	-98.45
+Rio Encajonado	1	None		Cochoapa el Grande	17.2	GRO	Rio Encajonado, Cochoapa el Grande, Guerrero	-98.45
+San Miguel Amoltepec Viejo	1	None		Cochoapa el Grande	17.2	GRO	San Miguel Amoltepec Viejo, Cochoapa el Grande, Guerrero	-98.45
+San Rafael	1	None		Cochoapa el Grande	17.2	GRO	San Rafael, Cochoapa el Grande, Guerrero	-98.45
+	2	None	Non-indigenous, Mixtec, Amuzgo	Copala	16.6030715	GRO	Copala, Guerrero	-98.9714623
+Potoichan	2	None		Copanatoyac	17.462348	GRO	Potoichan, Copanatoyac, Guerrero	-98.7133269
+	1	None		Igualapa	16.7442207	GRO	Igualapa, Guerrero	-98.4759514
+Chacalapa	2	None		Igualapa	16.7442207	GRO	Chacalapa, Igualapa, Guerrero	-98.4759514
+	5	None		Metlatonoc	17.1937368	GRO	Metlatonoc, Guerrero	-98.4085373
+Llano de las Flores	1	None		Metlatonoc	17.1937368	GRO	Llano de las Flores, Metlatonoc, Guerrero	-98.4085373
+San Pablo Atzompo	1	None		Metlatonoc	17.1937368	GRO	San Pablo Atzompo, Metlatonoc, Guerrero	-98.4085373
+	1	None	Non-indigenous, Amuzgo	Ometepec	16.6853987	GRO	Ometepec, Guerrero	-98.4054812
+Pascala del Oro	3	None		San Luis Acatlan	16.8070694	GRO	Pascala del Oro, San Luis Acatlan, Guerrero	-98.7350079
+	3	None	Aztec	Teloloapan	18.3654775	GRO	Teloloapan, Guerrero	-99.8697066
+Tlajocotla	1	None	Non-indigenous, Aztec	Teloloapan	UNKNOWN	GRO	Tlajocotla, Telolopan, Guerrero	UNKNOWN
+Cuananchinicha	1	None		Tlacoachistlahuaca	16.8105347	GRO	Cuananchinicha, Tlacoachistlahuaca, Guerrero	-98.3000906
+	3	None		Tlapa de Comonfort	17.546111	GRO	Tlapa de Comonfort, Guerrero	-98.576389
+Tototepec	5	None		Tlapa de Comonfort	17.546111	GRO	Tototepec, Tlapa de Comonfort, Guerrero	-98.576389
+	1	None		Xochistlahuaca	16.791389	GRO	Xochistlahuaca, Guerrero	-98.241944
+	1	None	Aztec	Zitlala	17.6885367	GRO	Zitlala, Guerrero	-99.1858206
+	1	None		Apatzingan	19.07894	MICH	Apatzingan, Michoacan	-102.3471814
+	1	None		Acatlan de Perez Figueroa	18.5375878	OAX	Acatlan de Perez Figueroa, Oaxaca	-96.6053164
+Aguatlan	1	None		Asuncion Cacalotepec	17.0270715	OAX	Aguatlan, Asuncion Cacalotepec, Oaxaca	-95.9590192
+	1	None		Asuncion Nochixtlan	17.45	OAX	Asuncion Nochixtlan, Oaxaca	-97.216667
+	1	None		Asuncion Ocotlan	16.758889	OAX	Asuncion Ocotlan, Oaxaca	-96.718889
+	1	None	Chinantec	Ayoquezco de Aldama	16.6842005	OAX	Ayoquezco de Aldama, Oaxaca	-96.8431402
+	2	None		Calihuala	17.5320621	OAX	Calihuala, Calihuala, Oaxaca	-98.2781574
+	6	None		Coicoyan de las Flores	17.2712655	OAX	Coicoyan de las Flores, Coicoyan de las Flores, Oaxaca	-98.2741236
+La Trinidad	2	None		Coicoyan de las Flores	17.2712655	OAX	La Trinidad, Coicoyan de las Flores, Oaxaca	-98.2741236
+	1	None		Heroica Ciudad de Ejutla de Crespo	16.5647494	OAX	Heroica Ciudad de Ejutla de Crespo, Oaxaca	-96.7306673
+Barranca Larga	1	None		Heroica Ciudad de Ejutla de Crespo	16.5647494	OAX	Barranca Larga, Heroica Ciudad de Ejutla de Crespo, Oaxaca	-96.7306673
+	1	None		Heroica Ciudad de Juchitan de Zaragoza	16.4406909	OAX	Heroica Ciudad de Juchitan de Zaragoza, Oaxaca	-95.0221197
+	3	None	Non-indigenous, Mixtec, Triqui	Heroica Ciudad de Tlaxiaco	17.2675625	OAX	Heroica Cuidad de Tlaxiaco, Oaxaca	-97.6802361
+San Felipe Tindaco	1	None		Heroica Ciudad de Tlaxiaco	17.2675625	OAX	San Felipe Tindaco, Heroica Ciudad de Tlaxiaco, Oaxaca	-97.6802361
+	2	None		Ixpantepec Nieves	17.5106174	OAX	Ixpantepec Nieves, Oaxaca	-98.0489859
+Palomares	1	None		Matias Romero Avendano	16.8854418	OAX	Palomares, Matias Romero Avendano, Oaxaca	-95.0452994
+	7	None		Miahuatlan de Porfirio Diaz	16.3317796	OAX	Miahuatlan de Porfirio Diaz, Oaxaca	-96.5943562
+Buena Vista	1	None		Ocotlan de Morelos	16.791389	OAX	Buena Vista, Ocotlan de Morelos, Oaxaca	-96.675
+	2	None	Non-indigenous	Pluma Hidalgo	15.9258292	OAX	Pluma Hidalgo, Oaxaca	-96.4200279
+	2	None	Non-indigenous	Puerto Escondido	15.8655354	OAX	Puerto Escondido, Oaxaca	-97.0694471
+	1	None		Putla Villa de Guerrero	17.0320856	OAX	Putla Villa de Guerrero, Oaxaca	-97.9293247
+	4	None		San Agustin Amatengo	16.5085234	OAX	San Agustin Amatengo, Oaxaca	-96.7885304
+	2	None		San Agustin Atenango	17.6113217	OAX	San Agustin Atenango, Oaxaca	-98.0147369
+	1	None		San Agustin Chayuco	16.4	OAX	San Agustin Chayuco, Oaxaca	-97.8
+	2	None	Non-indigenous, Zapotec	San Andres Zabache	16.5990472	OAX	San Andres Zabache, Oaxaca	-96.8579924
+San Agustin Mixtepec	1	None		San Cristobal Amatlan	16.3194787	OAX	San Agustin Mixtepec, San Cristobal Amatlan, Oaxaca	-96.4101711
+	1	None	Huave	San Dionisio del Mar	16.3209964	OAX	San Dionisio del Mar, Oaxaca	-94.7506374
+	1	None		San Francisco Tlapancingo	17.4841139	OAX	San Francisco Tlapancingo, Oaxaca	-98.268567
+Guadalupe Nogales	4	None		San Francisco Tlapancingo	17.4841139	OAX	Guadalupe Nogales, San Francisco Tlapancingo, Oaxaca	-98.268567
+San Marcos Natividad	3	None		San Francisco Tlapancingo	17.4841139	OAX	San Marcos Natividad, San Francisco Tlapancingo, Oaxaca	-98.268567
+Yojuela	6	None	Zapotec	San Ildefonso Amatlan	16.334628	OAX	Yojuela, San Ildefonso Amatlan, Oaxaca	-96.490774
+San Mateo Macuilxochitl	1	None	Zapotec, non-indigenous	San Jeronimo Tlacochahuaya	17.0073658	OAX	San Mateo Macuilxochitl, San Jeronimo Tlacochahuaya, Oaxaca	-96.5839558
+	15	None		San Jorge Nuchita	17.6565312	OAX	San Jorge Nuchita, Oaxaca	-98.1047219
+Guadalupe de Morelos	31	None		San Jorge Nuchita	17.6565312	OAX	Guadalupe de Morelos, San Jorge Nuchita, Oaxaca	-98.1047219
+	2	None		San Jose Lachiguiri	16.3788539	OAX	San Jose Lachiguiri, Oaxaca	-96.3347315
+	41	None		San Jose Lachiguiri	16.3788539	OAX	San Jose Lachiguiri, Oaxaca	-96.3347315
+Nizagoche	7	None		San Jose Lachiguiri	16.3788539	OAX	Nizagoche, San Jose Lachiguiri, Oaxaca	-96.3347315
+San Isidro La Chivigoza	5	None		San Jose Lachiguiri	16.3788539	OAX	San Isidro La Chivigoza, San Jose Lachiguiri, Oaxaca	-96.3347315
+	1	None		San José del Peñasco	16.3191247	OAX	San José del Peñasco, Oaxaca	-96.4938791
+	4	None		San Juan Mixtepec - Distrito 08	17.3599967	OAX	San Juan Mixtepec - Distrito 08, Oaxaca	-97.8327159
+Meson de Guadalupe	1	None		San Juan Mixtepec - Distrito 08	17.3599967	OAX	Meson de Guadalupe, San Juan Mixtepec - Distrito 08, Oaxaca	-97.8327159
+San Juan Cahuayaxi	1	None		San Juan Mixtepec - Distrito 08	-31.5272732	OAX	San Juan Cahuayaxi, San Juan Mixtepec Dto 08, Oaxaca	-68.5214081
+Santiago Tiño	1	None		San Juan Mixtepec - Distrito 08	-33.4691199	OAX	Santiago Tiño, San Juan Mixtepec Dto 08, Oaxaca	-70.641997
+	1	None		San Juan Ñumi	17.3977716	OAX	San Juan Ñumi, Oaxaca	-97.7051877
+	204	None		San Martin Peras	17.35	OAX	San Martin Peras, Oaxaca	-98.233333
+Ahuajatla	14	None		San Martin Peras	17.35	OAX	Ahuajutla, San Martin Peras, Oaxaca	-98.233333
+Barrio del Carmen	1	None		San Martin Peras	43.4455758	OAX	Barrio del Carmen, San Martin Peras, Oaxaca	-3.845047
+Chiñon	13	None		San Martin Peras	17.35	OAX	Chiñon, San Martin Peras, Oaxaca	-98.233333
+El Paredon	5	None		San Martin Peras	17.35	OAX	El Paredon, San Martin Peras, Oaxaca	-98.233333
+Guadalupe	1	None		San Martin Peras	17.35	OAX	Guadalupe, San Martin Peras, Oaxaca	-98.233333
+La Escopeta	2	None		San Martin Peras	17.35	OAX	La Escopeta, San Martin Peras, Oaxaca	-98.233333
+La Trinidad Peras	1	None		San Martin Peras	17.35	OAX	La Trinidad Peras, San Martin Peras, Oaxaca	-98.233333
+Las Huertas	1	None		San Martin Peras	17.35	OAX	Las Huertas, San Martin Peras, Oaxaca	-98.233333
+Las Minas	5	None		San Martin Peras	17.35	OAX	Las Minas, San Martin Peras, Oaxaca	-98.233333
+Piedra Azul	5	None		San Martin Peras	17.35	OAX	Piedra Azul, San Martin Peras, Oaxaca	-98.233333
+San Isidro La Raya	7	None		San Martin Peras	17.35	OAX	San Isidro La Raya, San Martin Peras, Oaxaca	-98.233333
+San Juan del Rio	4	None		San Martin Peras	20.3810837	OAX	San Juan del Rio, San Martin Peras, Oaxaca	-99.9414162
+San Marcos	2	None		San Martin Peras	17.35	OAX	San Marcos, San Martin Peras, Oaxaca	-98.233333
+San Miguel Peras	10	None		San Martin Peras	17.35	OAX	San Miguel Peras, San Martin Peras, Oaxaca	-98.233333
+Santiago Petlacala	10	None		San Martin Peras	17.35	OAX	Santiago Petlacala, San Martin Peras, Oaxaca	-98.233333
+	1	None		San Mateo Cajonos	17.1598614	OAX	San Mateo Cajonos, Oaxaca	-96.2073106
+	1	None		San Miguel Chicahua	17.6376102	OAX	San Miguel Chicahua, Oaxaca	-97.1936986
+San Martin Sabinillo	1	None		San Miguel Tlacotepec	17.45	OAX	San Martin Sabinillo, San Miguel Tlacotepec, Oaxaca	-98
+	1	None		San Pedro Mixtepec	16.2707185	OAX	San Pedro Mixtepec, Oaxaca	-96.2850484
+	1	None	Non-indigenous, Zapotec	San Pedro Pochutla	15.7489259	OAX	San Pedro Pochutla, Oaxaca	-96.4672856
+La Soledad Salinas	1	None		San Pedro Quiatoni	16.7826999	OAX	La Soledad Salinas, San Pedro Quiatoni, Oaxaca	-96.0308607
+	2	None		San Sebastian Tecomaxtlahuaca	17.35	OAX	San Sebastian Tecomaxtlahuaca, Oaxaca	-98.033333
+Cañada de Lobo	4	None		San Sebastian Tecomaxtlahuaca	17.35	OAX	Cañada de Lobo, San Sebastian Tecomaxtlahuaca, Oaxaca	-98.033333
+Guadalupe Nundaco	5	None		San Sebastian Tecomaxtlahuaca	17.35	OAX	Guadalupe Nundaco, San Sebastian Tecomaxtlahuaca, Oaxaca	-98.033333
+Rio de Hielo	2	None		San Sebastian Tecomaxtlahuaca	17.35	OAX	Rio de Hielo, San Sebastian Tecomaxtlahuaca, Oaxaca	-98.033333
+San Martin Duraznos	51	None		San Sebastian Tecomaxtlahuaca	17.35	OAX	San Martin Duraznos, San Sebastian Tecomaxtlahuaca, Oaxaca	-98.033333
+San Mateo Tunuchi	1	None		San Sebastian Tecomaxtlahuaca	17.35	OAX	San Mateo Tunuchi, San Sebastian Tecomaxtlahuaca, Oaxaca	-98.033333
+	1	None	Zapotec	San Vicente Coatlan	16.383333	OAX	San Vicente Coatlan, Oaxaca	-96.85
+	2	None	Zapotec	Santa Ana Yareni	17.3968099	OAX	Santa Ana Yareni, Oaxaca	-96.6085921
+	1	None	Zapotec	Santa Catarina Quioquitani	16.3145975	OAX	Santa Catarina Quioquitani	-96.2843862
+	1	None	Zapotec	Santa Cruz Xitla	16.3215262	OAX	Santa Cruz Xitla, Oaxaca	-96.6736876
+San Francisco Cozoaltepec	1	None	Non-indigenous, Zapotec	Santa Maria Tonameca	15.7467124	OAX	San Francisco Cozoaltepec, Santa Maria Tonameca, Oaxaca	-96.5462836
+Rio Mijangos	1	None	Non-indigenous	Santa Maria Zoquitlan	16.5597026	OAX	Río Míjangos, Santa Maria Zoquitlan, Oaxaca	-96.3539893
+	11	None		Santiago Juxtlahuaca	17.3338551	OAX	Santiago Juxtlahuaca, Oaxaca	-98.0106756
+La Sabana	1	None	Triqui	Santiago Juxtlahuaca	17.3338551	OAX	La Sabana, Santiago Juxtlahuaca, Oaxaca	-98.0106756
+San Juan Piñas	1	None		Santiago Juxtlahuaca	17.3338551	OAX	San Juan Piñas, Santiago Juxtlahuaca, Oaxaca	-98.0106756
+Santa Maria Yucunicoco	7	None		Santiago Juxtlahuaca	UNKNOWN	OAX	Santa Maria Yucunicoco, Santiago Juxtlhuaca, Oaxaca	UNKNOWN
+Santiago Naranjos	9	None		Santiago Juxtlahuaca	17.3338551	OAX	Santiago Naranjos, Santiago Juxtlahuaca, Oaxaca	-98.0106756
+Santos Reyes Zochiquilazola	1	None		Santiago Juxtlahuaca	UNKNOWN	OAX	Santos Reyes Zochiquilazola, Santiago Juxtlhuaca, Oaxaca	UNKNOWN
+Union de Cardenas	12	None		Santiago Juxtlahuaca	17.3338551	OAX	Union de Cardenas, Santiago Juxtlahuaca, Oaxaca	-98.0106756
+	1	None		Santiago Pinotepa Nacional	16.3411824	OAX	Santiago Pinotepa Nacional, Oaxaca	-98.053687
+Yolotepec de la Paz	2	None		Santiago Yosondua	16.883333	OAX	Yolotepec de la Paz, Santiago Yosondua, Oaxaca	-97.566667
+	3	None		Santiago del Rio	17.4537264	OAX	Santiago del Rio, Oaxaca	-98.0909499
+San Francisco Higos	12	None		Santiago del Rio	17.4537264	OAX	San Francisco Higos, Santiago del Rio, Oaxaca	-98.0909499
+San Sebastian del Monte	21	None		Santo Domingo Tonala	17.6732539	OAX	San Sebastian del Monte, Santo Domingo Tonala, Oaxaca	-97.9650566
+	1	None		Santos Reyes Tepejillo	17.4377727	OAX	Santos Reyes Tepejillo, Oaxaca	-97.9386769
+	1	None		Silacayoapam	17.5047564	OAX	Silacayoapam, Oaxaca	-98.1405049
+Los Reyes Michapa	2	None		Silacayoapam	17.5047564	OAX	Los Reyes Michapa, Silacayoapam, Oaxaca	-98.1405049
+San Andres Montaña	1	None		Silacayoapam	17.5047564	OAX	San Andres Montaña, Silacayoapam, Oaxaca	-98.1405049
+San Martin del Estado	2	None		Silacayoapam	17.5047564	OAX	San Martin del Estado, Silacayoapam, Oaxaca	-98.1405049
+Santiago Asuncion	10	None		Silacayoapam	17.5047564	OAX	Santiago Asuncion, Silacayoapam, Oaxaca	-98.1405049
+San Martin del Rio	2	None		Tezoatlan de Segura y Luna	17.6526298	OAX	San Martin del Rio, Tezoatlan de Segura y Luna, Oaxaca	-97.8094397
+	1	None	Non-indigenous, Zapotec	Villa Sola de Vega	16.5116214	OAX	Villa Sola de Vega, Oaxaca	-96.9794689
+	3	None	Non-indigenous	Yogana	16.4585894	OAX	Yogana, Oaxaca	-96.7857356
+	3	None	Non-indigenous	Tlahuapan	20.0833329	PUE	Tlahuapan, Puebla	-97.9166671
+Citlaltepec	1	None	Aztec	Citlaltepetl	21.3366489	VER	Citlaltepec, Citlaltepetl, Veracruz	-97.8783886

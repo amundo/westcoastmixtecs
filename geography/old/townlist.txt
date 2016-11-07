@@ -1,0 +1,137 @@
+Acapulco de Juarez, Guerrero
+Alcozauca de Guerrero, Guerrero
+Almolonga de Ocampo, Alcozauca de Guerrero, Guerrero
+Cuyuxtlahuac, Alcozauca de Guerrero, Guerrero
+Ixcuinatoyac, Alcozauca de Guerrero, Guerrero
+San Miguel el Grande, Alcozauca de Guerrero, GRO
+San Vicente Zoyatlan, Alcozauca de Guerrero, Guerrero
+Tlahuapa, Alcozauca de Guerrero, Guerrero
+Xochapa, Alcozauca de Guerrero, Guerrero
+Cruz Fandango, Alcozauca de Guerrero, Guerrero
+Ayutla de los Libres, Guerrero
+Cochoapa el Grande, Guerrero
+Cahuañaña, Cochoapa El Grande, Guerrero
+Calpanapa Viejo, Cochoapa el Grande, Guerrero
+Loma Canoa, Cochoapa el Grande, Guerrero
+Ocotepec, Cochoapa el Grande, Guerrero
+Rio Encajonado, Cochoapa el Grande, Guerrero
+San Miguel Amoltepec Viejo, Cochoapa el Grande, Guerrero
+San Rafael, Cochoapa el Grande, Guerrero
+Copala, Guerrero
+Potoichan, Copanatoyac, Guerrero
+Igualapa, Guerrero
+Chacalapa, Igualapa, Guerrero
+Metlatonoc, Guerrero
+Llano de las Flores, Metlatonoc, Guerrero
+San Pablo Atzompo, Metlatonoc, Guerrero
+Ometepec, Guerrero
+Pascala del Oro, San Luis Acatlan, Guerrero
+Teloloapan, Guerrero
+Tlajocotla, Telolopan, Guerrero
+Cuananchinicha, Tlacoachistlahuaca, Guerrero
+Tlapa de Comonfort, Guerrero
+Tototepec, Tlapa de Comonfort, Guerrero
+Xochistlahuaca, Guerrero
+Zitlala, Guerrero
+Apatzingan, Michoacan
+Acatlan de Perez Figueroa, Oaxaca
+Aguatlan, Asuncion Cacalotepec, Oaxaca
+Asuncion Nochixtlan, Oaxaca
+Asuncion Ocotlan, Oaxaca
+Ayoquezco de Aldama, Oaxaca
+Calihuala, Calihuala, Oaxaca
+Coicoyan de las Flores, Coicoyan de las Flores, Oaxaca
+La Trinidad, Coicoyan de las Flores, Oaxaca
+Heroica Ciudad de Ejutla de Crespo, Oaxaca
+Barranca Larga, Heroica Ciudad de Ejutla de Crespo, Oaxaca
+Heroica Ciudad de Juchitan de Zaragoza, Oaxaca
+Heroica Cuidad de Tlaxiaco, Oaxaca
+San Felipe Tindaco, Heroica Ciudad de Tlaxiaco, Oaxaca
+Ixpantepec Nieves, Oaxaca
+Palomares, Matias Romero Avendano, Oaxaca
+Miahuatlan de Porfirio Diaz, Oaxaca
+Buena Vista, Ocotlan de Morelos, Oaxaca
+Pluma Hidalgo, Oaxaca
+Puerto Escondido, Oaxaca
+Putla Villa de Guerrero, Oaxaca
+San Agustin Amatengo, Oaxaca
+San Agustin Atenango, Oaxaca
+San Agustin Chayuco, Oaxaca
+San Andres Zabache, Oaxaca
+San Agustin Mixtepec, San Cristobal Amatlan, Oaxaca
+San Dionisio del Mar, Oaxaca
+San Francisco Tlapancingo, Oaxaca
+Guadalupe Nogales, San Francisco Tlapancingo, Oaxaca
+San Marcos Natividad, San Francisco Tlapancingo, Oaxaca
+Yojuela, San Ildefonso Amatlan, Oaxaca
+San Mateo Macuilxochitl, San Jeronimo Tlacochahuaya, Oaxaca
+San Jorge Nuchita, Oaxaca
+Guadalupe de Morelos, San Jorge Nuchita, Oaxaca
+San Jose Lachiguiri, Oaxaca
+San Jose Lachiguiri, Oaxaca
+Nizagoche, San Jose Lachiguiri, Oaxaca
+San Isidro La Chivigoza, San Jose Lachiguiri, Oaxaca
+San José del Peñasco, Oaxaca
+San Juan Mixtepec - Distrito 08, Oaxaca
+Meson de Guadalupe, San Juan Mixtepec - Distrito 08, Oaxaca
+San Juan Cahuayaxi, San Juan Mixtepec Dto 08, Oaxaca
+Santiago Tiño, San Juan Mixtepec Dto 08, Oaxaca
+San Juan Ñumi, Oaxaca
+San Martin Peras, Oaxaca
+Ahuajutla, San Martin Peras, Oaxaca
+Barrio del Carmen, San Martin Peras, Oaxaca
+Chiñon, San Martin Peras, Oaxaca
+El Paredon, San Martin Peras, Oaxaca
+Guadalupe, San Martin Peras, Oaxaca
+La Escopeta, San Martin Peras, Oaxaca
+La Trinidad Peras, San Martin Peras, Oaxaca
+Las Huertas, San Martin Peras, Oaxaca
+Las Minas, San Martin Peras, Oaxaca
+Piedra Azul, San Martin Peras, Oaxaca
+San Isidro La Raya, San Martin Peras, Oaxaca
+San Juan del Rio, San Martin Peras, Oaxaca
+San Marcos, San Martin Peras, Oaxaca
+San Miguel Peras, San Martin Peras, Oaxaca
+Santiago Petlacala, San Martin Peras, Oaxaca
+San Mateo Cajonos, Oaxaca
+San Miguel Chicahua, Oaxaca
+San Martin Sabinillo, San Miguel Tlacotepec, Oaxaca
+San Pedro Mixtepec, Oaxaca
+San Pedro Pochutla, Oaxaca
+La Soledad Salinas, San Pedro Quiatoni, Oaxaca
+San Sebastian Tecomaxtlahuaca, Oaxaca
+Cañada de Lobo, San Sebastian Tecomaxtlahuaca, Oaxaca
+Guadalupe Nundaco, San Sebastian Tecomaxtlahuaca, Oaxaca
+Rio de Hielo, San Sebastian Tecomaxtlahuaca, Oaxaca
+San Martin Duraznos, San Sebastian Tecomaxtlahuaca, Oaxaca
+San Mateo Tunuchi, San Sebastian Tecomaxtlahuaca, Oaxaca
+San Vicente Coatlan, Oaxaca
+Santa Ana Yareni, Oaxaca
+Santa Catarina Quioquitani
+Santa Cruz Xitla, Oaxaca
+San Francisco Cozoaltepec, Santa Maria Tonameca, Oaxaca
+Río Míjangos, Santa Maria Zoquitlan, Oaxaca
+Santiago Juxtlahuaca, Oaxaca
+La Sabana, Santiago Juxtlahuaca, Oaxaca
+San Juan Piñas, Santiago Juxtlahuaca, Oaxaca
+Santa Maria Yucunicoco, Santiago Juxtlhuaca, Oaxaca
+Santiago Naranjos, Santiago Juxtlahuaca, Oaxaca
+Santos Reyes Zochiquilazola, Santiago Juxtlhuaca, Oaxaca
+Union de Cardenas, Santiago Juxtlahuaca, Oaxaca
+Santiago Pinotepa Nacional, Oaxaca
+Yolotepec de la Paz, Santiago Yosondua, Oaxaca
+Santiago del Rio, Oaxaca
+San Francisco Higos, Santiago del Rio, Oaxaca
+San Sebastian del Monte, Santo Domingo Tonala, Oaxaca
+Santos Reyes Tepejillo, Oaxaca
+Silacayoapam, Oaxaca
+Los Reyes Michapa, Silacayoapam, Oaxaca
+San Andres Montaña, Silacayoapam, Oaxaca
+San Martin del Estado, Silacayoapam, Oaxaca
+Santiago Asuncion, Silacayoapam, Oaxaca
+San Martin del Rio, Tezoatlan de Segura y Luna, Oaxaca
+Villa Sola de Vega, Oaxaca
+Yogana, Oaxaca
+Tlahuapan, Puebla
+Citlaltepec, Citlaltepetl, Veracruz
+

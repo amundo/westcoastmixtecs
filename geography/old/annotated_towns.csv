@@ -1,0 +1,146 @@
+[ 'Town',
+  'Count',
+  '',
+  'Notes',
+  'Municipality',
+  'Longitude',
+  'State',
+  'Place',
+  'Latitude' ]
+"Town","Count","","Notes","Municipality","Longitude","State","Place","Latitude"
+"","1",null,"Non-indigenous","Acapulco de Juarez",16.863611,"GRO","Acapulco de Juarez, Guerrero",-99.8825
+"","2",null,"","Acozauca de Guerrero",17.4608874,"GRO","Alcozauca de Guerrero, Guerrero",-98.38519869999999
+"Almolonga de Ocampo","2",null,"","Alcozauca de Guerrero",17.4608874,"GRO","Almolonga de Ocampo, Alcozauca de Guerrero, Guerrero",-98.38519869999999
+"Cuyuxtlahuac","2",null,"","Alcozauca de Guerrero",17.4608874,"GRO","Cuyuxtlahuac, Alcozauca de Guerrero, Guerrero",-98.38519869999999
+"Ixcuinatoyac","1",null,"","Alcozauca de Guerrero",17.4608874,"GRO","Ixcuinatoyac, Alcozauca de Guerrero, Guerrero",-98.38519869999999
+"San Miguel el Grande","3",null,"","Alcozauca de Guerrero",17.4608874,"GRO","San Miguel el Grande, Alcozauca de Guerrero, GRO",-98.38519869999999
+"San Vicente Zoyatlan","15",null,"","Alcozauca de Guerrero",17.4608874,"GRO","San Vicente Zoyatlan, Alcozauca de Guerrero, Guerrero",-98.38519869999999
+"Tlahuapa","2",null,"","Alcozauca de Guerrero",17.4608874,"GRO","Tlahuapa, Alcozauca de Guerrero, Guerrero",-98.38519869999999
+"Xochapa","4",null,"","Alcozauca de Guerrero",17.4608874,"GRO","Xochapa, Alcozauca de Guerrero, Guerrero",-98.38519869999999
+"Cruz Fandango","2",null,"","Alcozuaca de Guerrero",17.4608874,"GRO","Cruz Fandango, Alcozauca de Guerrero, Guerrero",-98.38519869999999
+"","3",null,"Non-indigenous, Mixtec, Me'phaa","Ayutla de los Libres",16.9658305,"GRO","Ayutla de los Libres, Guerrero",-99.0930528
+"","3",null,"","Cochoapa el Grande",17.2,"GRO","Cochoapa el Grande, Guerrero",-98.44999999999999
+"Cahuañaña","1",null,"","Cochoapa el Grande",17.2,"GRO","Cahuañaña, Cochoapa El Grande, Guerrero",-98.44999999999999
+"Calpanapa Viejo","1",null,"","Cochoapa el Grande",17.2,"GRO","Calpanapa Viejo, Cochoapa el Grande, Guerrero",-98.44999999999999
+"Loma Canoa","2",null,"","Cochoapa el Grande",17.2,"GRO","Loma Canoa, Cochoapa el Grande, Guerrero",-98.44999999999999
+"Ocotepec","1",null,"","Cochoapa el Grande",17.2,"GRO","Ocotepec, Cochoapa el Grande, Guerrero",-98.44999999999999
+"Rio Encajonado","1",null,"","Cochoapa el Grande",17.2,"GRO","Rio Encajonado, Cochoapa el Grande, Guerrero",-98.44999999999999
+"San Miguel Amoltepec Viejo","1",null,"","Cochoapa el Grande",17.2,"GRO","San Miguel Amoltepec Viejo, Cochoapa el Grande, Guerrero",-98.44999999999999
+"San Rafael","1",null,"","Cochoapa el Grande",17.2,"GRO","San Rafael, Cochoapa el Grande, Guerrero",-98.44999999999999
+"","2",null,"Non-indigenous, Mixtec, Amuzgo","Copala",16.6030715,"GRO","Copala, Guerrero",-98.9714623
+"Potoichan","2",null,"","Copanatoyac",17.462348,"GRO","Potoichan, Copanatoyac, Guerrero",-98.7133269
+"","1",null,"","Igualapa",16.7442207,"GRO","Igualapa, Guerrero",-98.4759514
+"Chacalapa","2",null,"","Igualapa",16.7442207,"GRO","Chacalapa, Igualapa, Guerrero",-98.4759514
+"","5",null,"","Metlatonoc",17.1937368,"GRO","Metlatonoc, Guerrero",-98.40853729999999
+"Llano de las Flores","1",null,"","Metlatonoc",17.1937368,"GRO","Llano de las Flores, Metlatonoc, Guerrero",-98.40853729999999
+"San Pablo Atzompo","1",null,"","Metlatonoc",17.1937368,"GRO","San Pablo Atzompo, Metlatonoc, Guerrero",-98.40853729999999
+"","1",null,"Non-indigenous, Amuzgo","Ometepec",16.6853987,"GRO","Ometepec, Guerrero",-98.4054812
+"Pascala del Oro","3",null,"","San Luis Acatlan",16.8070694,"GRO","Pascala del Oro, San Luis Acatlan, Guerrero",-98.7350079
+"","3",null,"Aztec","Teloloapan",18.3654775,"GRO","Teloloapan, Guerrero",-99.8697066
+"Tlajocotla","1",null,"Non-indigenous, Aztec","Teloloapan","UNKNOWN","GRO","Tlajocotla, Telolopan, Guerrero","UNKNOWN"
+"Cuananchinicha","1",null,"","Tlacoachistlahuaca",16.8105347,"GRO","Cuananchinicha, Tlacoachistlahuaca, Guerrero",-98.30009059999999
+"","3",null,"","Tlapa de Comonfort",17.546111,"GRO","Tlapa de Comonfort, Guerrero",-98.57638899999999
+"Tototepec","5",null,"","Tlapa de Comonfort",17.546111,"GRO","Tototepec, Tlapa de Comonfort, Guerrero",-98.57638899999999
+"","1",null,"","Xochistlahuaca",16.791389,"GRO","Xochistlahuaca, Guerrero",-98.24194399999999
+"","1",null,"Aztec","Zitlala",17.6885367,"GRO","Zitlala, Guerrero",-99.1858206
+"","1",null,"","Apatzingan",19.07894,"MICH","Apatzingan, Michoacan",-102.3471814
+"","1",null,"","Acatlan de Perez Figueroa",18.5375878,"OAX","Acatlan de Perez Figueroa, Oaxaca",-96.60531639999999
+"Aguatlan","1",null,"","Asuncion Cacalotepec",17.0270715,"OAX","Aguatlan, Asuncion Cacalotepec, Oaxaca",-95.95901920000001
+"","1",null,"","Asuncion Nochixtlan",17.45,"OAX","Asuncion Nochixtlan, Oaxaca",-97.216667
+"","1",null,"","Asuncion Ocotlan",16.758889,"OAX","Asuncion Ocotlan, Oaxaca",-96.718889
+"","1",null,"Chinantec","Ayoquezco de Aldama",16.6842005,"OAX","Ayoquezco de Aldama, Oaxaca",-96.84314020000001
+"","2",null,"","Calihuala",17.5320621,"OAX","Calihuala, Calihuala, Oaxaca",-98.2781574
+"","6",null,"","Coicoyan de las Flores",17.2712655,"OAX","Coicoyan de las Flores, Coicoyan de las Flores, Oaxaca",-98.2741236
+"La Trinidad","2",null,"","Coicoyan de las Flores",17.2712655,"OAX","La Trinidad, Coicoyan de las Flores, Oaxaca",-98.2741236
+"","1",null,"","Heroica Ciudad de Ejutla de Crespo",16.5647494,"OAX","Heroica Ciudad de Ejutla de Crespo, Oaxaca",-96.7306673
+"Barranca Larga","1",null,"","Heroica Ciudad de Ejutla de Crespo",16.5647494,"OAX","Barranca Larga, Heroica Ciudad de Ejutla de Crespo, Oaxaca",-96.7306673
+"","1",null,"","Heroica Ciudad de Juchitan de Zaragoza",16.4406909,"OAX","Heroica Ciudad de Juchitan de Zaragoza, Oaxaca",-95.0221197
+"","3",null,"Non-indigenous, Mixtec, Triqui","Heroica Ciudad de Tlaxiaco",17.2675625,"OAX","Heroica Cuidad de Tlaxiaco, Oaxaca",-97.6802361
+"San Felipe Tindaco","1",null,"","Heroica Ciudad de Tlaxiaco",17.2675625,"OAX","San Felipe Tindaco, Heroica Ciudad de Tlaxiaco, Oaxaca",-97.6802361
+"","2",null,"","Ixpantepec Nieves",17.5106174,"OAX","Ixpantepec Nieves, Oaxaca",-98.04898589999999
+"Palomares","1",null,"","Matias Romero Avendano",16.8854418,"OAX","Palomares, Matias Romero Avendano, Oaxaca",-95.04529939999999
+"","7",null,"","Miahuatlan de Porfirio Diaz",16.3317796,"OAX","Miahuatlan de Porfirio Diaz, Oaxaca",-96.5943562
+"Buena Vista","1",null,"","Ocotlan de Morelos",16.791389,"OAX","Buena Vista, Ocotlan de Morelos, Oaxaca",-96.675
+"","2",null,"Non-indigenous","Pluma Hidalgo",15.9258292,"OAX","Pluma Hidalgo, Oaxaca",-96.4200279
+"","2",null,"Non-indigenous","Puerto Escondido",15.8655354,"OAX","Puerto Escondido, Oaxaca",-97.06944709999999
+"","1",null,"","Putla Villa de Guerrero",17.0320856,"OAX","Putla Villa de Guerrero, Oaxaca",-97.9293247
+"","4",null,"","San Agustin Amatengo",16.5085234,"OAX","San Agustin Amatengo, Oaxaca",-96.7885304
+"","2",null,"","San Agustin Atenango",17.6113217,"OAX","San Agustin Atenango, Oaxaca",-98.0147369
+"","1",null,"","San Agustin Chayuco",16.4,"OAX","San Agustin Chayuco, Oaxaca",-97.8
+"","2",null,"Non-indigenous, Zapotec","San Andres Zabache",16.5990472,"OAX","San Andres Zabache, Oaxaca",-96.85799240000001
+"San Agustin Mixtepec","1",null,"","San Cristobal Amatlan",16.3194787,"OAX","San Agustin Mixtepec, San Cristobal Amatlan, Oaxaca",-96.4101711
+"","1",null,"Huave","San Dionisio del Mar",16.3209964,"OAX","San Dionisio del Mar, Oaxaca",-94.7506374
+"","1",null,"","San Francisco Tlapancingo",17.4841139,"OAX","San Francisco Tlapancingo, Oaxaca",-98.26856699999999
+"Guadalupe Nogales","4",null,"","San Francisco Tlapancingo",17.4841139,"OAX","Guadalupe Nogales, San Francisco Tlapancingo, Oaxaca",-98.26856699999999
+"San Marcos Natividad","3",null,"","San Francisco Tlapancingo",17.4841139,"OAX","San Marcos Natividad, San Francisco Tlapancingo, Oaxaca",-98.26856699999999
+"Yojuela","6",null,"Zapotec","San Ildefonso Amatlan",16.334628,"OAX","Yojuela, San Ildefonso Amatlan, Oaxaca",-96.490774
+"San Mateo Macuilxochitl","1",null,"Zapotec, non-indigenous","San Jeronimo Tlacochahuaya",17.0073658,"OAX","San Mateo Macuilxochitl, San Jeronimo Tlacochahuaya, Oaxaca",-96.5839558
+"","15",null,"","San Jorge Nuchita",17.6565312,"OAX","San Jorge Nuchita, Oaxaca",-98.1047219
+"Guadalupe de Morelos","31",null,"","San Jorge Nuchita",17.6565312,"OAX","Guadalupe de Morelos, San Jorge Nuchita, Oaxaca",-98.1047219
+"","2",null,"","San Jose Lachiguiri",16.3788539,"OAX","San Jose Lachiguiri, Oaxaca",-96.33473149999999
+"","41",null,"","San Jose Lachiguiri",16.3788539,"OAX","San Jose Lachiguiri, Oaxaca",-96.33473149999999
+"Nizagoche","7",null,"","San Jose Lachiguiri",16.3788539,"OAX","Nizagoche, San Jose Lachiguiri, Oaxaca",-96.33473149999999
+"San Isidro La Chivigoza","5",null,"","San Jose Lachiguiri",16.3788539,"OAX","San Isidro La Chivigoza, San Jose Lachiguiri, Oaxaca",-96.33473149999999
+"","1",null,"","San José del Peñasco",16.3191247,"OAX","San José del Peñasco, Oaxaca",-96.49387910000002
+"","4",null,"","San Juan Mixtepec - Distrito 08",17.3599967,"OAX","San Juan Mixtepec - Distrito 08, Oaxaca",-97.8327159
+"Meson de Guadalupe","1",null,"","San Juan Mixtepec - Distrito 08",17.3599967,"OAX","Meson de Guadalupe, San Juan Mixtepec - Distrito 08, Oaxaca",-97.8327159
+"San Juan Cahuayaxi","1",null,"","San Juan Mixtepec - Distrito 08",-31.5272732,"OAX","San Juan Cahuayaxi, San Juan Mixtepec Dto 08, Oaxaca",-68.5214081
+"Santiago Tiño","1",null,"","San Juan Mixtepec - Distrito 08",-33.4691199,"OAX","Santiago Tiño, San Juan Mixtepec Dto 08, Oaxaca",-70.641997
+"","1",null,"","San Juan Ñumi",17.3977716,"OAX","San Juan Ñumi, Oaxaca",-97.7051877
+"","204",null,"","San Martin Peras",17.35,"OAX","San Martin Peras, Oaxaca",-98.233333
+"Ahuajatla","14",null,"","San Martin Peras",17.35,"OAX","Ahuajutla, San Martin Peras, Oaxaca",-98.233333
+"Barrio del Carmen","1",null,"","San Martin Peras",43.4455758,"OAX","Barrio del Carmen, San Martin Peras, Oaxaca",-3.845047
+"Chiñon","13",null,"","San Martin Peras",17.35,"OAX","Chiñon, San Martin Peras, Oaxaca",-98.233333
+"El Paredon","5",null,"","San Martin Peras",17.35,"OAX","El Paredon, San Martin Peras, Oaxaca",-98.233333
+"Guadalupe","1",null,"","San Martin Peras",17.35,"OAX","Guadalupe, San Martin Peras, Oaxaca",-98.233333
+"La Escopeta","2",null,"","San Martin Peras",17.35,"OAX","La Escopeta, San Martin Peras, Oaxaca",-98.233333
+"La Trinidad Peras","1",null,"","San Martin Peras",17.35,"OAX","La Trinidad Peras, San Martin Peras, Oaxaca",-98.233333
+"Las Huertas","1",null,"","San Martin Peras",17.35,"OAX","Las Huertas, San Martin Peras, Oaxaca",-98.233333
+"Las Minas","5",null,"","San Martin Peras",17.35,"OAX","Las Minas, San Martin Peras, Oaxaca",-98.233333
+"Piedra Azul","5",null,"","San Martin Peras",17.35,"OAX","Piedra Azul, San Martin Peras, Oaxaca",-98.233333
+"San Isidro La Raya","7",null,"","San Martin Peras",17.35,"OAX","San Isidro La Raya, San Martin Peras, Oaxaca",-98.233333
+"San Juan del Rio","4",null,"","San Martin Peras",20.3810837,"OAX","San Juan del Rio, San Martin Peras, Oaxaca",-99.94141619999999
+"San Marcos","2",null,"","San Martin Peras",17.35,"OAX","San Marcos, San Martin Peras, Oaxaca",-98.233333
+"San Miguel Peras","10",null,"","San Martin Peras",17.35,"OAX","San Miguel Peras, San Martin Peras, Oaxaca",-98.233333
+"Santiago Petlacala","10",null,"","San Martin Peras",17.35,"OAX","Santiago Petlacala, San Martin Peras, Oaxaca",-98.233333
+"","1",null,"","San Mateo Cajonos",17.1598614,"OAX","San Mateo Cajonos, Oaxaca",-96.20731060000001
+"","1",null,"","San Miguel Chicahua",17.6376102,"OAX","San Miguel Chicahua, Oaxaca",-97.19369859999999
+"San Martin Sabinillo","1",null,"","San Miguel Tlacotepec",17.45,"OAX","San Martin Sabinillo, San Miguel Tlacotepec, Oaxaca",-98
+"","1",null,"","San Pedro Mixtepec",16.2707185,"OAX","San Pedro Mixtepec, Oaxaca",-96.2850484
+"","1",null,"Non-indigenous, Zapotec","San Pedro Pochutla",15.7489259,"OAX","San Pedro Pochutla, Oaxaca",-96.4672856
+"La Soledad Salinas","1",null,"","San Pedro Quiatoni",16.7826999,"OAX","La Soledad Salinas, San Pedro Quiatoni, Oaxaca",-96.03086069999999
+"","2",null,"","San Sebastian Tecomaxtlahuaca",17.35,"OAX","San Sebastian Tecomaxtlahuaca, Oaxaca",-98.033333
+"Cañada de Lobo","4",null,"","San Sebastian Tecomaxtlahuaca",17.35,"OAX","Cañada de Lobo, San Sebastian Tecomaxtlahuaca, Oaxaca",-98.033333
+"Guadalupe Nundaco","5",null,"","San Sebastian Tecomaxtlahuaca",17.35,"OAX","Guadalupe Nundaco, San Sebastian Tecomaxtlahuaca, Oaxaca",-98.033333
+"Rio de Hielo","2",null,"","San Sebastian Tecomaxtlahuaca",17.35,"OAX","Rio de Hielo, San Sebastian Tecomaxtlahuaca, Oaxaca",-98.033333
+"San Martin Duraznos","51",null,"","San Sebastian Tecomaxtlahuaca",17.35,"OAX","San Martin Duraznos, San Sebastian Tecomaxtlahuaca, Oaxaca",-98.033333
+"San Mateo Tunuchi","1",null,"","San Sebastian Tecomaxtlahuaca",17.35,"OAX","San Mateo Tunuchi, San Sebastian Tecomaxtlahuaca, Oaxaca",-98.033333
+"","1",null,"Zapotec","San Vicente Coatlan",16.383333,"OAX","San Vicente Coatlan, Oaxaca",-96.85
+"","2",null,"Zapotec","Santa Ana Yareni",17.3968099,"OAX","Santa Ana Yareni, Oaxaca",-96.6085921
+"","1",null,"Zapotec","Santa Catarina Quioquitani",16.3145975,"OAX","Santa Catarina Quioquitani",-96.2843862
+"","1",null,"Zapotec","Santa Cruz Xitla",16.3215262,"OAX","Santa Cruz Xitla, Oaxaca",-96.6736876
+"San Francisco Cozoaltepec","1",null,"Non-indigenous, Zapotec","Santa Maria Tonameca",15.7467124,"OAX","San Francisco Cozoaltepec, Santa Maria Tonameca, Oaxaca",-96.5462836
+"Rio Mijangos","1",null,"Non-indigenous","Santa Maria Zoquitlan",16.5597026,"OAX","Río Míjangos, Santa Maria Zoquitlan, Oaxaca",-96.35398930000001
+"","11",null,"","Santiago Juxtlahuaca",17.3338551,"OAX","Santiago Juxtlahuaca, Oaxaca",-98.0106756
+"La Sabana","1",null,"Triqui","Santiago Juxtlahuaca",17.3338551,"OAX","La Sabana, Santiago Juxtlahuaca, Oaxaca",-98.0106756
+"San Juan Piñas","1",null,"","Santiago Juxtlahuaca",17.3338551,"OAX","San Juan Piñas, Santiago Juxtlahuaca, Oaxaca",-98.0106756
+"Santa Maria Yucunicoco","7",null,"","Santiago Juxtlahuaca","UNKNOWN","OAX","Santa Maria Yucunicoco, Santiago Juxtlhuaca, Oaxaca","UNKNOWN"
+"Santiago Naranjos","9",null,"","Santiago Juxtlahuaca",17.3338551,"OAX","Santiago Naranjos, Santiago Juxtlahuaca, Oaxaca",-98.0106756
+"Santos Reyes Zochiquilazola","1",null,"","Santiago Juxtlahuaca","UNKNOWN","OAX","Santos Reyes Zochiquilazola, Santiago Juxtlhuaca, Oaxaca","UNKNOWN"
+"Union de Cardenas","12",null,"","Santiago Juxtlahuaca",17.3338551,"OAX","Union de Cardenas, Santiago Juxtlahuaca, Oaxaca",-98.0106756
+"","1",null,"","Santiago Pinotepa Nacional",16.3411824,"OAX","Santiago Pinotepa Nacional, Oaxaca",-98.053687
+"Yolotepec de la Paz","2",null,"","Santiago Yosondua",16.883333,"OAX","Yolotepec de la Paz, Santiago Yosondua, Oaxaca",-97.566667
+"","3",null,"","Santiago del Rio",17.4537264,"OAX","Santiago del Rio, Oaxaca",-98.0909499
+"San Francisco Higos","12",null,"","Santiago del Rio",17.4537264,"OAX","San Francisco Higos, Santiago del Rio, Oaxaca",-98.0909499
+"San Sebastian del Monte","21",null,"","Santo Domingo Tonala",17.6732539,"OAX","San Sebastian del Monte, Santo Domingo Tonala, Oaxaca",-97.9650566
+"","1",null,"","Santos Reyes Tepejillo",17.4377727,"OAX","Santos Reyes Tepejillo, Oaxaca",-97.93867689999999
+"","1",null,"","Silacayoapam",17.5047564,"OAX","Silacayoapam, Oaxaca",-98.14050490000001
+"Los Reyes Michapa","2",null,"","Silacayoapam",17.5047564,"OAX","Los Reyes Michapa, Silacayoapam, Oaxaca",-98.14050490000001
+"San Andres Montaña","1",null,"","Silacayoapam",17.5047564,"OAX","San Andres Montaña, Silacayoapam, Oaxaca",-98.14050490000001
+"San Martin del Estado","2",null,"","Silacayoapam",17.5047564,"OAX","San Martin del Estado, Silacayoapam, Oaxaca",-98.14050490000001
+"Santiago Asuncion","10",null,"","Silacayoapam",17.5047564,"OAX","Santiago Asuncion, Silacayoapam, Oaxaca",-98.14050490000001
+"San Martin del Rio","2",null,"","Tezoatlan de Segura y Luna",17.6526298,"OAX","San Martin del Rio, Tezoatlan de Segura y Luna, Oaxaca",-97.8094397
+"","1",null,"Non-indigenous, Zapotec","Villa Sola de Vega",16.5116214,"OAX","Villa Sola de Vega, Oaxaca",-96.9794689
+"","3",null,"Non-indigenous","Yogana",16.4585894,"OAX","Yogana, Oaxaca",-96.78573560000001
+"","3",null,"Non-indigenous","Tlahuapan",20.0833329,"PUE","Tlahuapan, Puebla",-97.9166671
+"Citlaltepec","1",null,"Aztec","Citlaltepetl",21.3366489,"VER","Citlaltepec, Citlaltepetl, Veracruz",-97.8783886

@@ -1,0 +1,48 @@
+
+<!doctype html>
+<meta charset=utf-8>
+<title>
+MICOP survey viewer
+</title>
+<style>
+
+</style>
+<script>
+var getJSON = function(url, successHandler, errorHandler) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('get', url, true);
+  xhr.responseType = 'json';
+  xhr.onload = function() {
+    var status = xhr.status;
+    if (status == 200) {
+      successHandler && successHandler(xhr.response);
+    } else {
+      errorHandler && errorHandler(status);
+    }
+  };
+  xhr.send();
+};
+
+
+var app = {};
+
+
+function process(){ 
+  app.indigenous_towns = app.towns.filter(function(town){ 
+    return !town.Notes.contains('Non-indigenous') 
+  })
+  
+  app.peras_towns = app.indigenous_towns.filter(function(town){
+    return town.Municipality.contains('Peras') 
+  })
+
+}
+
+var survey = getJSON('micop_survey.json', function(data){
+  app.towns = data;
+  process(app.towns);
+
+})
+</script>
+
+
