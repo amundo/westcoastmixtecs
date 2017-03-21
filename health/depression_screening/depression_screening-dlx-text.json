@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "Depression screening",
+    "speaker": "Demetrio Zurita Quiroz",
+    "translator": "Demetrio Zurita Quiroz",
+    "translatedFrom": "http://medicalspanish.com/medical-spanish-dialogs/depression.html",
+    "linguists": [
+      "Emily John Martin",
+      "Patrick Hall"
+    ],
+    "media": "depression_screening.mp3"
+  },
+  "phrases": [
+    {
+      "transcription": "Káchi-na xí'in-i íyo ta̠ti ini-un.",
+      "translation": "I hear you’ve been feeling depressed.",
+      "media": "audio/1.mp3"
+    },
+    {
+      "transcription": "Aan. ",
+      "translation": "Yes.",
+      "media": "audio/2.mp3"
+    },
+    {
+      "transcription": "Na̠xa yo̠ó kúsuchí ini-un?",
+      "translation": "How long have you been depressed?",
+      "media": "audio/3.mp3"
+    },
+    {
+      "transcription": "Xïni̠-i ra.  Átu xa̠ íyo u̠ni̠ yo̠ó va ndó'o-i saá.",
+      "translation": "I don’t know.  I’ve been feeling this way for, say, three months. ",
+      "media": "audio/4.mp3"
+    },
+    {
+      "transcription": "Á kökûni̠-un kitá'án-un xí'in na̠ tá'án-un á na̠ sáchíñu xí'in-un chi ra kúta̠ti ini va kúú-un?",
+      "translation": "Do you find that you don’t want to spend time with your relatives or your coworkers because you feel too glum?",
+      "media": "audio/5.mp3"
+    },
+    {
+      "transcription": "Saá ndó’o-i xí'in na̠ ve'e-i.  Kösáchíñu-i vichin.",
+      "translation": "That’s how I feel with my family.  I’m not working now.",
+      "media": "audio/6.mp3"
+    },
+    {
+      "transcription": "Tá ká'a̠n-na xí'in-un ku̠'u̠n-un xí'in-na kaka nuu-ndo á kútóo-un kana-un ku̠'u̠n-un xí'in-na á kûni̠-un kindo̠o-un ve'e?",
+      "translation": "When you’re invited to hang out do you like to get out and do things or do you find that you just want to stay home?",
+      "media": "audio/7.mp3"
+    },
+    {
+      "transcription": "Kûni̠-yu kindo̠o-i ve'e.",
+      "translation": "I just want to stay home.",
+      "media": "audio/8.mp3"
+    },
+    {
+      "transcription": "Á va̠'a kíxi̠-un?",
+      "translation": "Are you sleeping well?",
+      "media": "audio/9.mp3"
+    },
+    {
+      "transcription": "Küvi ku̠su̠n-yu",
+      "translation": "I can’t sleep.",
+      "media": "audio/10.mp3"
+    },
+    {
+      "transcription": "Á nda̠kani ini-un ka'ní-un mií-un?",
+      "translation": "Have you contemplated killing yourself?",
+      "media": "audio/11.mp3"
+    },
+    {
+      "transcription": "Sava kûni̠-i ka'ní-i mií-i.",
+      "translation": "Sometimes I want to kill myself.",
+      "media": "audio/12.mp3"
+    },
+    {
+      "transcription": "Á nda̠kani ini-un na̠xa ka'ní-un mií-un?",
+      "translation": "Have you contemplated how you would kill yourself?",
+      "media": "audio/13.mp3"
+    },
+    {
+      "transcription": "U'un.  Xïni̠-yu.",
+      "translation": "No, I don’t know.",
+      "media": "audio/14.mp3"
+    },
+    {
+      "transcription": "Xi̠ndá'vi ini-un nda̠tú'un-un xí'in-i xa̠'á-ña ndó'o-un.  Vichin ka̠'a̠n-yo xa̠'á-ña na̠xa kuvi nduva̠'a-un.",
+      "translation": "Thank you for talking with me about what you are going through.  Now we will talk about some treatment options to help you get better.",
+      "media": "audio/15.mp3"
+    }
+  ]
+}

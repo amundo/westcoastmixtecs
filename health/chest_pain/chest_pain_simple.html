@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chest Pain</title>
+<style>
+body {
+  counter-reset: eg;
+}
+
+* {
+  font-family: 'Gentium Plus';
+}
+
+main {
+  width: calc(24em * 2)
+}
+
+.phrase {
+  margin-bottom: 2em;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.phrase .play {
+  color:transparent;
+  padding: 0 1em;
+}
+
+.phrase:hover .play {
+  color:black;
+}
+
+.phrase:hover {
+  background: #cecece;
+  cursor:pointer;
+}
+
+.transcription, .translation {
+  flex: 1;
+}
+
+.translation {
+  font-style: italic;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+</header>
+
+<main>
+  <div id="text">
+  </div>
+</main>
+
+<script>
+let renderPhrase = phrase => `
+   <div class=phrase>
+     <p class=transcription>${phrase.transcription}</p>
+     <p class=translation>${phrase.translation}</p>
+     <p><audio controls src="${phrase.media}"></audio></p>
+   </div>`
+
+let renderMetadata = metadata => `
+    <h1 class=title>${metadata.title}</h1>
+    <h2 class=speaker>Spoken by: ${metadata.speaker}</h2>
+
+`
+
+let render = text => {
+  let header = document.querySelector('header');
+  header.innerHTML = renderMetadata(text.metadata);
+
+  text.phrases
+    .map(renderPhrase)
+    .forEach(div => document.querySelector('#text').insertAdjacentHTML('beforeend', div))
+}
+
+let exportStaticHTML = () => {
+  document.body.querySelectorAll('script').forEach(script => script.remove());
+  return `<!doctype html>
+${document.documentElement.outerHTML}
+  `
+}
+
+
+fetch('chest_pain-dlx-text.json')
+  .then(r => r.json())
+  .then(render)
+</script>
+</body>
+</html>

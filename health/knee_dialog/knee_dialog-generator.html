@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link href="../dialogs.css" rel="stylesheet" title="Default Style">
+
+</head>
+<body>
+
+<header>
+</header>
+
+<main>
+  <div id="text">
+  </div>
+</main>
+
+<script>
+let renderPhrase = phrase => `
+   <div class=phrase>
+     <p class=transcription>${phrase.transcription}</p>
+     <p class=translation>${phrase.translation}</p>
+     <p><audio controls src="${phrase.media}"></audio></p>
+   </div>`
+
+let renderMetadata = metadata => `
+    <h1 class=title>${metadata.title}</h1>
+    <h2 class=speaker>Spoken by: ${metadata.speaker[0]}</h2>
+
+`
+
+let render = text => {
+  document.title = text.metadata.title;
+
+  let header = document.querySelector('header');
+  header.innerHTML = renderMetadata(text.metadata);
+
+  text.phrases
+    .map(renderPhrase)
+    .forEach(div => document.querySelector('#text').insertAdjacentHTML('beforeend', div))
+}
+
+let exportStaticHTML = () => {
+  document.body.querySelectorAll('script').forEach(script => script.remove());
+  return `<!doctype html>
+${document.documentElement.outerHTML}
+  `
+}
+
+let generatorFileName = document.location.pathname.split("/").slice(-1)[0];
+let dataFileName = generatorFileName.replace('-generator.html', '-dlx-text.json');
+console.log(dataFileName);
+
+fetch(dataFileName)
+  .then(r => r.json())
+  .then(render)
+</script>
+</body>
+</html>

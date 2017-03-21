@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chest Pain</title>
+<style>
+body {
+  counter-reset: eg;
+}
+
+* {
+  font-family: 'Gentium Plus';
+}
+
+main {
+  display:flex;
+  flex-direction: row;
+}
+
+ol { 
+  flex: 1;;
+  height: 100%;
+  justify-content: space-between;
+  display:flex;
+  flex-direction:column;
+  reset-counter: n;
+}
+ol li {
+  list-style-type: decimal;
+  counter-increment: n;
+  display:block;
+}
+
+ol li p:before {
+  content: '(' counter(n) ')  '
+}
+</style>
+</head>
+<body>
+
+<main>
+  <ol id=phrases></ol>
+  <ol id=mp3s></ol>
+</main>
+  
+<script src=http://glyph.local/~pat/dlx/dlx.js> </script>
+<script>
+var urls = [
+  "audio/2016_04_30_Rogelia_chest_pain_01.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_02.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_03.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_04.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_05.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_06.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_07.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_08.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_09.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_10.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_11.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_12.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_13.mp3"
+]
+
+var renderMP3s = () => {
+  var mp3s = document.querySelector('#mp3s');
+  urls.forEach((url, i) => {
+    mp3s.insertAdjacentHTML('beforeend', `<li><p><audio src="${url}" controls> ${url} </p></li>`) 
+  })
+}
+
+var renderPhrases = text => {
+  var phrases = document.querySelector('#phrases');
+  text.phrases.forEach((phrase, i) => {
+    phrases.insertAdjacentHTML('beforeend', `<li>
+<p><strong>${phrase.transcription}</strong> ‘${phrase.translation}’</p>
+</li>`) 
+  })
+}
+
+fetch('chest_pain-dlx-text.json')
+  .then(r => r.json())
+  .then(renderPhrases)
+  .then(renderMP3s);
+</script>
+</body>
+</html>

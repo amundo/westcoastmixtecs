@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Consultation about Chest Pain</title>
+<style>
+body {
+  counter-reset: eg;
+}
+
+* {
+  font-family: 'Gentium Plus';
+}
+
+main {
+  width: calc(24em * 2)
+}
+
+.phrase { 
+  margin-bottom: 2em;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.phrase .play { 
+  color:transparent;
+  padding: 0 1em;
+}
+
+.phrase:hover .play { 
+  color:black;
+}
+
+.phrase:hover { 
+  background: #cecece;
+  cursor:pointer;
+}
+
+.transcription, .translation {
+  flex: 1;
+}
+
+.translation {
+  font-style: italic;
+}
+
+</style>
+</head>
+<body>
+
+<main>
+  <div id="text">
+  </div>
+</main>
+  
+<script src=http://glyph.local/~pat/dlx/dlx.js>
+</script>
+<script>
+
+class PlayablePhraseView extends PhraseView{
+  constructor(phrase){
+    super(phrase);
+    this.listen();
+  }
+
+  render(){
+    this.el.innerHTML = `
+    
+      <p><span class=play>▶</span> <audio src=${this.phrase.media}></audio></p>
+      <p class=transcription><strong>${this.phrase.transcription}</strong></p>
+      <p class=translation>${this.phrase.translation}</p>
+    `
+
+    return this.el;
+
+  }
+
+  play(ev){
+    ev.currentTarget.querySelector('audio').play()
+  }
+
+  listen(){
+    this.el.addEventListener('click', this.play);
+  }
+  
+}
+
+var render = text => {
+  var tv = new TextView({
+    text:text,
+    el:document.body.querySelector('#text'),
+    PhraseView: PlayablePhraseView
+  });
+
+  window.tv = tv;
+
+tv.render();
+  //document.body.insertAdjacentHTML('afterbegin', tv.render().el)
+}
+
+
+fetch('chest_pain-dlx-text.json')
+  .then(r => r.json())
+  .then(text => { window.text = text; return text; })
+  .then(render)
+  //.then(listen)
+</script>
+</body>
+</html>

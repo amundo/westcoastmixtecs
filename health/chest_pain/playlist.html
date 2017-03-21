@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chest Pain</title>
+<style>
+body {
+  counter-reset: eg;
+}
+
+* {
+  font-family: 'Gentium Plus';
+}
+
+</style>
+</head>
+<body>
+  
+<script src=http://glyph.local/~pat/dlx/dlx.js>
+</script>
+<script>
+var listen = () => {
+}
+
+class PlayablePhraseView extends PhraseView{
+  constructor(phrase){
+    super(phrase);
+  }
+
+  template(){
+      return `
+        <p><a src=${phrase.media} controls></p>
+        <p class=transcription><strong>${phrase.transcription}</strong></p>
+        <p class=translation>${phrase.translation}</p>
+      `
+  }
+  
+}
+
+var render = text => {
+  var tv = new TextView(text, {
+    PhraseView: PlayablePhraseView
+  });
+
+  window.tv = tv;
+  document.body.insertAdjacentHTML('afterbegin', tv.render())
+}
+
+var urls = [
+  "audio/2016_04_30_Rogelia_chest_pain_01.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_02.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_03.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_04.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_05.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_06.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_07.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_08.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_09.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_10.mp3",
+  //"audio/2016_04_30_Rogelia_chest_pain_11.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_12.mp3",
+  "audio/2016_04_30_Rogelia_chest_pain_13.mp3"
+]
+
+var compact = (phrase, i) => {
+  var html = `
+
+<div class=phrase>
+  <date>${i+1}</date> 
+  <p class=transcription>${phrase.transcription}</p>
+  <p class=translation>${phrase.translation}</p>
+</div>
+
+`;
+  document.body.insertAdjacentHTML('afterbegin', html);
+}
+
+var playURLs = urls => {
+  urls = urls.slice();
+
+  var i = 0;
+  compact(text.phrases[i], i);
+
+  var audio = document.createElement('audio');
+  var url =  urls.shift();
+  audio.src = url;
+
+  audio.play();
+
+  
+  audio.addEventListener('ended', ev => {
+    var url = urls.shift();
+    if(!urls.length) return;
+    audio.src = url;
+    compact(text.phrases[i+1], i+1);
+    audio.play();
+    i++;
+  })
+
+
+}
+
+fetch('chest_pain-dlx-text.json')
+  .then(r => r.json())
+  .then(text => { window.text = text; return text; })
+  .then(text => { playURLs(urls) });
+  //.then(render)
+  //.then(listen)
+</script>
+</body>
+</html>
