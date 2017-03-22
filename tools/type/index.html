@@ -57,18 +57,19 @@ main textarea {
 
 #rules li { 
   display:flex;
-  justify-content: space-between;
+  align-items: flex-start;;
 }
   
 kbd { 
   border: 2px solid #ccc;
   border-bottom: 2px solid #999;
+  border-top: 2px solid #eee;
   border-left: 2px solid #aaa;
   border-radius: 3px;
   padding: 2px;
   display:inline-box;
-  align-self: flex-start;
   background:#ccc;
+  background-image:linear-gradient(#ccc,#eee);
   height:1.5em;
   margin:.25em;
   width:1.5em;
@@ -78,6 +79,7 @@ kbd {
 
 #rules output { 
   font-family: Andika;  
+  align-self:flex-end;
 }
 
 #help  {
@@ -121,18 +123,22 @@ kbd {
     <section id=rules>
       <ol>
         <li>
-          <kbd>a</kbd> + <kbd>_</kbd> <output>a̱</output>
+          <kbd>a</kbd><kbd>_</kbd> <output>a̱</output>
         </li>
         <li>
-          <kbd>n</kbd> + <kbd>~</kbd> <output>ñ</output>
+          <kbd>a</kbd><kbd>\</kbd><kbd>/</kbd> <output>ǎ</output> 
         </li>
         <li>
-         <kbd>'</kbd> <output>’</output> 
+           <kbd>n</kbd><kbd>~</kbd> <output>ñ</output>
+        </li>
+        <li>
+          <kbd>'</kbd> <output>’</output> 
         </li>
       </ol>
+
 <div id=help>
 <p lang=es>
-Esto es una herramienta que le puede ayudar en teclar los diacríticos del mixteco.
+Esto es una herramienta que le puede ayudar a teclar los diacríticos del mixteco.
 </p>
 <p lang=jmx>
 [mixtec explanation here?]
@@ -153,6 +159,7 @@ var convert = function(text){
     rules = [
        ['_','\u0331'],
        ['~','\u0303'],
+       ['\\/','\u030C'],
        ['\'','’']
     ]; 
  

@@ -9,6 +9,24 @@
 .poster img { 
   width: 200px;
 }
+
+#health-main {
+  flex-direction:column;
+}
+
+#health-main  > blockquote {
+  width:50%;
+  margin:2em auto;
+}
+ 
+#health-content {
+  display:flex;
+  padding: 10%;
+}
+
+#health-content section {
+  flex: 1;
+}
 </style>
 </head>
 
@@ -29,18 +47,17 @@
   </ul>
 </nav>
 
-<main>
-<blockquote style="padding:0 25%;">
-<h2>DISCLAIMER</h2>
-<p>Practitioners should not rely on the content of this website to
-evaluate, diagnose or treat medical conditions. The information on
-this website is meant only to serve as a tool for health care
-providers who want to improve their ability to communicate with
-their Mixtec-speaking patients; it does not replace the services
-of a trained medical interpreter (which may be required by law).
+<main id=health-main>
+<blockquote style>
+Are you a Mixtec speaker preparing to work in healthcare? This page is for you! We have included anatomy charts, sample dialogues between patients and providers, and common health conditions and treatments. The Mixtec language we are using is Western Juxtlahuaca Mixtec from El Jicaral, Coicoyan. You might find it useful to review this content with elders from your own community.
+
+<p><small><em>Please see <a href=#disclaimer>disclaimer</a></em></small></p>
 </blockquote>
 
-  <section id=content>
+
+
+<section id=health-content >
+  <section id=illustrations >
 
 <!--
 3*div.poster>header>h2,a>figure>img,figcaption
@@ -86,15 +103,27 @@ div.poster*3>header>h2^a>figure>img,figcaption
 
   </section>
 
-<section>
+<section id=consultations>
 <h2>Sample Consultations</h2>
 <p><a href=http://westcoastmixtecs.com/health/chest_pain>Consultation about Chest pain</a></p>
 <p><a href=http://westcoastmixtecs.com/health/knee_dialog>Consultation about Knee pain</a></p>
 <p><a href=http://westcoastmixtecs.com/health/depression_screening/>Consultation for Depression Screening</a></p>
-</section>
+</section><!-- #consultations -->
+
+</section><!-- #health-content -->
+
 </main>
 
 <footer>
+<blockquote id=disclaimer style="padding:0 25%;">
+<h2>DISCLAIMER</h2>
+<p>Practitioners should not rely on the content of this website to
+evaluate, diagnose or treat medical conditions. The information on
+this website is meant only to serve as a tool for health care
+providers who want to improve their ability to communicate with
+their Mixtec-speaking patients; it does not replace the services
+of a trained medical interpreter (which may be required by law).
+</blockquote>
 
 </footer>
 </body>

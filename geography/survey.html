@@ -7,6 +7,57 @@
 <body>
   
 <script>
+class MicopSurvey {
+  constructor(variants){
+    this.variants = variants;
+  }
+
+  lookup(query){
+console.log(query);
+    return this.variants.filter(variant => {
+      return query == variant.town
+    })
+  }
+ 
+}
+
+class EmilyDictionaryVariants {
+  constructor(variants){
+    this.variants = variants;
+  }
+
+  lookup(dictionary, survey){
+    return survey.forEach(variant => {
+      console.log(dictionary.lookup(variant.variant))
+    })
+  }
+}
+
+
+Promise.all([
+    'micop_survey.json', 
+    'emily-dictionary-variants.json'
+  ].map(url => fetch(url).then(r => r.json()))
+).then(files => {
+  let [micop, emily] = files;
+  return [
+    new MicopSurvey(micop),
+    new EmilyDictionaryVariants(emily)
+  ]
+}).then(collections => {
+  let [micop, emily] = collections;
+  window.found = [];
+  emily.variants.forEach(eVariant  => {
+    let matches = micop.lookup(eVariant.town);
+    if(matches.length == 1){
+      shared = matches[0];
+      shared.group = eVariant.group;
+      found.push(shared);
+    }
+  })
+})
+
+
 </script>
 
 </body>
