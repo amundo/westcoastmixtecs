@@ -239,13 +239,17 @@ div.topics {
 class Carousel {
   constructor(el, images, auto=true){
     this.el = el;
-    this.figcaption = el.querySelector('figcaption');
-    this.currentDiv = el.querySelector('div.current');
+    this.figcaption = this.el.querySelector('figcaption');
 
+    this.auto = auto;
     this.images = images;
    
     this.current = images[0];
     this.next();
+
+    if(this.auto){
+      this.cycle = setInterval(() => this.next(), 5000);
+    }
  
     this.listen();
   }
@@ -256,13 +260,19 @@ class Carousel {
     this.render();
   }
 
+  get currentDiv() {
+    return this.el.querySelector('div.current');
+  }
+
   listen() {
     this.currentDiv.addEventListener('click', clickEvent => this.next())
   }
 
   render() {
-    this.currentDiv.style.backgroundImage = "url(" + this.current.url + ")";
+    let backgroundImage =  `url(${this.current.url})`;
+    this.currentDiv.style.backgroundImage = backgroundImage;
     this.figcaption.textContent = this.current.caption;
+
   }
 }
 
