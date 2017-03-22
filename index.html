@@ -5,24 +5,165 @@
 <meta charset=utf-8>
 <link rel=stylesheet href=style.css>
 <link rel="shortcut icon" href="img/favicon.png" />
+
+<style>
+[lang="en"] {
+  font-style:italic;
+}
+
+[lang="mx"] {
+  align-self: flex-end;
+}
+
+#content {
+  flex: 7;
+
+  display:flex;
+  flex-direction:column;
+
+  height: 100%;
+  margin: 1em 4em;
+  border-radius: 10px;
+  padding: 0;
+  border: 1px solid hsl(0, 0%, 50.2%);
+  justify-content: stretch;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+}
+
+figure.carousel {
+  padding: 0;
+  margin: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+figure div.current {
+  height: 400px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  -moz-transition: background-image .025s ease-in-out;
+  transition: background-image 1s ease-in-out;
+}
+
+figcaption {
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  text-shadow: -1px 1px 1px hsl(0, 0%, 0%);
+  padding: 1em ;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+div.topics {
+  flex:1;
+}
+
+.topic {
+  display:flex;
+  justify-content:stretch;
+  border-bottom: 1px solid hsl(0, 0%, 50.2%);
+}
+.topic:last-child {
+  border-bottom: none;
+}
+
+.topic > header {
+  text-decoration: none;
+  font-family: Andika;
+  margin:0;
+  padding:0;
+  width: 25%;
+}
+
+.topic header a  {
+  text-decoration: none;
+  border-bottom:  
+}
+
+.topic h2 {
+  margin:0;
+  padding:0;
+  color:white;
+}
+
+
+.health header {
+  background-color: rgb(144, 86, 132);
+}
+
+.topic header  { 
+  text-shadow: -1px 1px 0 #333;
+  color:#fff;
+  text-align:center;
+  margin:0;
+}
+
+
+.topic:last-child header:hover,
+.topic:last-child header {
+  border-bottom-left-radius: 5px;
+}
+
+.topic header:hover a h2 { 
+  background:yellow;
+}
+
+.topic header:hover a h2 { 
+  color:black;
+  text-shadow:none;
+}
+
+.language {
+}
+
+.language header {
+  background-color: rgb(134, 119, 172);
+}
+
+.education {
+}
+
+.education header {
+  background-color: rgb(207, 185, 90);
+}
+
+.for-kids {
+}
+
+.for-kids a { 
+}
+
+.for-kids header {
+  background-color: rgb(152, 175, 111);
+  border-bottom-left-radius: 10px;
+}
+
+
+</style>
 </head>
 
 <body>
 
 <header>
 <h1>West Coast Mixtecs</h1>
-<h2>Tu̠'un Ndá'vi na̠ California, na̠ Oregon, xí'in na̠ Washington</h2>
+<h2>Tu̠'un Ndá'vi na̠ California, na̠ Oregon, xí'in na̠ Washington</h2>
 </header>
 
 <nav>
-<ul>
-<li><a href="about">About</a></li>
-<li><a href="mixtec">Mixtec languages</a></li>
-<li><a href="learn">Learn English</a></li>
-<li><a href="health">Health Resources</a></li>
-<li><a href="tools">Tools</a></li>
-</ul>
-
+  <ul>
+    <li>home</li>
+    <li><a href="health">health</a></li>
+    <li><a href="books">education</a></li>
+    <li><a href="#">language</a></li>
+    <li><a href="leso">for kids</a></li>
+  </ul>
 </nav>
 
 <main>
@@ -35,35 +176,126 @@
 
       <p>There are tens of thousands of speakers of Mixtec languages in Washington, Oregon, and California.
       <p>This site is a clearinghouse of resources for Mixtec speakers and people who serve them.
-      <p>We plan to include materials on:
-
-      <ul>
-        <li><a href=books>Native-authored literature</a></li>
-        <li><a href=health>Resources for Medical Interpreters</a></li>
-        <li><a href=mitla>Resources for K-12 Teachers</a></li>
-      </ul>
-
-      <p>We also plan to share content from our own research on the documentation of Mixtec languages as spoken in the diaspora.
-
-      <ul>
-        <li>Linguistic analysis of recordings in Mixtec</li>
-        <li>Pedagogical materials for learning Mixtec</li>
-      </ul>
-
     </div>
   </aside>
 
-  <section id=content>
-     <div><p>What are the Mixtec languages languages like?</p></div>
-     <div><p>Which Mixtec languages are spoken in California?</p></div>
-     <div><p>What are the Mixtec towns in Mexico?</p></div>
-     <div><p>Can you help me learn some useful phrases in Mixtec?</p></div>
-     <div><p>Do you have any literacy on materials Mixtec literacy for Mixtec speakers?</p></div>
-  </section>
+<section id="content">
+  <figure class=carousel>
+    <div class=current></div>
+    <figcaption></figcaption>
+  </figure>
+  <div class="topics">
+    <div class="health topic">
+     <header><a href="health/">
+        <h2 lang="en">health</h2>
+        <h2 lang="mx">ta̱tán</h2>
+      </a></header>
+      <ul>
+        <li>Illustrated diagrams</li>
+        <li>Sample bilingual dialogs with recordings</li>
+      </ul>
+    </div>
+
+    <div class="education topic">
+
+      <header><a href="books">
+        <h2 lang="en">education</h2>
+        <h2 lang="mx">sákuá’a-yo</h2>
+      </a></header>
+    
+      <ul>
+        <li><a href="books">Lots of books!</a></li>
+        <li>Sample bilingual dialogs with recordings</li>
+      </ul>
+    </div>
+
+    <div class="language topic">
+      <header><a alt="coming soon!" title="coming soon!" href="#">
+        <h2 lang="en">language</h2>
+        <h2 lang="mx">tu̱’un</h2>
+      </a></header>
+      <ul>
+        <li>Learn about Mixtec languages</li>
+      </ul>
+    </div>
+
+    <div class="for-kids topic">
+      <header><a alt="coming soon!" title="coming soon!" href="#">
+        <h2 lang="en">for kids</h2>
+        <h2 lang="mx">na̱ válí</h2>
+      </a></header>
+      <ul>
+<li><a href="leso/">Listen to the story of the Rabbit and the guitar</a></li>
+      </ul>
+    </div>
+    </div><!-- #topics -->
+  </section><!-- #content -->
 </main>
 
 <footer>
 
 </footer>
+<script>
+class Carousel {
+  constructor(el, images, auto=true){
+    this.el = el;
+    this.figcaption = el.querySelector('figcaption');
+    this.currentDiv = el.querySelector('div.current');
+
+    this.images = images;
+   
+    this.current = images[0];
+    this.next();
+ 
+    this.listen();
+  }
+
+  next() {
+    this.images.push(this.current);
+    this.current = this.images.shift();
+    this.render();
+  }
+
+  listen() {
+    this.currentDiv.addEventListener('click', clickEvent => this.next())
+  }
+
+  render() {
+    this.currentDiv.style.backgroundImage = "url(" + this.current.url + ")";
+    this.figcaption.textContent = this.current.caption;
+  }
+}
+
+let images = [
+  {
+    "url": "img/people/bloodpressure1.jpeg",
+    "caption": "Silvia Nevárez (ñuu Ìtia Nduchí) is studying nursing and is passionate about serving her community."
+  },
+  {
+    "url": "img/people/bloodpressure2.jpeg",
+    "caption": "Silvia Nevárez (ñuu Ìtia Nduchí) is studying nursing and is passionate about serving her community."
+  },
+  {
+    "url": "img/people/bloodpressure3.jpg",
+    "caption": "Silvia Nevárez (ñuu Ìtia Nduchí) checks the blood pressure of Lucio Zeferino (ñuu Yosocañu) in his home."
+  },
+  {
+    "url": "img/people/desk1.jpg",
+    "caption": "Esmeralda Martínez Bautista (Itunyoso/ñuu Snuviko) coordinating medical services for vulnerable clients from underserved populations."
+  },
+  {
+    "url": "img/people/desk2.jpg",
+    "caption": "Esmeralda Martínez Bautista (Itunyoso/ñuu Snuviko) coordinating medical services for vulnerable clients from underserved populations."
+  }
+]
+
+let carousel = new Carousel(
+  document.querySelector('.carousel'),
+  images
+)
+
+</script>
+
 </body>
 </html>
+
