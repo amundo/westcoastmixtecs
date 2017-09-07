@@ -143,7 +143,16 @@ class AnnotationTranslator {
         this.lexicon.push(this.word)
         this.formInput.value = ''
         this.glossH2.textContent = 'Choose another word…'
+        this.update()
       }
+    })
+  }
+
+  update(){
+    this.lexicon.forEach(word => {
+      let tSpan = this.tSpanByGloss(word.gloss)
+      tSpan.classList.toggle('gloss')
+      tSpan.textContent = word.form
     })
   }
 
