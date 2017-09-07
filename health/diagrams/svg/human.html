@@ -5,7 +5,6 @@
   <title>Annotation Translator</title>
 
 <style>
-
 html {
   width: 100vw;
   height: 100vh;
@@ -15,6 +14,11 @@ html {
 
 * {
   box-sizing: border-box;
+  font-family: Gentium Plus;
+}
+
+input {
+  font-family: Gentium Plus;
 }
 
 body {
@@ -28,24 +32,38 @@ body {
   background-color:whitesmoke;
   flex: 1;
   display:grid;
-  grid-template-areas: "lexicon diagram"; 
+  grid-template-areas: 
+    "header         header " 
+    "lexicon-editor diagram" 
+  ;
+  grid-template-rows: 50px 1fr ;
   grid-template-columns: 1fr 2fr ;
 }
 
-.annotator .lexicon {
+.lexicon-editor {
   padding: 2em;
-  grid-area: lexicon; 
+  grid-area: lexicon-editor; 
   background: lightsteelblue;
 }
 
-.annotator .diagram {
+header {
+  display:flex;
+  align-items: center;
+  padding: 1em;
+  justify-content: space-between;
+  grid-area: header;
+  border-bottom: 1px solid black; 
+  background:white;
+}
+
+.diagram {
   grid-area: diagram;
   position:relative;
   padding: 0;
   margin: 0;
 }
 
-.annotator .diagram figure svg {
+.diagram figure svg {
   width:100%;
   height:100%;
   position:absolute;
@@ -53,7 +71,7 @@ body {
   top:0;
 }
 
-tspan:hover {
+.diagram tspan:hover {
   cursor: pointer;
 }
 
@@ -76,18 +94,38 @@ input.form {
 <body>
 
 <section class="annotator">
-  <div class="lexicon">
+  <header>
+    <h1>Annotator</h1>
+    <nav>
+       <button>load image</button>
+       <button>export image</button>
+       <button>export lexicon</button>
+    </nav>
+  </header>
+
+  <div class="lexicon-editor">
     <div class="word">
-      <h2 class=gloss>Click on a label to begin…</h2>
+      <p><strong class=gloss>Click on a label to begin…</strong></p>
       <p> <input class=form> </p>
     </div>
+
+    <div class="lexicon">
+
+    </div>
   </div>
+
   <div class="diagram">
     <figure> </figure>
     <figcaption> </figcaption>
   </div>
+
 </section>
   
+<script src=Word.js></script>
+<script src=WordView.js></script>
+<script src=Lexicon.js></script>
+<script src=LexiconView.js></script>
+
 <script>
 class AnnotationTranslator {
   constructor(url, el=document.querySelector('.annotator')){
@@ -96,10 +134,11 @@ class AnnotationTranslator {
     this.figure = this.el.querySelector('.diagram figure')
     this.figCaption = this.el.querySelector('.display figcaption')
 
-    this.glossH2 = this.el.querySelector('.lexicon h2.gloss')
-    this.formInput = this.el.querySelector('.lexicon input.form')
+    this.glossStrong = this.el.querySelector('.word strong.gloss')
+    this.formInput = this.el.querySelector('.word input.form')
 
-    this.lexicon = []
+    this.lexicon = new Lexicon 
+    this.lexiconView = new LexiconView(this.lexicon, document.querySelector('.lexicon'))
     this.load()
 
     this.listen()
@@ -109,26 +148,34 @@ class AnnotationTranslator {
     return [...this.svg.querySelectorAll('tspan')]
   }
 
-  readTspans(){
-    this.tSpans.forEach(tspan => {
-      this.lexicon.push(({gloss: tspan.textContent}))
-    })
-  }
-
   prompt(gloss){
-    document.querySelector('h2.gloss').textContent = gloss
+    document.querySelector('strong.gloss').textContent = gloss
     this.formInput.placeholder = `Translate [${gloss}] here…`
   }
 
   get word(){
     return {
-      gloss: this.glossH2.textContent,
+      gloss: this.glossStrong.textContent,
       form: this.formInput.value
     }
   }
 
   tSpanByGloss(gloss){
-    return this.svg.querySelector(`[data-gloss="${gloss}"]`)
+    console.log(`tSpanByGloss`)
+    console.log(gloss)
+    let tSpan = this.svg.querySelector(`[data-gloss="${gloss}"]`)
+    console.log(tSpan)
+    return tSpan
+  }
+
+  saveWord(){
+    this.lexicon.add(this.word)
+    this.formInput.value = ''
+    this.glossStrong.textContent = 'Choose another word…'
+    this.updateDiagram()
+    this.lexiconView.render()
+
+    this.formInput.placeholder = ''
   }
 
   listen(){
@@ -140,16 +187,13 @@ class AnnotationTranslator {
 
     this.formInput.addEventListener('keyup', keyupEvent => {
       if(keyupEvent.key == 'Enter'){
-        this.lexicon.push(this.word)
-        this.formInput.value = ''
-        this.glossH2.textContent = 'Choose another word…'
-        this.update()
+        this.saveWord()
       }
     })
   }
 
-  update(){
-    this.lexicon.forEach(word => {
+  updateDiagram(){
+    this.lexicon.words.forEach(word => {
       let tSpan = this.tSpanByGloss(word.gloss)
       tSpan.classList.toggle('gloss')
       tSpan.textContent = word.form
@@ -173,7 +217,7 @@ class AnnotationTranslator {
   }
 }
 
-at = new AnnotationTranslator('human body features.svg')
+at = new AnnotationTranslator('Throat_anatomy_diagram.svg')
 </script>
 
 </body>
