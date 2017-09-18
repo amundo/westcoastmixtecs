@@ -53,11 +53,11 @@ figure div.current {
 }
 
 figcaption {
-  background-color: hsl(0, 0%, 0%);
+  background-color: hsl(150, 100%, 9.4%);
   color: hsl(0, 0%, 100%);
   text-shadow: -1px 1px 1px hsl(0, 0%, 0%);
   padding: 1em ;
-  font-family: sans-serif;
+  font-family: Andika;
   text-align: right;
 }
 
@@ -248,7 +248,7 @@ class Carousel {
     this.next();
 
     if(this.auto){
-      this.cycle = setInterval(() => this.next(), 5000);
+      this.cycle = setInterval(() => this.next(), 7000);
     }
  
     this.listen();
@@ -268,6 +268,7 @@ class Carousel {
     this.currentDiv.addEventListener('click', clickEvent => this.next())
   }
 
+
   render() {
     let backgroundImage =  `url(${this.current.url})`;
     this.currentDiv.style.backgroundImage = backgroundImage;
@@ -279,23 +280,19 @@ class Carousel {
 let images = [
   {
     "url": "img/people/bloodpressure1.jpeg",
-    "caption": "Silvia Nevárez (ñuu Ìtia Nduchí) is studying nursing and is passionate about serving her community."
-  },
-  {
-    "url": "img/people/bloodpressure2.jpeg",
-    "caption": "Silvia Nevárez (ñuu Ìtia Nduchí) is studying nursing and is passionate about serving her community."
-  },
-  {
-    "url": "img/people/bloodpressure3.jpg",
-    "caption": "Silvia Nevárez (ñuu Ìtia Nduchí) checks the blood pressure of Lucio Zeferino (ñuu Yosocañu) in his home."
-  },
-  {
-    "url": "img/people/desk1.jpg",
-    "caption": "Esmeralda Martínez Bautista (Itunyoso/Chún'/ñuu Snuviko) coordinating medical services for vulnerable clients from underserved populations."
+    "caption": "Silvia Nevárez (ñuu I̱tia Nduchí) is studying nursing and is passionate about serving her community."
   },
   {
     "url": "img/people/desk2.jpg",
-    "caption": "Esmeralda Martínez Bautista (Itunyoso/Chún'/ñuu Snuviko) coordinating medical services for vulnerable clients from underserved populations."
+    "caption": "Esmeralda Martínez Bautista (Chún'/ñuu Snuviko) coordinating medical services for vulnerable clients from underserved populations."
+  },
+  {
+    "url": "img/people/serapia.jpg",
+    "caption": "Serapia Matamoros educating the community about workers’ struggles under capitalism"
+  },
+  {
+    "url": "img/people/desk1.jpg",
+    "caption": "Esmeralda Martínez Bautista (Chún'/ñuu Snuviko) coordinating medical services for vulnerable clients from underserved populations."
   }
 ]
 

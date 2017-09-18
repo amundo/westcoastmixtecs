@@ -21,6 +21,10 @@ input {
   font-family: Gentium Plus;
 }
 
+input:focus {
+  background-color:lightyellow;
+}
+
 body {
   padding:0;
   margin:0;
@@ -85,8 +89,14 @@ input.form {
   font-style: italic;
 }
 
-.gloss {
+tspan.form {
+  font-size:normal;
+}
+
+tspan.gloss {
   font-style: italic;
+  font-size: smaller;
+  fill: #666;
 }
 </style>
 
@@ -106,7 +116,7 @@ input.form {
   <div class="lexicon-editor">
     <div class="word">
       <p><strong class=gloss>Click on a label to begin…</strong></p>
-      <p> <input class=form> </p>
+      <p> <input class=form data-keys="á é í ó ú à è ì ò ù a̠ e̠ i̠ o̠ u̠"> </p>
     </div>
 
     <div class="lexicon">
@@ -115,8 +125,10 @@ input.form {
   </div>
 
   <div class="diagram">
-    <figure> </figure>
+    <figure> 
+
     <figcaption> </figcaption>
+    </figure>
   </div>
 
 </section>
@@ -148,11 +160,6 @@ class AnnotationTranslator {
     return [...this.svg.querySelectorAll('tspan')]
   }
 
-  prompt(gloss){
-    document.querySelector('strong.gloss').textContent = gloss
-    this.formInput.placeholder = `Translate [${gloss}] here…`
-  }
-
   get word(){
     return {
       gloss: this.glossStrong.textContent,
@@ -161,10 +168,8 @@ class AnnotationTranslator {
   }
 
   tSpanByGloss(gloss){
-    console.log(`tSpanByGloss`)
     console.log(gloss)
     let tSpan = this.svg.querySelector(`[data-gloss="${gloss}"]`)
-    console.log(tSpan)
     return tSpan
   }
 
@@ -181,7 +186,9 @@ class AnnotationTranslator {
   listen(){
     this.el.addEventListener('click', clickEvent => {
       if(clickEvent.target.matches('.gloss')){
-        this.prompt(clickEvent.target.textContent)
+        let gloss = clickEvent.target.textContent.trim()
+        this.glossStrong.textContent = gloss
+        this.formInput.focus()
       }
     })
 
@@ -205,7 +212,22 @@ class AnnotationTranslator {
       tSpan.dataset.gloss = tSpan.textContent.trim()
       tSpan.removeAttribute('style')
       tSpan.classList.toggle('gloss')
+console.log(tSpan)
     })
+
+    this.formInput.dataset.keys.split(` `).forEach(key => {
+      this.formInput.insertAdjacentHTML('afterend', `
+        <button class=form-input-key>${key}</button>
+      `)
+    })
+
+    this.el.querySelectorAll('button.form-input-key').forEach(button => {
+      button.addEventListener('click', clickEvent => {
+        this.formInput.value = (this.formInput.value  + button.textContent).normalize('NFKC')
+        this.formInput.focus()
+      })
+    })
+  
   }
 
   load(){
@@ -217,7 +239,8 @@ class AnnotationTranslator {
   }
 }
 
-at = new AnnotationTranslator('Throat_anatomy_diagram.svg')
+//at = new AnnotationTranslator('human body features.svg')
+at = new AnnotationTranslator('Diagram_showing_the_parts_of_the_female_reproductive_system_CRUK_327.svg')
 </script>
 
 </body>
