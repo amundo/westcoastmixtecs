@@ -1,0 +1,14 @@
+@import url('color-palette.css');
+
+paste-edit p.line {
+  white-space: pre-wrap;
+  border-bottom: 1px dashed rgb(186, 194, 201);
+  line-height: 1;
+  padding: .2em 0;
+  user-select: none;
+}
+
+
+paste-edit  p.line.selected {
+  background: lemonchiffon;
+}

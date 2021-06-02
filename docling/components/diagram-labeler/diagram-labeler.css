@@ -1,0 +1,26 @@
+diagram-labeler { 
+  user-select: none;
+  display:grid;
+  border: 1px solid;
+  grid-template:
+    "figure word-form" 1fr
+  /  5fr    1fr;
+  margin:0;
+}
+
+
+diagram-labeler figure {
+  grid-area: figure;
+  background: rgb(240, 240, 240);
+}
+
+diagram-labeler word-form {
+  grid-area: word-form;
+}
+
+
+
+.word-label {
+  background:white;
+  padding: 1em;
+}

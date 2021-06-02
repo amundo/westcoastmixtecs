@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>record-media</title>
+</head> 
+<body>
+<header><h1>record-media</h1></header>
+<record-media></record-media>
+<script type=module src=RecordMedia.js></script>
+<script>
+
+let recordMedia = window.recordMedia = document.querySelector('record-media')
+
+recordMedia.addEventListener('ready', e => {
+  recordMedia.mediaRecorder.addEventListener('stop', e => {
+    recordMedia.render()
+  })
+})
+</script>
+</body>
+</html>
+

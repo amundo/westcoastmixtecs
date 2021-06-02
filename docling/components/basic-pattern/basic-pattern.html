@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>basic pattern</title>
+  <link rel="stylesheet" href="basic-pattern.css">
+  <style>
+* {
+  box-sizing: border-box;
+}
+basic-pattern {
+  padding:1em;
+}
+basic-pattern basic-editor {
+  border-right: 1px solid gray;
+}
+  </style>
+</head>
+<body>
+<header>
+  <h1>basic pattern</h1>
+  <p>The <code>BasicPattern</code> component is really just an example of how to relate views, editors, and lists.</p>
+  <p>Whether extending these regularly is a good idea remains to be seen.</p>
+</header>
+
+<basic-pattern fields="form gloss"></basic-pattern>
+
+The basic hierarchy is like this: 
+
+<ol type="1">
+  <li>Pattern
+    <ol type="1">
+      <li>List
+        <ol type="1">
+          <li>View</li>
+        </ol>
+      </li>
+      <li>Editor</li>
+    </ol>
+  </li>
+</ol>
+
+<figure>
+  <figcaption>Basic Interface Pattern</figcaption>
+<div class="map">
+    <div class="editor">
+      <form class="editor">
+        1. Editor — edit an object
+      </form>
+    </div>
+    <div class="list">2. List — render each object in a view
+      <div class="view">3a. View — object 1</div>
+      <div class="view">3b. View — object 2</div>
+      <div class="view">3c. View — object 3…</div>
+    </div>
+</div>
+</figure>
+
+<style>
+.map {
+  width:50%;
+}
+.map div {
+  background: hsla(100,50%,80%,.3);
+  border: 2px solid hsla(100,50%,80%,.8);
+  padding: 2em;
+  margin: 5px;
+}
+</style>
+
+<pre>
+Pattern:
+    constructor:
+      editor = new BasicEditor
+      list = new BasicList
+
+    attributes:
+      fields: set editor.fields
+      fields: set list.fields
+
+    getters & setters:
+      .data = array of objects
+      .data = [] ➡️ List.data = []
+
+    listeners: 
+      objectcreated: List.add(object)
+
+    add(objects):
+      
+    List: 
+        constructor:
+          this.view = new BasicView
+
+        attributes:
+          fields: set editor.fields
+          fields: set list.fields
+
+        getters & setters:
+          set data(objects){ this.objects = objects }
+          get data { return this.objects }
+
+        methods: 
+          add(object) => data.push(object)
+
+          render:
+            this.data.forEach(object => {
+              let view = new this.view
+              view.data = object
+              view.render()
+              this.querySelector('main').append(view)
+            })
+    View:
+        construct:
+          
+
+    Editor: 
+        get data ➡️ object
+        onsubmit
+          dispatch objectcreated 
+
+  </pre>
+
+<script type=module>
+import {BasicPattern} from './BasicPattern.js'
+import {BasicList} from './BasicList.js'
+import {BasicEditor} from './BasicEditor.js'
+import {BasicView} from './BasicView.js'
+
+Object.assign(window, {BasicView, BasicList, BasicPattern, BasicEditor})
+
+document.querySelector('basic-pattern').dataType = {form: 'casa', gloss: 'house'}
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>inplace transliteration</title>
+<style>
+  input { font-size: 20vh; display: block; margin: .2em 0;}
+
+  tr:nth-child(odd){ background: gainsboro}
+  td {padding: .5em;border: 1px solid gray;}
+  table { border-collapse: collapse;}
+</style>
+</head>
+<body>
+<header><h1>inplace transliteration</h1></header>
+
+<input>
+
+
+
+<script type=module>
+import {transliterate} from './transliterate.js'
+
+let rules = [
+  // {lower: 'a', upper: 'A'},
+  {lower: 't', upper: 'T'},
+  {lower: 'aa', upper: 'ā'},
+  {lower: '.n', upper: 'ń'}
+
+]
+
+
+let renderRules = (rules, from, to) => {
+    let rows = rules
+      .map(o => [o[from], o[to]])
+      .filter(([from,to]) => from != to)
+      .map(([from,to]) => `
+        <tr class=correspondence>
+          <td class=from>${from}</td><td class=to>${to}</td>
+        </tr>
+      `)
+      .join(' ')
+
+    return `<table>${rows}</table>`
+  }
+
+
+let input = document.querySelector('input')
+
+input.insertAdjacentHTML('afterend', renderRules(rules, 'lower', 'upper'))
+
+input.addEventListener('keyup', e => {
+  input.value = transliterate(input.value, rules, 'lower', 'upper')
+})
+
+</script>
+</body>
+</html>

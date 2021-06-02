@@ -1,0 +1,51 @@
+transliteration-editor {
+  display: grid;
+  max-height: 100%;
+  grid-template: 
+    "input      output" 1fr
+    "cheatsheet cheatsheet " auto
+  /  1fr        1fr;
+  /* gap: 1em; */
+}
+
+transliteration-editor textarea {
+  font-size: large;
+  font-family: Gentium Basic;
+  padding: 1em;
+}
+
+transliteration-editor div.input,
+transliteration-editor div.output {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+transliteration-editor div select {
+  margin:.2em 1em;
+  justify-self: start
+}
+
+transliteration-editor div.cheatsheet {
+  grid-area: cheatsheet;
+}
+
+transliteration-editor div.cheatsheet kbd {
+  border-radius: 5px;
+  border: 1px solid #cfcfcf;
+  padding: 0 .2em;
+  font-family: Fira Mono, monospace;
+  font-size: small;
+}
+
+transliteration-editor div.cheatsheet kbd.from {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right:none;
+  background: #efefef;
+}
+
+transliteration-editor div.cheatsheet kbd.to {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background:white;
+}

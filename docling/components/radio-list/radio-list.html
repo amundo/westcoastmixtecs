@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>radio list</title>
+  <link rel="stylesheet" href="http://glyph.local/~pat/docling/css/index.css">
+</head>
+<body>
+
+  <radio-list name=model>
+    <radio-option>Honda</radio-option>
+    <radio-option>Ford</radio-option>
+    <radio-option>Toyota</radio-option>
+  </radio-list>
+
+  <radio-list name=words>
+    <h3>Words</h3>
+    <ol>
+      <li><radio-option>Example form (Sumerian)</radio-option></li>
+      <li><radio-option>Example word (Sumerian and Akkadian)</radio-option></li>
+      <li><radio-option>Custom word (Derived from Kashaya fileslip)</radio-option></li>
+
+    </ol>
+  </radio-list>
+
+  <radio-list name=lexicon>
+
+    <h3>Lexicons</h3>
+      <radio-option name=lexicon>Sample Takelma lexicon</radio-option>
+      <radio-option name=lexicon>Sample Urum lexicon</radio-option>
+    </radio-list>
+  <radio-list name=sentence>
+      <h3>Sentences</h3>
+      <radio-option>sentence</radio-option>
+      <radio-option>takelma-sentence</radio-option>  </radio-list>
+  </radio-list>
+
+<script type=module>
+import {RadioList} from './RadioList.js'
+
+document.querySelectorAll('radio-list').forEach(rl => {
+  let pre = document.createElement('pre')
+  pre.style="background:#333;color:limegreen;display:block;"
+  pre.textContent = rl.outerHTML
+  rl.after(pre)
+})
+</script>
+</body>
+</html>

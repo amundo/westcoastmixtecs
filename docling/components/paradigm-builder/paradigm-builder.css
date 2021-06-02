@@ -1,0 +1,30 @@
+paradigm-builder {
+  display: block;
+  padding: 2rem;
+}
+
+paradigm-builder .specifications {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+paradigm-builder .specifications div {
+  flex: 1;
+  display: grid;
+}
+
+paradigm-builder [class$=-specification]{
+  display: inline-grid;
+  background:pink;
+}
+
+paradigm-builder cross-table {
+  display:block;
+  margin: 2em 0;
+}
+
+
+paradigm-builder cross-table main {
+  gap: 1em
+}

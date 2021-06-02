@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>wave-form</title>
+  <link rel="stylesheet" href="wave-form.css">
+</head>
+<body>
+<header><h1>wave-form</h1></header>
+
+
+<label>Load an audio file:
+  <input type=file>
+</label>
+
+<wave-form size=1000></wave-form>
+
+<script type=module>
+import {WaveForm} from './WaveForm.js'
+
+let audioContext = new AudioContext
+
+let waveForm = document.querySelector('wave-form')
+
+let fileInput =  document.querySelector('input')
+
+fileInput.addEventListener('change', changeEvent => {
+  let fileReader  = new FileReader
+  fileReader.addEventListener('load', loadEvent => {
+      waveForm.readAudioFile(loadEvent)
+  })
+  
+  fileReader.readAsArrayBuffer(changeEvent.target.files[0])
+  let url = URL.createObjectURL(changeEvent.target.files[0])
+})
+
+</script>
+</body>
+</html>

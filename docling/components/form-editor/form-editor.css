@@ -1,0 +1,13 @@
+form-editor {
+  display: grid;  
+  gap: .4em;
+}
+
+form-editor input {
+
+}
+
+form-editor form {
+  display: grid;
+  gap: .5em;
+}

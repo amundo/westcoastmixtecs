@@ -1,0 +1,44 @@
+@import url(paradigm-builder.css);
+
+
+body { 
+  box-sizing: border-box;
+  margin:0;
+
+  padding-bottom: 20em;
+}
+
+body > main {
+  padding: 1em;
+}
+
+header {
+  font-family: Fira Sans;
+  
+}
+
+code {
+  font-family: Fira Mono;
+  font-size: .8rem;
+  letter-spacing: 1px;
+}
+
+header h1 {
+  font-size: small;
+  margin:0;
+  padding:1em;
+}
+
+img {
+  border: 1px solid var(--purple-dark-1);
+  background:white;
+  padding:1em;
+  margin:1em;
+  border-radius: 4px;
+  box-shadow: -2px 2px 1px var(--purple-light-2);
+}
+
+p  {
+  line-height: 1.4;
+  font-family: Gentium Plus;
+}

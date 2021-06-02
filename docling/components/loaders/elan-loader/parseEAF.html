@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>parseEAF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <details>
+      <summary><h1>parseEAF.js</h1></summary>
+      <p>
+      This file contains functions which parse an <code>.eaf</code> file (ELAN’s default format) and convert it into a docling JSON data structure.
+      </p>
+    </details>
+  </header>
+<main>
+
+</main>
+<script type=module>
+import {parseEAF} from './parseEAF.js'
+window.parseEAF = parseEAF
+fetch('../data/languages/san_juan_quiahije_chatino/texts/prayer_for_the_community/20150717_Prayer_community_one.eaf')
+  .then(r => r.text())
+  .then(xml => window.eaf = new DOMParser().parseFromString(xml, 'text/xml'))
+</script>
+</body>
+</html>

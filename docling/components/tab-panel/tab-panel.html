@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>tab-panel</title>
+  <link rel="stylesheet" href="tab-panel.css">
+</head>
+
+<body>
+  <header>
+    <h1>tab-panel</h1>
+  </header>
+
+  <tab-panel id="simple" label="some tabs">
+    <div id="one">  
+      one
+    </div>
+    <div id="two">
+      two
+    </div>
+    <div id="three">
+      three
+    </div>
+  </tab-panel>
+
+  <tab-panel id="no-ids" label="greek letters">
+    <div>
+      α 
+    </div>
+    <div>
+      β 
+    </div>
+    <div>
+      γ
+    </div>
+  </tab-panel>
+
+  <script type=module>
+import {TabPanel} from './TabPanel.js'
+</script>
+</body>
+
+</html>

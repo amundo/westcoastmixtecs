@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>digram-labeler</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      height: 100vh;
+      display:grid;
+      padding: 1em;
+      grid-template-rows: auto 1fr;
+      gap: 1em;
+    }
+
+    body > header { display:flex; justify-content: space-between; align-items: baseline;padding:0;margin:0;}
+
+    body > header h1 { margin:0;}
+  </style>
+  <link rel="stylesheet" href="diagram-labeler.css">
+</head>
+<body>
+<header>
+  <h1>digram-labeler</h1>
+  <p>Load an SVG, then add labels.</p>
+</header>
+
+<diagram-labeler></diagram-labeler>
+
+<script type=module>
+import {DiagramLabeler} from './DiagramLabeler.js'
+</script>
+</body>
+</html>

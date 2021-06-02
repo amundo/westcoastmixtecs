@@ -1,0 +1,18 @@
+basic-pattern {
+  display: grid;
+  grid-template: 
+    "header header"  auto
+    "editor list"    1fr
+    "footer footer"    auto
+  / 1fr 2fr;
+  border: 1px solid gray;
+}
+
+basic-pattern > header {
+  grid-column: span 2;
+}
+
+
+basic-pattern fieldset {
+  border:none;
+}

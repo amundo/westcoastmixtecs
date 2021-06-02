@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>paradigm-builder</title>
+  <link rel="stylesheet" href="paradigm-builder-tutorial.css">
+</head>
+<body>
+<header>
+  <h1>paradigm-builder</h1>
+</header>
+<main>
+
+  <p>Let’s imagine that we want to digitize the following verb conjugation (Gair and Karunatillake 2013:<a href="https://archive.org/stream/ANewCourseInReadingPaliTextbook/A%20New%20Course%20in%20Reading%20Pali%20Textbook#page/n25/mode/2up">7</a>):</p>
+  <img src=pali-verb.png style="width:500px;">
+  <p>There are six verb forms here, and each varies across two dimensions: <code>CASE</code> and <code>NUMBER</code>. <code>NUMBER</code> has two possible values in this language, namely <code>singular</code> and <code>plural</code>. <code>PERSON</code> has three values, <code>1</code>, <code>2</code>, and <code>3</code>.</p>
+  <p>The goal of the <code>&lt;paradigm-builder></code> component is to help simplify the process of recording not just the paradigmatic elements (in this example forms of the conjugation), but the grammatical values — which I call features — associated with each form.</p>
+  <p>So we don’t just want to record a table of forms of this verb, we want to generate a word list — a lexicon, essentially — where each form is associated with a `features` object which has the right values.</p>
+  <p>To try it, type <code>PERSON</code> in the row category, and <code>1 2 3</code>  in the row values. Then, put <code>NUMBER</code> in the column category, and <code>SG PL</code> in the column values.</p>
+  <p>Then press enter.</p>
+  <h2><code>&ltparadigm-builder></code></h2>
+  <paradigm-builder></paradigm-builder> 
+  </main>
+  <script type=module>
+import {ParadigmBuilder} from './ParadigmBuilder.js'
+import {DataViewer} from '../data-viewer/DataViewer.js'
+
+Object.assign(window, {DataViewer, ParadigmBuilder})
+</script>
+</body>
+</html>

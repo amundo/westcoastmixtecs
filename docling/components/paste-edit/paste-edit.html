@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>paste</title>
+  <link rel="stylesheet" href="paste-edit.css">
+
+  <style>
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header details.sample-text {
+    flex: 1;
+    margin-left: 2em;
+    align-self: center;
+  }
+ 
+  
+  </style>
+</head>
+<body>
+<header>
+  <h1>paste</h1>
+  <details class=sample-text><summary>sample</summary>
+    <pre>
+      Daily Words of the Buddha for September 16, 2020
+      
+      Kodhaṃ jahe vippajaheyya mānaṃ,
+      saṃyojanaṃ sabbamatikkameyya.
+      Taṃ nāmarūpasmimasajjamānaṃ
+      akiñcanaṃ nānupatanti dukkhā.
+      Listen: http://download.pariyatti.org/dwob/dhammapada_17_221.mp3
+      
+      One should give up anger, renounce pride,
+      and overcome all fetters.
+      Suffering never befalls one
+      who clings not to mind and body and is detached.
+      
+      Dhammapada 17.221
+      http://tipitaka.org/romn/cscd/s0502m.mul16.xml#para221
+      The Dhammapada: The Buddha's Path of Wisdom, translated from Pāli by Acharya Buddharakkhita
+      https://store.pariyatti.org/Dhammapada-The-BP203ME-Pocket-Version_p_2513.html
+    </pre></details>
+</header>
+paste when this page is focused
+
+<paste-edit></paste-edit>
+
+  <script type=module>
+    
+    import {PasteEdit} from './PasteEdit.js'
+    
+    
+
+let select = el => el.classList.toggle('selected')
+
+
+</script>
+</body>
+</html>

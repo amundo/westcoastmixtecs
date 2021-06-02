@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DataEditor.js</title>
+  <style>
+   
+data-editor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 1em;
+  padding: 2em;
+}
+
+
+data-editor  table {
+  border-collapse: collapse;
+}
+
+
+data-editor td, th {
+  border: 1px solid;
+  padding: .25em;
+}
+
+
+data-editor th {
+  font-family: monospace;
+  background: #eee;
+}
+  </style>
+</head>
+
+<body>
+<header>
+  <h1>DataEditor.js</h1>
+</header>
+<main>
+  <data-editor>{"a":1,
+    "b": [1,2,3],"c": {"d":{"x":"y"}}}
+  </data-editor>
+</main>
+<script type=module>
+import {DataEditor} from './DataEditor.js'
+</script>
+</body>
+
+</html>

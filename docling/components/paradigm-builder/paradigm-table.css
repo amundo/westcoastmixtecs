@@ -1,0 +1,8 @@
+paradigm-table table {
+  border-collapse: collapse;
+}
+
+paradigm-table td {
+  border: 1px solid;
+  padding: 1em; 
+}

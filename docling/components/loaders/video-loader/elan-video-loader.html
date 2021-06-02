@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>elan loader demo</title>
+
+  <style>
+body {
+  display: grid;
+  height:100vh;
+  overflow-y: auto;
+  grid-template:
+    "video load-text" auto
+    "video text" 1fr
+  /  1fr    1fr;
+  gap: 1em;
+}
+
+video-loader {
+  grid-area: video;
+  width: 100%;
+  height:auto;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+}
+
+video-loader video {
+  max-width: 100%;
+}
+
+elan-loader {
+  grid-area: load-text;
+  border-bottom: 1px solid;
+}
+
+interlinear-text {
+  grid-area: text;
+  height: 100%;
+  overflow-y: auto;
+}
+
+video { 
+/* position:fixed; */
+/* top:0; */
+}
+
+interlinear-sentence {
+  display: block;
+  /* display: grid; */
+  "start end transcription" auto
+  ".     .   translation"   auto
+ / auto  auto 1fr;
+/*   grid-template: */
+}
+
+interlinear-sentence p[class$=tx] {
+  font-family: Fira Sans;
+  font-size: 1.2em;
+  grid-area: transcription;
+}
+
+interlinear-sentence p[class=id] {
+  display:none;
+}
+
+interlinear-sentence p.CMR-ft-spa {
+  font-style: italic;
+  grid-area: translation;
+}
+
+
+interlinear-sentence p.start {
+  font-style: italic;
+  grid-area: start;
+}
+
+interlinear-sentence p.end {
+  font-style: italic;
+  grid-area: end;
+}
+
+
+interlinear-sentence.current-sentence {
+  background: lemonchiffon;
+}
+
+/* Inline #1 | http://localhost/~pat/book/js/elan-video-loader.html */
+
+
+
+  </style>
+</head>
+<body>
+  <header>
+
+  </header>
+  <video-loader></video-loader>
+  <elan-loader></elan-loader>
+  <interlinear-text></interlinear-text>
+
+ <script type=module>
+import {VideoLoader} from './VideoLoader.js'
+import {ELANLoader} from '../elan-loader/ELANLoader.js'
+import {InterlinearText} from '../corpus/interlinear-text/InterlinearText.js'
+
+// loaders/
+
+let mapping = {
+  'transcription': 'CHM-tx',
+  'spanish': 'CHM-ft-spa',
+  'english': 'CHM-ft-eng',
+  "translation": 'CHM-ft-spa'
+} 
+
+addEventListener('play-sentence', playSentenceEvent => {
+  let media = document.querySelector('video-loader video')
+  let {start,end} = playSentenceEvent.detail
+  media.currentTime = start
+  media.play()
+  setTimeout(() => { media.pause() } , (end + .5 - start) * 1000)
+})
+
+document.querySelector('video-loader video').ontimeupdate = e => {
+  let sentences = Array.from(document.querySelectorAll('interlinear-sentence'))
+  if(sentences
+    .some(interlinearSentence => interlinearSentence.sentence.start < e.target.currentTime &&
+      interlinearSentence.sentence.end > e.target.currentTime
+    )){
+      let currentSentence = sentences
+        .find(interlinearSentence => interlinearSentence.sentence.start < e.target.currentTime &&
+          interlinearSentence.sentence.end > e.target.currentTime
+        )
+
+      currentSentence.classList.add('current-sentence')
+
+      currentSentence.scrollIntoView({
+        behavior: "smooth", 
+        block: "center", 
+        inline: "nearest"
+      })
+    }
+}
+
+
+addEventListener('elan-loaded', elanLoadedEvent => {
+  let {metadata, sentences} = elanLoadedEvent.detail
+  console.log(metadata, sentences)
+
+  console.log(elanLoadedEvent)
+  // sentences.forEach(sentence => {
+  //   Object.entries(mapping).forEach(([role,fieldName]) => sentence[role] = fieldName)
+  // })
+
+  // let text = {sentences, metadata: {title: "A text"}}
+  let interlinearText = document.querySelector('interlinear-text')
+  interlinearText.text = {metadata, sentences} 
+  interlinearText.render()
+  window.interlinearText = interlinearText
+})
+
+Object.assign(window, {VideoLoader, ELANLoader, InterlinearText, mapping })
+
+</script>
+</body>
+</html>

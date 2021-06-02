@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>syllable-counter-tutorial</title>
+</head>
+<body>
+<header><h1>syllable-counter-tutorial</h1></header>
+<main>
+
+</main>
+suppose:
+
+<pre>
+Yadā have pātubhavanti dhammā
+Ātāpino jhāyato brāhmaṇassa,
+Athassa kaṅkhā vapayanti sabbā
+Yato pajānāti sahetudhammaṃ.
+
+Idha socati pecca socati;
+pāpakārī ubhayattha socati.
+So socati so vihaññati,
+disvā kammakiliṭṭhamattano.
+</pre>
+
+<p>And I want a table of syllables, word.</p>
+
+<ol>
+<li>Tokenize.</li>
+<li>words.map(countSyllables1)</li>
+<li>Count vowels.</li>
+</ol>
+
+<table><thead><tr><th>count</th>
+  <th>tokens</th></tr></thead><tbody><tr><td>11</td><td>Yadā have pātubhavanti dhammā</td></tr><tr><td>11</td><td>Ātāpino jhāyato brāhmaṇassa </td></tr><tr><td>11</td><td>Athassa kaṅkhā vapayanti sabbā</td></tr><tr><td>11</td><td>Yato pajānāti sahetudhammaṃ </td></tr><tr><td>0</td><td></td></tr><tr><td>10</td><td>Idha socati pecca socati </td></tr><tr><td>11</td><td>pāpakārī ubhayattha socati </td></tr><tr><td>9</td><td>So socati so vihaññati </td></tr><tr><td>10</td><td>disvā kammakiliṭṭhamattano </td></tr></tbody></table>
+
+<script type=module>
+import {
+  tokenize,
+  scanLines,
+  countSyllables1
+} from './count-syllables.js'
+
+
+let text = document.querySelector('pre').textContent.trim()
+
+Object.assign(window, 
+{...sc},
+{
+  text,
+  tokenize,
+  scanLines,
+  countSyllables1,
+  SyllableCounter
+})
+</script>
+
+
+</script>
+</body>
+</html>

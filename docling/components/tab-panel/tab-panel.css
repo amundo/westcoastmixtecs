@@ -1,0 +1,23 @@
+tab-panel .tab-hidden {
+  display: none;
+}
+tab-panel nav {
+  border-bottom: 1px solid;
+  margin-bottom: 1em;
+}
+tab-panel nav button {
+  background:white;
+  border:none;  
+  margin: 0 .2em;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top:1px solid transparent;
+  border-right:1px solid transparent;
+  border-left:1px solid transparent;
+}
+
+tab-panel nav button[aria-selected=true] {
+  border-top:1px solid;
+  border-right:1px solid;
+  border-left:1px solid;
+}

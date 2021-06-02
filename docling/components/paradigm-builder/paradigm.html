@@ -1,0 +1,143 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Paradigms</title>
+    <link rel="stylesheet" href="paradigm-table.css">
+  </head>
+  <body>
+  <header><h1>Paradigms</h1></header>
+  <main>
+  
+  </main>
+
+<script type=module>
+import {ParadigmTable} from './ParadigmTable.js'
+
+let pali = {
+  "language": {
+    "name": "Pali"
+  },  
+  "grammar": {
+    "metadata": {},
+    "categories": [
+      {
+        "name": "gender",
+        "values": [
+          "masculine",
+          "neuter"
+        ]
+      },
+      {
+        "name": "number",
+        "values": [
+          "singular",
+          "plural"
+        ]
+      },
+      {
+        "name": "case",
+        "values": [
+          "nominative",
+          "vocative",
+          "accusative",
+          "instrumental",
+          "ablative",
+          "dative",
+          "genitive",
+          "locative"
+        ]
+      }
+    ],
+    "lexicon": {
+      "metadata": {},
+      "words": [
+        {
+          "form": "loka",
+          "gloss": "world"
+        },
+        {
+          "form": "yāna",
+          "gloss": "carriage"
+        }
+      ]
+    }
+  }
+}
+
+
+let pt = new ParadigmTable()
+
+let [
+  gender,
+  number,
+  kase
+] = pali.grammar.categories
+
+Object.assign(window, {gender,kase,number})
+
+pt.categories = [pali.grammar.categories[1],pali.grammar.categories[2]]
+
+
+window.pt = pt
+pt.render()
+
+document.body.append(pt)
+window.pali = pali
+
+// let personNumberTense = [
+//   {
+//     "name": "person",
+//     "values": ["first", "second", "third"]
+//   },
+//   {
+//     "name": "number",
+//     "values": ["singular",  "plural"]
+//   },
+//   {
+//     "name": "tense",
+//     "values": ["past", "present", "future"]
+//   }
+// ]
+
+// let personNumberTenseTable = new ParadigmTable()
+// personNumberTenseTable.data = personNumberTense
+
+
+
+// let phonetics = [
+//   [
+//     "bilabial",
+//     "dental",
+//     "velar"
+//   ],
+//   [
+//     "stop",
+//     "fricative"
+//   ],
+//   [
+//     "voiced",
+//     "unvoiced"
+//   ]
+// ]
+
+// let phoneticsTable = new ParadigmTable()
+// phoneticsTable.data = phonetics
+
+
+
+
+// let conjugation = [ 
+//   ['ar','er','ir'],
+//   [ 'first', 'second', 'third' ],
+//   [ 'singular', 'plural' ],
+//   [ 'past', 'present', 'future' ]
+// ]
+
+// let conjugationTable = new ParadigmTable()
+// conjugationTable.data = conjugation
+
+// document.body.append(phoneticsTable, personNumberTenseTable)
+  </script>
+  </body>
+  </html>

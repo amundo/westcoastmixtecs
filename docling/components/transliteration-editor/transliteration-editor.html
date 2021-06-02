@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>transliteration editor</title>
+  <link rel="stylesheet" href="../tab-panel/tab-panel.css">
+
+  <link rel="stylesheet" href="transliteration-editor.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      height: 100vh;
+      display: grid;
+      padding:0;
+      margin:0;
+      grid-template-rows: auto 1fr;
+    }
+
+    body header h1 {
+      margin:0;
+    }
+
+    body tab-panel {
+      display: grid;
+      grid-template-rows: auto 1fr;
+    }
+
+    transliteration-editor {
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>transliteration editor</h1>
+  </header>
+
+  <tab-panel id=transliteration-editors labels="Pali Esperanto">
+    <transliteration-editor 
+      id=pali-transliteration-editor 
+      language-src="/book/data/languages/pali/pali-language.json" 
+      from="velthuis" 
+      to="ipa">
+    </transliteration-editor>
+    <transliteration-editor id=esperanto-transliteration-editor language-src="/book/data/languages/esperanto/esperanto-language.json" from="x" to="eo">
+    </transliteration-editor>
+  </tab-panel>
+
+  <script type=module src=../tab-panel/TabPanel.js></script>
+
+  <script type=module src=TransliterationEditor.js></script>
+  <script>
+    window.te = document.querySelector('transliteration-editor')
+  </script>
+</body>
+
+</html>

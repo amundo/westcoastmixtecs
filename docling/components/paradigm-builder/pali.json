@@ -1,0 +1,53 @@
+{
+  "language": {
+    "name": "Pali"
+  },  
+  "grammar": {
+    "metadata": {},
+    "categories": [
+      {
+        "name": "gender",
+        "domain": "nominal",
+        "values": [
+          "masculine",
+          "neuter"
+        ]
+      },
+      {
+        "name": "number",
+        "domain": "nominal",
+        "values": [
+          "singular",
+          "plural"
+        ]
+      },
+      {
+        "name": "case",
+        "domain": "nominal",
+        "values": [
+          "nominative",
+          "vocative",
+          "accusative",
+          "instrumental",
+          "ablative",
+          "dative",
+          "genitive",
+          "locative"
+        ]
+      }
+    ],
+    "lexicon": {
+      "metadata": {},
+      "words": [
+        {
+          "form": "loka",
+          "gloss": "world"
+        },
+        {
+          "form": "yāna",
+          "gloss": "carriage"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,102 @@
+
+
+prompt-record-translate {
+  --to-record-text: "hold to record";
+  --recording-text: "recording";
+  display: block;
+  padding:1em;
+}
+
+prompt-record-translate .help-details {
+  margin-bottom: 2em;
+}
+
+prompt-record-translate details.help-details div {
+  margin: 1em;
+  display: block;
+  background: #f6f6f6;
+  padding:1em;
+}
+
+prompt-record-translate .prompt {
+  display:grid;
+  grid-template:
+    "record-button prompt" auto
+    "play-button   form  " auto
+    "audio         audio " auto
+  /  1fr    8fr    auto;
+  gap: 1em;
+  margin: 1em;
+}
+
+prompt-record-translate .prompt button.record-form-button {
+  grid-row: span 2;
+  grid-area:record-button;
+  align-self:center;
+  justify-self:center;
+  background:red;
+  border-radius: 50%;
+  border:none;
+  width:2em;
+  height:2em;
+  color:transparent;
+}
+
+prompt-record-translate .prompt span.prompt-gloss {
+  grid-area: prompt;
+}
+
+prompt-record-translate .prompt input.form {
+  grid-area: form;
+}
+
+prompt-record-translate .prompt audio {
+  grid-area: audio;
+}
+
+prompt-record-translate .prompt button.record-form-button.disabled {
+  background:transparent;
+}
+
+prompt-record-translate button.play-form-button {
+  grid-area: play-button;
+}
+
+prompt-record-translate .prompt button.record-form-button:after {
+  content: var(--to-record-text);
+  height: 1em;
+  text-transform: uppercase;
+  display:inline-block;
+  white-space: nowrap;
+  font-size: x-small;
+  color: transparent;
+  transform: translate(-100%, -100%);
+}
+
+prompt-record-translate .prompt .record-form-button:not(.disabled):hover:after {
+  color:black;
+}
+
+prompt-record-translate .prompt .record-form-button:hover {
+  cursor: pointer;
+}
+
+prompt-record-translate .prompt .record-form-button:active {
+  animation: pulse 300ms ease-out;
+  animation-iteration-count: infinite; 
+  animation-direction: alternate;
+}
+
+prompt-record-translate .prompt .record-form-button:active:after {
+  color: transparent;
+}
+
+
+prompt-record-translate a:hover {
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0%   {  opacity: 1; border-radius: 50%; }
+  100% {  opacity: .85; border-radius: 25%; }
+}

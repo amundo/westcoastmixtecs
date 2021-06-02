@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>export-html</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<data-element></data-element>
+
+<export-json from-selector="data-element" json-file-name=hmm.json></export-json>
+
+<script type=module src=ExportJSON.js></script>
+
+<script type=module>
+
+
+
+customElements.define('data-element', class  extends HTMLElement {
+  constructor(){
+    super()
+    this.data = { a : 10 }
+    this.innerHTML = 'data…'
+  }
+})
+
+  document.querySelector('h1').data = {a : 1}
+</script>
+</body>
+</html>

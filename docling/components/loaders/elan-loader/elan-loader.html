@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>elan loader demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>elan loader demo</h1>
+  
+  <elan-loader></elan-loader>
+
+  <interlinear-text></interlinear-text>
+
+ <script type=module>
+import {ELANLoader} from './ELANLoader.js'
+import {InterlinearText} from '../interlinear-text/InterlinearText.js'
+
+addEventListener('elan-loaded', elanLoadedEvent => {
+  let sentences = elanLoadedEvent.detail
+  
+  sentences.forEach(sentence => {
+    sentence.transcription = sentence['CHM-tx']
+    sentence.translation = sentence['CHM-ft-spa']
+  })
+
+  let text = {sentences, metadata: {title: "A text"}}
+  document.querySelector('interlinear-text').text = text
+  document.querySelector('interlinear-text').render()
+})
+</script>
+</body>
+</html>

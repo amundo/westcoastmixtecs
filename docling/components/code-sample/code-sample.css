@@ -1,0 +1,36 @@
+code-sample {
+  counter-reset: code-line 0;
+  background: gainsboro;
+}
+
+code-sample pre { 
+  padding:0;
+  margin:0;
+  background: #ececec;
+}
+
+code-sample .code-line {
+  counter-increment: code-line;
+  display: grid;
+  grid-template-columns: 2em 1fr;
+}
+
+code-sample .code-line:before {
+  color: #333;
+  width: minmax(auto,2em) 1fr;
+  text-align: right;
+  margin-right: 1em;
+  content: counter(code-line);
+}
+
+
+code-sample pre {
+  color: black;
+  font-family: Fira Mono;
+}
+
+
+code-sample pre .code-line {
+    background: white;
+}
+

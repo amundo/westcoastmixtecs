@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeSample.js</title>
+  <link href=code-sample.css rel=stylesheet>
+
+</head>
+<body>
+<header><h1>CodeSample.js</h1></header>
+
+<p>
+  One line
+</p>
+
+<code-sample>let a = 1</code-sample>
+
+<p>Two lines</p>
+
+<code-sample>
+let a = 1
+let b = 2
+</code-sample>
+
+<p>CodeSample.js rendering itself:</p>
+
+<code-sample>
+  let toLineSpans = code => {
+    code = code
+      .replace(/^\n+/g, '') // remove blank leading newlines, but not spaces on the first line
+      .trimEnd() // remove trailing whitespace
+  
+    let lines = code
+      .split('\n')
+    
+    lines[0] = lines[0].trim()
+    
+    lines = lines
+      .slice(lines.findIndex(line => line.trim().length > 0))
+    return lines.map((line,i) => 
+      `<span class=code-line data-line-number="${i+1}">${line}</span>`
+    )
+      .join('')
+  }
+  
+  export class CodeSample extends HTMLElement {
+    constructor(){
+      super()
+      this.code = this.textContent
+      console.log(JSON.stringify(this.code))
+    }
+  
+    connectedCallback(){
+      this.render()
+    }
+  
+    render(){
+      this.innerHTML = ``
+      let codeLinesWithSpansHTML = toLineSpans(this.code)
+      let pre = document.createElement('pre')
+      let code = document.createElement('code')
+      pre.append(code)
+      code.innerHTML = codeLinesWithSpansHTML
+      this.append(pre)    
+    }
+  
+    listen(){
+  
+    }
+  }
+  
+  customElements.define('code-sample', CodeSample)
+</code-sample>
+
+<p><code>CodeSample.js</code> fetching and rendering itself:</p>
+
+<code-sample src=CodeSample.js>
+</code-sample>  
+
+<script type=module>
+import {CodeSample} from './CodeSample.js'
+</script>
+</body>
+</html>

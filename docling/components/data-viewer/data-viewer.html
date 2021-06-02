@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>data-viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>data-viewer</h1></header>
+<main>
+
+<data-viewer>
+  {"a": 1, "b": 2}
+  </data-viewer>
+
+<data-viewer>
+[{"a": 1, "b": 2}, {"a": 10, "b": 20}]
+</data-viewer>
+</main>
+
+<script type=module>
+import {DataViewer} from './DataViewer.js'
+
+let samples = [
+  1,
+  "a",
+  {"a": 1, "b": 2},
+  [{"a": 1, "b": 2}, {"a": 10, "b": 20}],
+  {"a": 1, "b": 2, "array": [{"x": 1,"y": 2, "zebra": {"stripes": "black"}}]},
+  {
+  "year": 1958,
+  "make": "Plymouth",
+  "model": "Belvedere",
+  "features": [
+    {
+      "feature": "4 door"
+    },
+    {
+      "feature": "radio"
+    },
+    {
+      "feature": "heater"
+    },
+    {
+      "feature": "automatic transmission"
+    },
+    {
+      "feature": "31000 miles"
+    },
+    {
+      "feature": "like new"
+    }
+  ]
+},
+
+{
+  "year": 1958,
+  "make": "Plymouth",
+  "model": "Belvedere",
+  "features": [
+    "4 door",
+    "radio",
+    "heater",
+    "automatic transmission",
+    "31000 miles",
+    "like new"
+  ]
+}
+
+]
+
+samples.forEach(sample => {
+  let dataViewer = new DataViewer()
+  dataViewer.data = sample
+  document.body.append(dataViewer)
+  dataViewer.render()
+})
+
+window.DataViewer = DataViewer
+</script>
+</body>
+</html>
