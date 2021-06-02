@@ -1,0 +1,861 @@
+{
+  "sentences": [
+    {
+      "transcription": "Sa'a-un-ña ma̠ní sana̠'a-un ndáa nu̠ú u̠'vi̠",
+      "translation": "Please point to the exact spot where it hurts.",
+      "words": [
+        {
+          "form": "sa'a-un-ña",
+          "gloss": "do-2S-3S"
+        },
+        {
+          "form": "ma̠ní"
+        },
+        {
+          "form": "sana̠'a-un"
+        },
+        {
+          "form": "ndáa"
+        },
+        {
+          "form": "nu̠ú",
+          "gloss": "where"
+        },
+        {
+          "form": "u̠'vi̠",
+          "gloss": "to.hurt"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Yó'o kú'vi̠-i.",
+      "translation": "Here.",
+      "words": [
+        {
+          "form": "yó'o",
+          "gloss": "here"
+        },
+        {
+          "form": "kú'vi̠-i",
+          "gloss": "to.hurt-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Na̠sa u̠'vi̠-ña, ká'án-un?",
+      "translation": "What does the pain feel like?",
+      "words": [
+        {
+          "form": "na̠sa",
+          "gloss": "how"
+        },
+        {
+          "form": "u̠'vi̠-ña",
+          "gloss": "painful-3S"
+        },
+        {
+          "form": "ká'án-un"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ndíka-yu ndúni̠'i.",
+      "translation": "It's like pressure on my chest.",
+      "words": [
+        {
+          "form": "ndíka-yu",
+          "gloss": "chest-1S.POSS"
+        },
+        {
+          "form": "ndúni̠'i"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ndáa ke sa'a-un tá ki̠xaá kú'vi̠-ña?",
+      "translation": "What were you doing when the pain started?",
+      "words": [
+        {
+          "form": "ndáa"
+        },
+        {
+          "form": "ke"
+        },
+        {
+          "form": "sa'a-un"
+        },
+        {
+          "form": "tá"
+        },
+        {
+          "form": "ki̠xaá"
+        },
+        {
+          "form": "kú'vi̠-ña"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Téle va xi̠ndie'é-i",
+      "translation": "Watching TV.",
+      "words": [
+        {
+          "form": "téle",
+          "gloss": "television"
+        },
+        {
+          "form": "va",
+          "gloss": "just"
+        },
+        {
+          "form": "xi̠ndie'é-i",
+          "gloss": "PAST\\watch-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Na̠sa óra kú'vi̠-un?",
+      "translation": "How long have you had the pain?",
+      "words": [
+        {
+          "form": "na̠sa",
+          "gloss": "how"
+        },
+        {
+          "form": "óra",
+          "gloss": "hour"
+        },
+        {
+          "form": "kú'vi̠-un",
+          "gloss": "hurt-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "U̠ni̠ óra",
+      "translation": "For about three hours.",
+      "words": [
+        {
+          "form": "u̠ni̠",
+          "gloss": "three"
+        },
+        {
+          "form": "óra",
+          "gloss": "hour"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Á u̠'vi̠ ndaki'in-un ta̠chí-un?",
+      "translation": "Is it difficult to breathe?",
+      "words": [
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "u̠'vi̠",
+          "gloss": "hurt"
+        },
+        {
+          "form": "ndaki'in-un"
+        },
+        {
+          "form": "ta̠chí-un",
+          "gloss": "breath-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Aan.",
+      "translation": "Yes.",
+      "words": [
+        {
+          "form": "aan",
+          "gloss": "yes"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Á xiku̠'vi ánima̠-un? Á ndu i'ní nií-un?",
+      "translation": "Do you have a history of heart disease or high blood pressure?",
+      "words": [
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "xiku̠'vi"
+        },
+        {
+          "form": "ánima̠-un",
+          "gloss": "heart-2S"
+        },
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "ndu"
+        },
+        {
+          "form": "i'ní",
+          "gloss": "hot"
+        },
+        {
+          "form": "nií-un",
+          "gloss": "blood-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Aan, ndú i'ní ni̠í-i.",
+      "translation": "I have high blood pressure.",
+      "words": [
+        {
+          "form": "aan",
+          "gloss": "yes"
+        },
+        {
+          "form": "ndú"
+        },
+        {
+          "form": "i'ní",
+          "gloss": "hot"
+        },
+        {
+          "form": "ni̠í-i",
+          "gloss": "blood-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ná tiaa so̠'o-i xí'in mákina ánima̠-un.",
+      "translation": "I’m going to do an electrocardiogram.",
+      "words": [
+        {
+          "form": "ná"
+        },
+        {
+          "form": "tiaa"
+        },
+        {
+          "form": "so̠'o-i",
+          "gloss": "listen-1S"
+        },
+        {
+          "form": "xí'in",
+          "gloss": "with"
+        },
+        {
+          "form": "mákina",
+          "gloss": "machine"
+        },
+        {
+          "form": "ánima̠-un",
+          "gloss": "heart-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Sa'a-un-ña ma̠ní sana̠'a-un ndáa nu̠ú u̠'vi̠",
+      "translation": "Please point to the exact spot where it hurts.",
+      "words": [
+        {
+          "form": "sa'a-un-ña",
+          "gloss": "do-2S-3S"
+        },
+        {
+          "form": "ma̠ní"
+        },
+        {
+          "form": "sana̠'a-un"
+        },
+        {
+          "form": "ndáa"
+        },
+        {
+          "form": "nu̠ú",
+          "gloss": "where"
+        },
+        {
+          "form": "u̠'vi̠",
+          "gloss": "to.hurt"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Yó'o kú'vi̠-i.",
+      "translation": "Here.",
+      "words": [
+        {
+          "form": "yó'o",
+          "gloss": "here"
+        },
+        {
+          "form": "kú'vi̠-i",
+          "gloss": "to.hurt-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Na̠sa u̠'vi̠-ña, ká'án-un?",
+      "translation": "What does the pain feel like?",
+      "words": [
+        {
+          "form": "na̠sa",
+          "gloss": "how"
+        },
+        {
+          "form": "u̠'vi̠-ña",
+          "gloss": "painful-3S"
+        },
+        {
+          "form": "ká'án-un"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ndíka-yu ndúni̠'i.",
+      "translation": "It's like pressure on my chest.",
+      "words": [
+        {
+          "form": "ndíka-yu",
+          "gloss": "chest-1S.POSS"
+        },
+        {
+          "form": "ndúni̠'i"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ndáa ke sa'a-un tá ki̠xaá kú'vi̠-ña?",
+      "translation": "What were you doing when the pain started?",
+      "words": [
+        {
+          "form": "ndáa"
+        },
+        {
+          "form": "ke"
+        },
+        {
+          "form": "sa'a-un"
+        },
+        {
+          "form": "tá"
+        },
+        {
+          "form": "ki̠xaá"
+        },
+        {
+          "form": "kú'vi̠-ña"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Téle va xi̠ndie'é-i",
+      "translation": "Watching TV.",
+      "words": [
+        {
+          "form": "téle",
+          "gloss": "television"
+        },
+        {
+          "form": "va",
+          "gloss": "just"
+        },
+        {
+          "form": "xi̠ndie'é-i",
+          "gloss": "PAST\\watch-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Na̠sa óra kú'vi̠-un?",
+      "translation": "How long have you had the pain?",
+      "words": [
+        {
+          "form": "na̠sa",
+          "gloss": "how"
+        },
+        {
+          "form": "óra",
+          "gloss": "hour"
+        },
+        {
+          "form": "kú'vi̠-un",
+          "gloss": "hurt-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "U̠ni̠ óra",
+      "translation": "For about three hours.",
+      "words": [
+        {
+          "form": "u̠ni̠",
+          "gloss": "three"
+        },
+        {
+          "form": "óra",
+          "gloss": "hour"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Á u̠'vi̠ ndaki'in-un ta̠chí-un?",
+      "translation": "Is it difficult to breathe?",
+      "words": [
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "u̠'vi̠",
+          "gloss": "hurt"
+        },
+        {
+          "form": "ndaki'in-un"
+        },
+        {
+          "form": "ta̠chí-un",
+          "gloss": "breath-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Aan.",
+      "translation": "Yes.",
+      "words": [
+        {
+          "form": "aan",
+          "gloss": "yes"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Á xiku̠'vi ánima̠-un? Á ndu i'ní nií-un?",
+      "translation": "Do you have a history of heart disease or high blood pressure?",
+      "words": [
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "xiku̠'vi"
+        },
+        {
+          "form": "ánima̠-un",
+          "gloss": "heart-2S"
+        },
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "ndu"
+        },
+        {
+          "form": "i'ní",
+          "gloss": "hot"
+        },
+        {
+          "form": "nií-un",
+          "gloss": "blood-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Aan, ndú i'ní ni̠í-i.",
+      "translation": "I have high blood pressure.",
+      "words": [
+        {
+          "form": "aan",
+          "gloss": "yes"
+        },
+        {
+          "form": "ndú"
+        },
+        {
+          "form": "i'ní",
+          "gloss": "hot"
+        },
+        {
+          "form": "ni̠í-i",
+          "gloss": "blood-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ná tiaa so̠'o-i xí'in mákina ánima̠-un.",
+      "translation": "I’m going to do an electrocardiogram.",
+      "words": [
+        {
+          "form": "ná"
+        },
+        {
+          "form": "tiaa"
+        },
+        {
+          "form": "so̠'o-i",
+          "gloss": "listen-1S"
+        },
+        {
+          "form": "xí'in",
+          "gloss": "with"
+        },
+        {
+          "form": "mákina",
+          "gloss": "machine"
+        },
+        {
+          "form": "ánima̠-un",
+          "gloss": "heart-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Sa'a-un-ña ma̠ní sana̠'a-un ndáa nu̠ú u̠'vi̠",
+      "translation": "Please point to the exact spot where it hurts.",
+      "words": [
+        {
+          "form": "sa'a-un-ña",
+          "gloss": "do-2S-3S"
+        },
+        {
+          "form": "ma̠ní"
+        },
+        {
+          "form": "sana̠'a-un"
+        },
+        {
+          "form": "ndáa"
+        },
+        {
+          "form": "nu̠ú",
+          "gloss": "where"
+        },
+        {
+          "form": "u̠'vi̠",
+          "gloss": "to.hurt"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Yó'o kú'vi̠-i.",
+      "translation": "Here.",
+      "words": [
+        {
+          "form": "yó'o",
+          "gloss": "here"
+        },
+        {
+          "form": "kú'vi̠-i",
+          "gloss": "to.hurt-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Na̠sa u̠'vi̠-ña, ká'án-un?",
+      "translation": "What does the pain feel like?",
+      "words": [
+        {
+          "form": "na̠sa",
+          "gloss": "how"
+        },
+        {
+          "form": "u̠'vi̠-ña",
+          "gloss": "painful-3S"
+        },
+        {
+          "form": "ká'án-un"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ndíka-yu ndúni̠'i.",
+      "translation": "It's like pressure on my chest.",
+      "words": [
+        {
+          "form": "ndíka-yu",
+          "gloss": "chest-1S.POSS"
+        },
+        {
+          "form": "ndúni̠'i"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ndáa ke sa'a-un tá ki̠xaá kú'vi̠-ña?",
+      "translation": "What were you doing when the pain started?",
+      "words": [
+        {
+          "form": "ndáa"
+        },
+        {
+          "form": "ke"
+        },
+        {
+          "form": "sa'a-un"
+        },
+        {
+          "form": "tá"
+        },
+        {
+          "form": "ki̠xaá"
+        },
+        {
+          "form": "kú'vi̠-ña"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Téle va xi̠ndie'é-i",
+      "translation": "Watching TV.",
+      "words": [
+        {
+          "form": "téle",
+          "gloss": "television"
+        },
+        {
+          "form": "va",
+          "gloss": "just"
+        },
+        {
+          "form": "xi̠ndie'é-i",
+          "gloss": "PAST\\watch-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Na̠sa óra kú'vi̠-un?",
+      "translation": "How long have you had the pain?",
+      "words": [
+        {
+          "form": "na̠sa",
+          "gloss": "how"
+        },
+        {
+          "form": "óra",
+          "gloss": "hour"
+        },
+        {
+          "form": "kú'vi̠-un",
+          "gloss": "hurt-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "U̠ni̠ óra",
+      "translation": "For about three hours.",
+      "words": [
+        {
+          "form": "u̠ni̠",
+          "gloss": "three"
+        },
+        {
+          "form": "óra",
+          "gloss": "hour"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Á u̠'vi̠ ndaki'in-un ta̠chí-un?",
+      "translation": "Is it difficult to breathe?",
+      "words": [
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "u̠'vi̠",
+          "gloss": "hurt"
+        },
+        {
+          "form": "ndaki'in-un"
+        },
+        {
+          "form": "ta̠chí-un",
+          "gloss": "breath-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Aan.",
+      "translation": "Yes.",
+      "words": [
+        {
+          "form": "aan",
+          "gloss": "yes"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Á xiku̠'vi ánima̠-un? Á ndu i'ní nií-un?",
+      "translation": "Do you have a history of heart disease or high blood pressure?",
+      "words": [
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "xiku̠'vi"
+        },
+        {
+          "form": "ánima̠-un",
+          "gloss": "heart-2S"
+        },
+        {
+          "form": "á",
+          "gloss": "Q"
+        },
+        {
+          "form": "ndu"
+        },
+        {
+          "form": "i'ní",
+          "gloss": "hot"
+        },
+        {
+          "form": "nií-un",
+          "gloss": "blood-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Aan, ndú i'ní ni̠í-i.",
+      "translation": "I have high blood pressure.",
+      "words": [
+        {
+          "form": "aan",
+          "gloss": "yes"
+        },
+        {
+          "form": "ndú"
+        },
+        {
+          "form": "i'ní",
+          "gloss": "hot"
+        },
+        {
+          "form": "ni̠í-i",
+          "gloss": "blood-1S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    },
+    {
+      "transcription": "Ná tiaa so̠'o-i xí'in mákina ánima̠-un.",
+      "translation": "I’m going to do an electrocardiogram.",
+      "words": [
+        {
+          "form": "ná"
+        },
+        {
+          "form": "tiaa"
+        },
+        {
+          "form": "so̠'o-i",
+          "gloss": "listen-1S"
+        },
+        {
+          "form": "xí'in",
+          "gloss": "with"
+        },
+        {
+          "form": "mákina",
+          "gloss": "machine"
+        },
+        {
+          "form": "ánima̠-un",
+          "gloss": "heart-2S"
+        }
+      ],
+      "tags": [],
+      "metadata": {}
+    }
+  ],
+  "metadata": {
+    "title": "Consultation on Chest Pain",
+    "source": "MedicalSpanish.com",
+    "speaker": [
+      "Rogelia Sanchez"
+    ],
+    "lastModified": "5/8/2018, 11:53:59 AM"
+  }
+}

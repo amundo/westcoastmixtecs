@@ -1,0 +1,53 @@
+body {
+  counter-reset: eg;
+}
+
+* {
+  font-family: 'Gentium Plus';
+}
+
+main {
+  width: calc(32em * 2)
+}
+
+.phrase {
+  margin-bottom: 2em;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.phrase .play {
+  color:transparent;
+  padding: 0 1em;
+}
+
+.phrase:hover .play {
+  color:black;
+}
+
+.phrase:hover {
+  background: #fefedd;
+  cursor:pointer;
+}
+
+.transcription, .translation {
+  flex: 1;
+  padding: 0 2em;
+}
+
+.transcription {
+  font-size: x-large;
+}
+
+.translation {
+  display:flex;
+  flex-direction:column;
+  font-size: large;
+  justify-content: center;
+}
+
+.translation {
+  font-style: italic;
+}

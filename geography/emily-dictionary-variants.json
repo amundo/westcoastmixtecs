@@ -1,0 +1,110 @@
+[
+  {
+    "town": "Ixcuinatoyac",
+    "group": "little circle"
+  },
+  {
+    "town": "Chimaltepec",
+    "group": "little circle"
+  },
+  {
+    "town": "Loma Zóyatl",
+    "group": "little circle"
+  },
+  {
+    "town": "Petlacalancingo",
+    "group": "little circle"
+  },
+  {
+    "town": "Melchor Ocampo",
+    "group": "little circle"
+  },
+  {
+    "town": "Xochapa",
+    "group": "circle"
+  },
+  {
+    "town": "Cochoapa",
+    "group": "little triangle"
+  },
+  {
+    "town": "San Juan Huexoapa",
+    "group": "little triangle"
+  },
+  {
+    "town": "Yuvinani",
+    "group": "little triangle"
+  },
+  {
+    "town": "San Rafael",
+    "group": "little triangle"
+  },
+  {
+    "town": "Yoso Tiañu'u",
+    "group": "little triangle"
+  },
+  {
+    "town": "Metlatonoc",
+    "group": "triangle"
+  },
+  {
+    "town": "Santa Cruz Yucucani",
+    "group": "little square"
+  },
+  {
+    "town": "San Jorge Rio Frijol",
+    "group": "little square"
+  },
+  {
+    "town": "Malbarisco",
+    "group": "little square"
+  },
+  {
+    "town": "Rancho Viejo",
+    "group": "little square"
+  },
+  {
+    "town": "San Jose Yoxocaño",
+    "group": "little square"
+  },
+  {
+    "town": "San Juan Piñas",
+    "group": "little square"
+  },
+  {
+    "town": "Coicoyan de las Flores",
+    "group": "little square"
+  },
+  {
+    "town": "El Jicaral",
+    "group": "square"
+  },
+  {
+    "town": "Zacatipa",
+    "group": "little star"
+  },
+  {
+    "town": "Tototepec",
+    "group": "little star"
+  },
+  {
+    "town": "Cahuatache",
+    "group": "little star"
+  },
+  {
+    "town": "Atlamajalcingo del Monte",
+    "group": "little star"
+  },
+  {
+    "town": "Potoichan",
+    "group": "little star"
+  },
+  {
+    "town": "San Isidro Labrador",
+    "group": "little star"
+  },
+  {
+    "town": "Alacatlatzala",
+    "group": "star"
+  }
+]

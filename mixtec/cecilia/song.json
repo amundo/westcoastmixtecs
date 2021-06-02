@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "unknown",
+    "type": "text",
+    "description": "a song by Ceclia Palacios. https://www.youtube.com/watch?v=FxUUpo6E0CI",
+    "media": "http://glyph.local/~pat/wcm/corpus/cecilia/song.mp3"
+  },
+  "phrases": [
+    {
+      "transcription": "saludo va para todo mi gente de El Jicaral",
+      "endTime": 6.3855,
+      "startTime": 0,
+      "words": [],
+      "translations": {},
+      "id": 0
+    },
+    {
+      "transcription": "y también los de [?] Juana",
+      "endTime": 13.184476,
+      "startTime": 6.3855,
+      "words": [],
+      "translations": {},
+      "id": 1
+    },
+    {
+      "transcription": "Santos [?] que se encuentran",
+      "endTime": 13.87183,
+      "startTime": 13.184476,
+      "words": [],
+      "translations": {},
+      "id": 2
+    },
+    {
+      "transcription": "en valle San Quentín Baja California",
+      "endTime": 17.40362,
+      "startTime": 13.87183,
+      "words": [],
+      "translations": {},
+      "id": 3
+    },
+    {
+      "transcription": "nixi’i kuxin",
+      "endTime": 50.595828,
+      "startTime": 17.40362,
+      "words": [],
+      "translations": {},
+      "id": 4
+    },
+    {
+      "transcription": "kuvi ni ni xi’in ko xi’in",
+      "endTime": 61.363723,
+      "startTime": 50.595828,
+      "words": [],
+      "translations": {},
+      "id": 5
+    },
+    {
+      "transcription": "ka kivi xi’in kai xiun",
+      "endTime": 72.665681,
+      "startTime": 61.363723,
+      "words": [],
+      "translations": {},
+      "id": 6
+    },
+    {
+      "transcription": "ichi kanda ki’in yuyo",
+      "endTime": 94.062437,
+      "startTime": 72.665681,
+      "words": [],
+      "translations": {},
+      "id": 7
+    },
+    {
+      "transcription": "konti yo xa’in",
+      "endTime": 102.386791,
+      "startTime": 94.062437,
+      "words": [],
+      "translations": {},
+      "id": 8
+    },
+    {
+      "transcription": "ndavi ni kuyo xika-i",
+      "endTime": 127.824458,
+      "startTime": 102.386791,
+      "words": [],
+      "translations": {},
+      "id": 9
+    },
+    {
+      "transcription": "ya yo xitaun",
+      "endTime": 135.637979,
+      "startTime": 127.824458,
+      "words": [],
+      "translations": {},
+      "id": 10
+    },
+    {
+      "transcription": "kichi ka-i koxa si ",
+      "endTime": 146.980916,
+      "startTime": 135.637979,
+      "words": [],
+      "translations": {},
+      "id": 11
+    },
+    {
+      "transcription": "ta nixa kii kuvi yu",
+      "endTime": 154.608666,
+      "startTime": 146.980916,
+      "words": [],
+      "translations": {},
+      "id": 12
+    },
+    {
+      "transcription": "kichi ka ko xaxi yo ",
+      "endTime": 169.375791,
+      "startTime": 154.608666,
+      "words": [],
+      "translations": {},
+      "id": 13
+    },
+    {
+      "transcription": "ta naxa’a tuvi yu",
+      "endTime": 178.257416,
+      "startTime": 169.375791,
+      "words": [],
+      "translations": {},
+      "id": 14
+    },
+    {
+      "transcription": "i köka yu ka yuxiun",
+      "endTime": 199.130583,
+      "startTime": 178.257416,
+      "words": [],
+      "translations": {},
+      "id": 15
+    },
+    {
+      "transcription": "ta na i’i vixi in ?in",
+      "endTime": 219.94602,
+      "startTime": 199.130583,
+      "words": [],
+      "translations": {},
+      "id": 16
+    },
+    {
+      "transcription": "saavi taka ?",
+      "endTime": 237.756562,
+      "startTime": 219.94602,
+      "words": [],
+      "translations": {},
+      "id": 17
+    },
+    {
+      "transcription": "savi kua’a ndu",
+      "startTime": 237.756562,
+      "endTime": 248.054604,
+      "words": [],
+      "translations": {},
+      "id": 18
+    }
+  ]
+}
