@@ -1,0 +1,28 @@
+query-editor {
+  display: block;
+  background-color: var(--gray-8);
+  padding: 1em;
+  border-radius: 5px;
+
+}
+
+query-editor form.query-editor-form {
+  display: grid;
+}
+
+query-editor fieldset {
+  border:none;
+}
+
+query-editor fieldset.query-editor-terms {
+  display: grid;
+  gap: .5em;
+}
+
+query-editor button[type=submit] {
+  justify-self: end;
+
+}
+
+query-editor fieldset.query-editor-terms input {
+}

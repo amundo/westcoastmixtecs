@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sentence-list component documentation</title>
+  <link rel="stylesheet" href="../../css/documentation.css">
+  <link rel="stylesheet" href="sentence-list.css">
+</head>
+<body>
+<header>
+  <h1>&lt;sentence-list> component documentation</h1>
+  <p>A <code>&lt;sentence-list></code> is a container view for rendering a sequence of <code>&lt;sentence-view></code>s or <code>&lt;sentence-editors></code>s. 
+  </header>
+
+<h2>HTML</h2>
+<section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <pre>
+    &lt;sentence-list>&lt;/sentence-list>
+  </pre>
+</section>
+<section class=example>
+  <header>
+    <h3>Example</h3>
+  </header> 
+  
+    <sentence-list></sentence-list>
+
+    <details open>
+      <summary>Source</summary>
+<script class=visible-script type=module>
+import {SentenceList} from './SentenceList.js'
+
+fetch('../../../data/languages/hiligaynon/corpus/education_in_jaro/education_in_jaro_sample-text.json')
+  .then(response => response.json())
+  .then(text => {
+    let sentenceList = document.querySelector('sentence-list')
+    sentenceList.data = text.sentences
+  })
+  // let text = 
+</script>
+    </details>
+</section>
+<h2>Javascript</h2>
+<section class=properties>
+  <header>
+    <h3>Properties</h3>
+    <p>These may be set directly on an instance of the class.</p>
+  </header>
+</section>
+
+<section class=attributes>
+  <header>
+    <h3>Attributes</h3>
+  </header>
+</section>
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+</section>
+
+<script type=module>
+import {SentenceList} from './SentenceList.js'
+Object.assign(window, {SentenceList})
+</script>
+</body>
+</html>

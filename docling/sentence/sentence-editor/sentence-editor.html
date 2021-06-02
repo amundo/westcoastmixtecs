@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sentence-editor component documentation</title>
+  <link rel="stylesheet" href="../../css/documentation.css">
+  <link rel="stylesheet" href="sentence-editor.css">
+  <style>
+  </style>
+</head>
+<body>
+<header>
+  <h1>&lt;sentence-editor> component documentation</h1>
+  <p>Component for editing <code>Sentence</code> objects.</p>
+</header>
+
+<p>Manages interlinearization of a transcription by providing a dynamically-updated list of &lt;word-editor>s for glossing tokens.</p>
+<p>Tokenization can be customized by referencing a <code>Language</code>.</p>
+
+ <section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <h4>Basic usage</h4>
+  <pre>
+    &lt;sentence-editor>
+    &lt;/sentence-editor>
+  </pre>
+  <sentence-editor></sentence-editor>
+
+  <h4>Editing a literary sentence</h4>
+  <p>Scenario: working through a “literary” text with many external resources available — e.g., this Pali sentence (similar for, say, Ancient Greek, Latin, Tamil, Tibetan, Coptic…):</p>
+  <pre>
+    &lt;sentence-editor>
+    &lt;/sentence-editor>
+  </pre>
+  <sentence-editor id=pali-example></sentence-editor>
+
+  <p>Working in a Pali study group</p>
+<p>Working through a Pali text is mostly a matter of:</p>
+<ol type="1">
+<li>Identifying the morphological forms of words</li>
+<li>Classifying them by grammatical category</li>
+<li>Trying to build up a translation from those analyzed words</li>
+</ol>
+<p>We use a Google Doc (it allows collaboration). The actual workflow goes:</p>
+<ol type="1">
+<li>Paste in the sentence from a text.</li>
+<li>Copy and paste the whole sentence again (painful)</li>
+<li>Tokenize the copy onto its own line (painful)</li>
+<li>Start glossing each word (irritating switching )</li>
+<li>Put together a translation for the whole sentence</li>
+</ol>
+<p>What could help?</p>
+<ol type="1">
+<li>paste the sentence</li>
+<li>tokenize</li>
+<li>renderWords()</li>
+<li>onsubmit</li>
+</ol>
+
+  <h4>Editing an existing sentence</h4>
+  <pre>
+    &lt;sentence-editor 
+      transcription="mi casa su casa"
+      translation="My home is your home.">
+    &lt;/sentence-editor>
+  </pre>
+</section>
+<section class=example>
+  <header>
+    <h3>Example</h3>
+  </header>
+  <sentence-editor 
+    transcription="mi casa su casa"
+    translation="My home is your home.">
+  </sentence-editor>
+</section>
+<h2>Javascript</h2>
+<section class=properties>
+  <header>
+    <h3>Properties</h3>
+    <h4>get data()</h4>
+    <p>Returns the component’s <code>sentence</code> data as an object.</p>
+    <h4>set data(sentence)</h4>
+    <p>Set the sentence’s data.</p>
+  </header>
+</section>
+
+<section class=attributes>
+  <header>
+    <h3>Attributes</h3>
+  </header>
+</section>
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+</section>
+
+<script type=module>
+import {SentenceEditor} from './SentenceEditor.js'
+
+addEventListener('sentence-editor-submit', sentenceEditorSubmitEvent => {
+  let transcription = sentenceEditorSubmitEvent.target.data.transcription 
+})
+
+let sentenceEditor = document.querySelector('sentence-editor')
+
+Object.assign(window, {SentenceEditor, sentenceEditor})
+</script>
+
+</body>
+</html>

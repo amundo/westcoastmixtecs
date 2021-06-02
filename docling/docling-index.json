@@ -1,0 +1,1534 @@
+atch{
+  "path": "/Users/pat/Sites/book/docling/",
+  "name": "docling",
+  "children": [
+    {
+      "path": "./word",
+      "name": "word",
+      "children": [
+        {
+          "path": "./word/word-view",
+          "name": "word-view",
+          "children": [
+            {
+              "path": "./word/word-view/WordView.js",
+              "name": "WordView.js",
+              "size": 539,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./word/word-view/word-view.html",
+              "name": "word-view.html",
+              "size": 1374,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./word/word-view/word-view.css",
+              "name": "word-view.css",
+              "size": 62,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 1975,
+          "type": "directory"
+        },
+        {
+          "path": "./word/word-list",
+          "name": "word-list",
+          "children": [
+            {
+              "path": "./word/word-list/WordList.js",
+              "name": "WordList.js",
+              "size": 979,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./word/word-list/word-list.html",
+              "name": "word-list.html",
+              "size": 2593,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./word/word-list/word-list.css",
+              "name": "word-list.css",
+              "size": 0,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 3572,
+          "type": "directory"
+        },
+        {
+          "path": "./word/word-editor",
+          "name": "word-editor",
+          "children": [
+            {
+              "path": "./word/word-editor/WordEditor.js",
+              "name": "WordEditor.js",
+              "size": 2303,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./word/word-editor/word-editor.html",
+              "name": "word-editor.html",
+              "size": 1756,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./word/word-editor/word-editor.css",
+              "name": "word-editor.css",
+              "size": 96,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 4155,
+          "type": "directory"
+        }
+      ],
+      "size": 9702,
+      "type": "directory"
+    },
+    {
+      "path": "./text",
+      "name": "text",
+      "children": [
+        {
+          "path": "./text/text-view",
+          "name": "text-view",
+          "children": [
+            {
+              "path": "./text/text-view/TextView.js",
+              "name": "TextView.js",
+              "size": 2203,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./text/text-view/text-view.html",
+              "name": "text-view.html",
+              "size": 686,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./text/text-view/text-view.css",
+              "name": "text-view.css",
+              "size": 250,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 3139,
+          "type": "directory"
+        },
+        {
+          "path": "./text/text-editor",
+          "name": "text-editor",
+          "children": [],
+          "size": 0,
+          "type": "directory"
+        }
+      ],
+      "size": 3139,
+      "type": "directory"
+    },
+    {
+      "path": "./sentence",
+      "name": "sentence",
+      "children": [
+        {
+          "path": "./sentence/tokenize",
+          "name": "tokenize",
+          "children": [
+            {
+              "path": "./sentence/tokenize/tokenize.html",
+              "name": "tokenize.html",
+              "size": 1499,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./sentence/tokenize/sutta.txt",
+              "name": "sutta.txt",
+              "size": 7024,
+              "extension": ".txt",
+              "type": "file"
+            },
+            {
+              "path": "./sentence/tokenize/sutta.html",
+              "name": "sutta.html",
+              "size": 7377,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./sentence/tokenize/commonmark.js",
+              "name": "commonmark.js",
+              "size": 274487,
+              "extension": ".js",
+              "type": "file"
+            }
+          ],
+          "size": 290387,
+          "type": "directory"
+        },
+        {
+          "path": "./sentence/sentence-view",
+          "name": "sentence-view",
+          "children": [
+            {
+              "path": "./sentence/sentence-view/SentenceView.js",
+              "name": "SentenceView.js",
+              "size": 1260,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./sentence/sentence-view/sentence-view.html",
+              "name": "sentence-view.html",
+              "size": 615,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./sentence/sentence-view/sentence-view.css",
+              "name": "sentence-view.css",
+              "size": 433,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 2308,
+          "type": "directory"
+        },
+        {
+          "path": "./sentence/sentence-editor",
+          "name": "sentence-editor",
+          "children": [
+            {
+              "path": "./sentence/sentence-editor/SentenceEditor.js",
+              "name": "SentenceEditor.js",
+              "size": 2559,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./sentence/sentence-editor/sentence-editor.html",
+              "name": "sentence-editor.html",
+              "size": 2025,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./sentence/sentence-editor/sentence-editor.css",
+              "name": "sentence-editor.css",
+              "size": 426,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 5010,
+          "type": "directory"
+        }
+      ],
+      "size": 297705,
+      "type": "directory"
+    },
+    {
+      "path": "./metadata",
+      "name": "metadata",
+      "children": [
+        {
+          "path": "./metadata/metadata-view",
+          "name": "metadata-view",
+          "children": [
+            {
+              "path": "./metadata/metadata-view/MetadataView.js",
+              "name": "MetadataView.js",
+              "size": 951,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./metadata/metadata-view/metadata-view.html",
+              "name": "metadata-view.html",
+              "size": 553,
+              "extension": ".html",
+              "type": "file"
+            }
+          ],
+          "size": 1504,
+          "type": "directory"
+        }
+      ],
+      "size": 1504,
+      "type": "directory"
+    },
+    {
+      "path": "./lexicon",
+      "name": "lexicon",
+      "children": [
+        {
+          "path": "./lexicon/lexicon-view",
+          "name": "lexicon-view",
+          "children": [
+            {
+              "path": "./lexicon/lexicon-view/LexiconView.js",
+              "name": "LexiconView.js",
+              "size": 2746,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./lexicon/lexicon-view/lexicon-view.html",
+              "name": "lexicon-view.html",
+              "size": 729,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./lexicon/lexicon-view/lexicon-view.css",
+              "name": "lexicon-view.css",
+              "size": 182,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 3657,
+          "type": "directory"
+        },
+        {
+          "path": "./lexicon/lexicon-index.js",
+          "name": "lexicon-index.js",
+          "size": 122,
+          "extension": ".js",
+          "type": "file"
+        },
+        {
+          "path": "./lexicon/lexicon-editor",
+          "name": "lexicon-editor",
+          "children": [
+            {
+              "path": "./lexicon/lexicon-editor/LexiconEditor.js",
+              "name": "LexiconEditor.js",
+              "size": 2232,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./lexicon/lexicon-editor/lexicon-editor.html",
+              "name": "lexicon-editor.html",
+              "size": 1928,
+              "extension": ".html",
+              "type": "file"
+            }
+          ],
+          "size": 4160,
+          "type": "directory"
+        }
+      ],
+      "size": 7939,
+      "type": "directory"
+    },
+    {
+      "path": "./language",
+      "name": "language",
+      "children": [
+        {
+          "path": "./language/phonetics",
+          "name": "phonetics",
+          "children": [
+            {
+              "path": "./language/phonetics/VowelChart.js",
+              "name": "VowelChart.js",
+              "size": 2374,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./language/phonetics/unicode-character-properties",
+              "name": "unicode-character-properties",
+              "children": [
+                {
+                  "path": "./language/phonetics/unicode-character-properties/UnicodePropertyTester.js",
+                  "name": "UnicodePropertyTester.js",
+                  "size": 1262,
+                  "extension": ".js",
+                  "type": "file"
+                },
+                {
+                  "path": "./language/phonetics/unicode-character-properties/unicode-character-properties.json",
+                  "name": "unicode-character-properties.json",
+                  "size": 1471,
+                  "extension": ".json",
+                  "type": "file"
+                },
+                {
+                  "path": "./language/phonetics/unicode-character-properties/unicode-character-properties.html",
+                  "name": "unicode-character-properties.html",
+                  "size": 413,
+                  "extension": ".html",
+                  "type": "file"
+                }
+              ],
+              "size": 3146,
+              "type": "directory"
+            },
+            {
+              "path": "./language/phonetics/OrthographicInput.js",
+              "name": "OrthographicInput.js",
+              "size": 1169,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./language/phonetics/orthographic-table",
+              "name": "orthographic-table",
+              "children": [
+                {
+                  "path": "./language/phonetics/orthographic-table/OrthographicTable.js",
+                  "name": "OrthographicTable.js",
+                  "size": 551,
+                  "extension": ".js",
+                  "type": "file"
+                },
+                {
+                  "path": "./language/phonetics/orthographic-table/orthographic-input.html",
+                  "name": "orthographic-input.html",
+                  "size": 312,
+                  "extension": ".html",
+                  "type": "file"
+                }
+              ],
+              "size": 863,
+              "type": "directory"
+            },
+            {
+              "path": "./language/phonetics/IPADiacriticTable.js",
+              "name": "IPADiacriticTable.js",
+              "size": 620,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./language/phonetics/ipa-diacritic-table.html",
+              "name": "ipa-diacritic-table.html",
+              "size": 983,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./language/phonetics/InventoryEditor.js",
+              "name": "InventoryEditor.js",
+              "size": 1347,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./language/phonetics/inventory-editor.html",
+              "name": "inventory-editor.html",
+              "size": 999,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./language/phonetics/ConsonantChart.js",
+              "name": "ConsonantChart.js",
+              "size": 4156,
+              "extension": ".js",
+              "type": "file"
+            }
+          ],
+          "size": 15657,
+          "type": "directory"
+        },
+        {
+          "path": "./language/LanguageView.js",
+          "name": "LanguageView.js",
+          "size": 31,
+          "extension": ".js",
+          "type": "file"
+        },
+        {
+          "path": "./language/LanguageEditor.js",
+          "name": "LanguageEditor.js",
+          "size": 33,
+          "extension": ".js",
+          "type": "file"
+        },
+        {
+          "path": "./language/Language.js",
+          "name": "Language.js",
+          "size": 26,
+          "extension": ".js",
+          "type": "file"
+        },
+        {
+          "path": "./language/language-index.js",
+          "name": "language-index.js",
+          "size": 251,
+          "extension": ".js",
+          "type": "file"
+        }
+      ],
+      "size": 15998,
+      "type": "directory"
+    },
+    {
+      "path": "./index.js",
+      "name": "index.js",
+      "size": 355,
+      "extension": ".js",
+      "type": "file"
+    },
+    {
+      "path": "./grammar",
+      "name": "grammar",
+      "children": [
+        {
+          "path": "./grammar/grammar-index.js",
+          "name": "grammar-index.js",
+          "size": 0,
+          "extension": ".js",
+          "type": "file"
+        }
+      ],
+      "size": 0,
+      "type": "directory"
+    },
+    {
+      "path": "./docling.html",
+      "name": "docling.html",
+      "size": 501,
+      "extension": ".html",
+      "type": "file"
+    },
+    {
+      "path": "./docling-index.json",
+      "name": "docling-index.json",
+      "size": 46227,
+      "extension": ".json",
+      "type": "file"
+    },
+    {
+      "path": "./docling-generate-index.js",
+      "name": "docling-generate-index.js",
+      "size": 2575,
+      "extension": ".js",
+      "type": "file"
+    },
+    {
+      "path": "./css",
+      "name": "css",
+      "children": [
+        {
+          "path": "./css/documentation.css",
+          "name": "documentation.css",
+          "size": 232,
+          "extension": ".css",
+          "type": "file"
+        }
+      ],
+      "size": 232,
+      "type": "directory"
+    },
+    {
+      "path": "./corpus",
+      "name": "corpus",
+      "children": [
+        {
+          "path": "./corpus/corpus.css",
+          "name": "corpus.css",
+          "size": 290,
+          "extension": ".css",
+          "type": "file"
+        },
+        {
+          "path": "./corpus/corpus-view",
+          "name": "corpus-view",
+          "children": [],
+          "size": 0,
+          "type": "directory"
+        },
+        {
+          "path": "./corpus/corpus-index.js",
+          "name": "corpus-index.js",
+          "size": 516,
+          "extension": ".js",
+          "type": "file"
+        },
+        {
+          "path": "./corpus/corpus-editor",
+          "name": "corpus-editor",
+          "children": [],
+          "size": 0,
+          "type": "directory"
+        }
+      ],
+      "size": 806,
+      "type": "directory"
+    },
+    {
+      "path": "./components",
+      "name": "components",
+      "children": [
+        {
+          "path": "./components/wave-form",
+          "name": "wave-form",
+          "children": [
+            {
+              "path": "./components/wave-form/wordlist.wav",
+              "name": "wordlist.wav",
+              "size": 228028,
+              "extension": ".wav",
+              "type": "file"
+            },
+            {
+              "path": "./components/wave-form/WaveForm.js",
+              "name": "WaveForm.js",
+              "size": 1765,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/wave-form/wave-form.html",
+              "name": "wave-form.html",
+              "size": 1495,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/wave-form/wave-form.css",
+              "name": "wave-form.css",
+              "size": 159,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 231447,
+          "type": "directory"
+        },
+        {
+          "path": "./components/transliteration-editor",
+          "name": "transliteration-editor",
+          "children": [
+            {
+              "path": "./components/transliteration-editor/TransliterationEditor.js",
+              "name": "TransliterationEditor.js",
+              "size": 3227,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/transliteration-editor/transliteration-editor.html",
+              "name": "transliteration-editor.html",
+              "size": 1379,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/transliteration-editor/transliteration-editor.css",
+              "name": "transliteration-editor.css",
+              "size": 1019,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/transliteration-editor/transliterate.js",
+              "name": "transliterate.js",
+              "size": 1162,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/transliteration-editor/palipad",
+              "name": "palipad",
+              "children": [],
+              "size": 0,
+              "type": "directory"
+            },
+            {
+              "path": "./components/transliteration-editor/inplace-transliterate.html",
+              "name": "inplace-transliterate.html",
+              "size": 1196,
+              "extension": ".html",
+              "type": "file"
+            }
+          ],
+          "size": 7983,
+          "type": "directory"
+        },
+        {
+          "path": "./components/translate-prompts",
+          "name": "translate-prompts",
+          "children": [
+            {
+              "path": "./components/translate-prompts/TranslatePrompts.js",
+              "name": "TranslatePrompts.js",
+              "size": 2198,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/translate-prompts/translate-prompts.css",
+              "name": "translate-prompts.css",
+              "size": 0,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 2198,
+          "type": "directory"
+        },
+        {
+          "path": "./components/tag-list-editor",
+          "name": "tag-list-editor",
+          "children": [
+            {
+              "path": "./components/tag-list-editor/TagListEditor.js",
+              "name": "TagListEditor.js",
+              "size": 1478,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/tag-list-editor/tag-list-editor.html",
+              "name": "tag-list-editor.html",
+              "size": 394,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/tag-list-editor/tag-list-editor.css",
+              "name": "tag-list-editor.css",
+              "size": 0,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 1872,
+          "type": "directory"
+        },
+        {
+          "path": "./components/tab-panel",
+          "name": "tab-panel",
+          "children": [
+            {
+              "path": "./components/tab-panel/TabPanel.js",
+              "name": "TabPanel.js",
+              "size": 3460,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/tab-panel/tablist.js",
+              "name": "tablist.js",
+              "size": 5483,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/tab-panel/tab-panel.html",
+              "name": "tab-panel.html",
+              "size": 633,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/tab-panel/tab-panel.css",
+              "name": "tab-panel.css",
+              "size": 485,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 10061,
+          "type": "directory"
+        },
+        {
+          "path": "./components/syllable-counter",
+          "name": "syllable-counter",
+          "children": [
+            {
+              "path": "./components/syllable-counter/syllable-counter.html",
+              "name": "syllable-counter.html",
+              "size": 1506,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/syllable-counter/count-syllables.js",
+              "name": "count-syllables.js",
+              "size": 632,
+              "extension": ".js",
+              "type": "file"
+            }
+          ],
+          "size": 2138,
+          "type": "directory"
+        },
+        {
+          "path": "./components/record-media",
+          "name": "record-media",
+          "children": [
+            {
+              "path": "./components/record-media/RecordMedia.js",
+              "name": "RecordMedia.js",
+              "size": 3083,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/record-media/record-media.html",
+              "name": "record-media.html",
+              "size": 483,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/record-media/record-media.css",
+              "name": "record-media.css",
+              "size": 5,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 3571,
+          "type": "directory"
+        },
+        {
+          "path": "./components/radio-list",
+          "name": "radio-list",
+          "children": [
+            {
+              "path": "./components/radio-list/RadioOption.js",
+              "name": "RadioOption.js",
+              "size": 520,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/radio-list/RadioList.js",
+              "name": "RadioList.js",
+              "size": 1837,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/radio-list/radio-list.html",
+              "name": "radio-list.html",
+              "size": 1356,
+              "extension": ".html",
+              "type": "file"
+            }
+          ],
+          "size": 3713,
+          "type": "directory"
+        },
+        {
+          "path": "./components/prompt-record-translate",
+          "name": "prompt-record-translate",
+          "children": [
+            {
+              "path": "./components/prompt-record-translate/RecordWord.js",
+              "name": "RecordWord.js",
+              "size": 318,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/prompt-record-translate/RecordText.js",
+              "name": "RecordText.js",
+              "size": 440,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/prompt-record-translate/PromptRecordTranslate.js",
+              "name": "PromptRecordTranslate.js",
+              "size": 8344,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/prompt-record-translate/prompt-record-translate.html",
+              "name": "prompt-record-translate.html",
+              "size": 439,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/prompt-record-translate/prompt-record-translate.css",
+              "name": "prompt-record-translate.css",
+              "size": 2073,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/prompt-record-translate/audio-buffer-to-wav.js",
+              "name": "audio-buffer-to-wav.js",
+              "size": 2948,
+              "extension": ".js",
+              "type": "file"
+            }
+          ],
+          "size": 14562,
+          "type": "directory"
+        },
+        {
+          "path": "./components/paste-edit",
+          "name": "paste-edit",
+          "children": [
+            {
+              "path": "./components/paste-edit/PasteEdit.js",
+              "name": "PasteEdit.js",
+              "size": 1233,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/paste-edit/paste-edit.html",
+              "name": "paste-edit.html",
+              "size": 1436,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/paste-edit/paste-edit.css",
+              "name": "paste-edit.css",
+              "size": 249,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/paste-edit/ParsedLine.js",
+              "name": "ParsedLine.js",
+              "size": 0,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/paste-edit/ColorPalette.js",
+              "name": "ColorPalette.js",
+              "size": 1444,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/paste-edit/color-palette.css",
+              "name": "color-palette.css",
+              "size": 218,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 4580,
+          "type": "directory"
+        },
+        {
+          "path": "./components/paradigm-builder",
+          "name": "paradigm-builder",
+          "children": [
+            {
+              "path": "./components/paradigm-builder/style.css",
+              "name": "style.css",
+              "size": 0,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/ParadigmTable.js",
+              "name": "ParadigmTable.js",
+              "size": 6433,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/ParadigmBuilder.js",
+              "name": "ParadigmBuilder.js",
+              "size": 1890,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/paradigm.html",
+              "name": "paradigm.html",
+              "size": 2423,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/paradigm-table.css",
+              "name": "paradigm-table.css",
+              "size": 114,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/paradigm-builder.html",
+              "name": "paradigm-builder.html",
+              "size": 1902,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/paradigm-builder.css",
+              "name": "paradigm-builder.css",
+              "size": 423,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/paradigm-builder-tutorial.css",
+              "name": "paradigm-builder-tutorial.css",
+              "size": 554,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/pali.json",
+              "name": "pali.json",
+              "size": 899,
+              "extension": ".json",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/CrossTable.js",
+              "name": "CrossTable.js",
+              "size": 2469,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/cartesianProduct.js",
+              "name": "cartesianProduct.js",
+              "size": 179,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/paradigm-builder/build.py",
+              "name": "build.py",
+              "size": 723,
+              "extension": ".py",
+              "type": "file"
+            }
+          ],
+          "size": 18009,
+          "type": "directory"
+        },
+        {
+          "path": "./components/loaders",
+          "name": "loaders",
+          "children": [
+            {
+              "path": "./components/loaders/video-loader",
+              "name": "video-loader",
+              "children": [
+                {
+                  "path": "./components/loaders/video-loader/VideoLoader.js",
+                  "name": "VideoLoader.js",
+                  "size": 1083,
+                  "extension": ".js",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/loaders/video-loader/video-loader.html",
+                  "name": "video-loader.html",
+                  "size": 308,
+                  "extension": ".html",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/loaders/video-loader/elan-video-loader.html",
+                  "name": "elan-video-loader.html",
+                  "size": 3528,
+                  "extension": ".html",
+                  "type": "file"
+                }
+              ],
+              "size": 4919,
+              "type": "directory"
+            },
+            {
+              "path": "./components/loaders/toolbox-loader",
+              "name": "toolbox-loader",
+              "children": [
+                {
+                  "path": "./components/loaders/toolbox-loader/ToolboxLoader.js",
+                  "name": "ToolboxLoader.js",
+                  "size": 1417,
+                  "extension": ".js",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/loaders/toolbox-loader/toolbox-loader.html",
+                  "name": "toolbox-loader.html",
+                  "size": 328,
+                  "extension": ".html",
+                  "type": "file"
+                }
+              ],
+              "size": 1745,
+              "type": "directory"
+            },
+            {
+              "path": "./components/loaders/pdf-loader",
+              "name": "pdf-loader",
+              "children": [
+                {
+                  "path": "./components/loaders/pdf-loader/PDFLoader.js",
+                  "name": "PDFLoader.js",
+                  "size": 1011,
+                  "extension": ".js",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/loaders/pdf-loader/pdf-transcriber.html",
+                  "name": "pdf-transcriber.html",
+                  "size": 577,
+                  "extension": ".html",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/loaders/pdf-loader/pdf-loader.html",
+                  "name": "pdf-loader.html",
+                  "size": 439,
+                  "extension": ".html",
+                  "type": "file"
+                }
+              ],
+              "size": 2027,
+              "type": "directory"
+            },
+            {
+              "path": "./components/loaders/json-loader",
+              "name": "json-loader",
+              "children": [
+                {
+                  "path": "./components/loaders/json-loader/JSONLoader.js",
+                  "name": "JSONLoader.js",
+                  "size": 824,
+                  "extension": ".js",
+                  "type": "file"
+                }
+              ],
+              "size": 824,
+              "type": "directory"
+            },
+            {
+              "path": "./components/loaders/elan-loader",
+              "name": "elan-loader",
+              "children": [
+                {
+                  "path": "./components/loaders/elan-loader/parseEAF.js",
+                  "name": "parseEAF.js",
+                  "size": 3539,
+                  "extension": ".js",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/loaders/elan-loader/parseEAF.html",
+                  "name": "parseEAF.html",
+                  "size": 765,
+                  "extension": ".html",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/loaders/elan-loader/ELANLoader.js",
+                  "name": "ELANLoader.js",
+                  "size": 951,
+                  "extension": ".js",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/loaders/elan-loader/elan-loader.html",
+                  "name": "elan-loader.html",
+                  "size": 826,
+                  "extension": ".html",
+                  "type": "file"
+                }
+              ],
+              "size": 6081,
+              "type": "directory"
+            }
+          ],
+          "size": 15596,
+          "type": "directory"
+        },
+        {
+          "path": "./components/list-editor",
+          "name": "list-editor",
+          "children": [
+            {
+              "path": "./components/list-editor/UniqueListEditor.js",
+              "name": "UniqueListEditor.js",
+              "size": 364,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/list-editor/unique-list-editor.html",
+              "name": "unique-list-editor.html",
+              "size": 340,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/list-editor/ListEditor.js",
+              "name": "ListEditor.js",
+              "size": 1938,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/list-editor/list-editor.html",
+              "name": "list-editor.html",
+              "size": 307,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/list-editor/list-editor.css",
+              "name": "list-editor.css",
+              "size": 0,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 2949,
+          "type": "directory"
+        },
+        {
+          "path": "./components/games",
+          "name": "games",
+          "children": [],
+          "size": 0,
+          "type": "directory"
+        },
+        {
+          "path": "./components/form-editor",
+          "name": "form-editor",
+          "children": [
+            {
+              "path": "./components/form-editor/FormEditor.js",
+              "name": "FormEditor.js",
+              "size": 980,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/form-editor/form-editor.html",
+              "name": "form-editor.html",
+              "size": 1088,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/form-editor/form-editor.css",
+              "name": "form-editor.css",
+              "size": 123,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 2191,
+          "type": "directory"
+        },
+        {
+          "path": "./components/exporters",
+          "name": "exporters",
+          "children": [
+            {
+              "path": "./components/exporters/index.js",
+              "name": "index.js",
+              "size": 54,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/exporters/index.css",
+              "name": "index.css",
+              "size": 5,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/exporters/export-json",
+              "name": "export-json",
+              "children": [
+                {
+                  "path": "./components/exporters/export-json/ExportJSON.js",
+                  "name": "ExportJSON.js",
+                  "size": 1359,
+                  "extension": ".js",
+                  "type": "file"
+                },
+                {
+                  "path": "./components/exporters/export-json/export-json.html",
+                  "name": "export-json.html",
+                  "size": 572,
+                  "extension": ".html",
+                  "type": "file"
+                }
+              ],
+              "size": 1931,
+              "type": "directory"
+            }
+          ],
+          "size": 1990,
+          "type": "directory"
+        },
+        {
+          "path": "./components/diagram-labeler",
+          "name": "diagram-labeler",
+          "children": [
+            {
+              "path": "./components/diagram-labeler/testing.html",
+              "name": "testing.html",
+              "size": 4392,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/diagram-labeler/DiagramLabeler.js",
+              "name": "DiagramLabeler.js",
+              "size": 3103,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/diagram-labeler/diagram-labeler.html",
+              "name": "diagram-labeler.html",
+              "size": 724,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/diagram-labeler/diagram-labeler.css",
+              "name": "diagram-labeler.css",
+              "size": 345,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 8564,
+          "type": "directory"
+        },
+        {
+          "path": "./components/data-viewer",
+          "name": "data-viewer",
+          "children": [
+            {
+              "path": "./components/data-viewer/try-data-viewer.html",
+              "name": "try-data-viewer.html",
+              "size": 3327,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/tables.js",
+              "name": "tables.js",
+              "size": 1813,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/sample-data.json",
+              "name": "sample-data.json",
+              "size": 36,
+              "extension": ".json",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/DataViewer.js",
+              "name": "DataViewer.js",
+              "size": 6088,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/DataTable.js",
+              "name": "DataTable.js",
+              "size": 3157,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/DataEditor.js",
+              "name": "DataEditor.js",
+              "size": 1838,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/data-viewer.html",
+              "name": "data-viewer.html",
+              "size": 1308,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/data-viewer.css",
+              "name": "data-viewer.css",
+              "size": 1000,
+              "extension": ".css",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/data-type-editor.html",
+              "name": "data-type-editor.html",
+              "size": 309,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/data-viewer/data-editor.html",
+              "name": "data-editor.html",
+              "size": 655,
+              "extension": ".html",
+              "type": "file"
+            }
+          ],
+          "size": 19531,
+          "type": "directory"
+        },
+        {
+          "path": "./components/component-index.js",
+          "name": "component-index.js",
+          "size": 1608,
+          "extension": ".js",
+          "type": "file"
+        },
+        {
+          "path": "./components/component-index.css",
+          "name": "component-index.css",
+          "size": 522,
+          "extension": ".css",
+          "type": "file"
+        },
+        {
+          "path": "./components/code-sample",
+          "name": "code-sample",
+          "children": [
+            {
+              "path": "./components/code-sample/CodeSample.js",
+              "name": "CodeSample.js",
+              "size": 1244,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/code-sample/code-sample.html",
+              "name": "code-sample.html",
+              "size": 1689,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/code-sample/code-sample.css",
+              "name": "code-sample.css",
+              "size": 527,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 3460,
+          "type": "directory"
+        },
+        {
+          "path": "./components/basic-pattern",
+          "name": "basic-pattern",
+          "children": [
+            {
+              "path": "./components/basic-pattern/BasicView.js",
+              "name": "BasicView.js",
+              "size": 1018,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/basic-pattern/BasicPattern.js",
+              "name": "BasicPattern.js",
+              "size": 977,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/basic-pattern/BasicList.js",
+              "name": "BasicList.js",
+              "size": 937,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/basic-pattern/BasicEditor.js",
+              "name": "BasicEditor.js",
+              "size": 1881,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/basic-pattern/basic-pattern.html",
+              "name": "basic-pattern.html",
+              "size": 2872,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/basic-pattern/basic-pattern.css",
+              "name": "basic-pattern.css",
+              "size": 265,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 7950,
+          "type": "directory"
+        },
+        {
+          "path": "./components/audio-recorder",
+          "name": "audio-recorder",
+          "children": [
+            {
+              "path": "./components/audio-recorder/AudioRecorder.js",
+              "name": "AudioRecorder.js",
+              "size": 2127,
+              "extension": ".js",
+              "type": "file"
+            },
+            {
+              "path": "./components/audio-recorder/audio-recorder.html",
+              "name": "audio-recorder.html",
+              "size": 473,
+              "extension": ".html",
+              "type": "file"
+            },
+            {
+              "path": "./components/audio-recorder/audio-recorder.css",
+              "name": "audio-recorder.css",
+              "size": 0,
+              "extension": ".css",
+              "type": "file"
+            }
+          ],
+          "size": 2600,
+          "type": "directory"
+        }
+      ],
+      "size": 367095,
+      "type": "directory"
+    }
+  ],
+  "size": 753778,
+  "type": "directory"
+}

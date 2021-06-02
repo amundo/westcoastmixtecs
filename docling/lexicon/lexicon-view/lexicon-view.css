@@ -1,0 +1,36 @@
+@import url('../../word/word-view/word-view.css');
+@import url('../../query/query-editor/query-editor.css');
+@import url('../../sort/sort-editor/sort-editor.css');
+
+lexicon-view {
+  display: block;
+}
+
+lexicon-view header {
+  margin-bottom: 2em;
+}
+
+lexicon-view word-view {
+  display: block;
+}
+
+
+lexicon-view .form {
+  font-weight: bold;
+}
+
+lexicon-view word-editor [name=form] {
+  font-weight: bold;
+}
+
+lexicon-view word-view .gloss {
+
+}
+
+lexicon-view word-view .gloss:before {
+    /* content: '‘'; */
+}
+
+lexicon-view word-view .gloss:after {
+  /* content: '’'; */
+}

@@ -1,0 +1,33 @@
+@import url(../../word/word-editor/word-editor.css);
+
+sentence-editor form {
+  display: grid;
+  gap: 1em;
+}
+
+sentence-editor form input[name=transcription] {
+  
+}
+
+sentence-editor form input[name=translation] {
+  
+}
+
+sentence-editor form  button {
+  justify-self: end;
+}
+
+sentence-editor  word-list {
+   display: block;
+}
+
+
+sentence-editor word-editor form  {
+  display: inline-grid;
+  gap: 0; 
+  margin-right: 2em;
+}
+
+sentence-editor word-editor form  button {
+  display: none;
+}

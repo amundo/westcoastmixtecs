@@ -1,0 +1,8 @@
+@import  url('../../sentence/sentence-view/sentence-view.css');
+@import url('../../query/query-editor/query-editor.css');
+
+
+text-view {
+  display: block;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventory Editor</title>
+</head>
+<body>
+<header><h1>Inventory Editor</h1></header>
+
+<details open>
+  <summary>help</summary>
+  <p>The &lt;iterative-recorder> component implements a workflow where multiple individual &lt;audio-recorder>s are combined into a single recording with segmentation information.</p>
+
+<h2>Dataflow</h2>
+
+<h3>Input</h3>
+
+<ol>
+  <li>List of prompts</li>
+</ol>
+
+<h3>Output</h3>
+
+<ol>
+  <li>Recording of wordlist recitation</li>
+  <li>Wordlist with timestamps at per-word level</li>
+</ol>
+
+<h2>Workflow</h2>
+
+<ol>
+  <li></li>
+</ol>
+
+<h2>Component</h2>
+
+<h3>User interface elements</h3>
+
+<ol>
+  <li>Numbered list of &lt;word-recorders></li>
+  <li></li>
+</ol>
+
+</details>
+<main>
+
+  <iterative-recorder prompts-src="../data/english/lexicon/swadesh/swadesh-lexicon.json" audio-file-name=combined-audio.ogg></iterative-recorder>
+
+</main>
+<script type=module src=IterativeRecorder.js></script>
+</body>
+</html>

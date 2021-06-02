@@ -1,0 +1,104 @@
+[
+  {
+    "property": "ASCII_Hex_Digit"
+  },
+  {
+    "property": "Bidi_Control"
+  },
+  {
+    "property": "Dash"
+  },
+  {
+    "property": "Deprecated"
+  },
+  {
+    "property": "Diacritic"
+  },
+  {
+    "property": "Extender"
+  },
+  {
+    "property": "Hex_Digit"
+  },
+  {
+    "property": "Hyphen"
+  },
+  {
+    "property": "IDS_Binary_Operator"
+  },
+  {
+    "property": "IDS_Trinary_Operator"
+  },
+  {
+    "property": "Ideographic"
+  },
+  {
+    "property": "Join_Control"
+  },
+  {
+    "property": "Logical_Order_Exception"
+  },
+  {
+    "property": "Noncharacter_Code_Point"
+  },
+  {
+    "property": "Other_Alphabetic"
+  },
+  {
+    "property": "Other_Default_Ignorable_Code_Point"
+  },
+  {
+    "property": "Other_Grapheme_Extend"
+  },
+  {
+    "property": "Other_ID_Continue"
+  },
+  {
+    "property": "Other_ID_Start"
+  },
+  {
+    "property": "Other_Lowercase"
+  },
+  {
+    "property": "Other_Math"
+  },
+  {
+    "property": "Other_Uppercase"
+  },
+  {
+    "property": "Pattern_Syntax"
+  },
+  {
+    "property": "Pattern_White_Space"
+  },
+  {
+    "property": "Prepended_Concatenation_Mark"
+  },
+  {
+    "property": "Quotation_Mark"
+  },
+  {
+    "property": "Radical"
+  },
+  {
+    "property": "Regional_Indicator"
+  },
+  {
+    "property": "Sentence_Terminal"
+  },
+  {
+    "property": "Soft_Dotted"
+  },
+  {
+    "property": "Terminal_Punctuation"
+  },
+  {
+    "property": "Unified_Ideograph"
+  },
+  {
+    "property": "Variation_Selector"
+  },
+  {
+    "property": "White_Space"
+  }
+]

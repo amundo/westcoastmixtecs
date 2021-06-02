@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lexicon-view component documentation</title>
+  <link rel="stylesheet" href="../../css/documentation.css">
+  <link rel="stylesheet" href="lexicon-view.css">
+</head>
+<body>
+<header>
+  <h1>&lt;lexicon-view> component documentation</h1>
+  <p>The lexicon view renders, sorts, and filters its data, an array of <code>Word</code> objects. </p>
+  <p>For creating or modifying lexical data, see the <code>&lt;lexicon-editor></code> component.</p>
+</header>
+
+<h2>HTML</h2>
+<section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <p>A <code>&lt;lexicon-view></code> may be populated via its <code>src</code> attribute, which should point to a <code>JSON</code> file containing data of the <code>Lexicon</code> data type.</p>
+  <p>Such data includes a required <code>words</code> property whose value is a array of <code>Word</code> objects, and an optional <code>metadata</code> property whose value is an object containing arbitrary metadata. 
+  <pre>
+    &lt;lexicon-view src=/book/data/languages/hiligaynon/lexicon/education_in_jaro-lexicon.json>&lt;/lexicon-view>
+  </pre>
+</section>
+
+<section class=example>
+  <header>
+    <h3>Example</h3>
+  </header>
+    <lexicon-view summary="Metadata…" src=/book/data/languages/hiligaynon/lexicon/education_in_jaro-lexicon.json></lexicon-view>
+</section>
+
+
+
+
+<script type=module>
+import {LexiconView} from './LexiconView.js'
+Object.assign(window, {LexiconView})
+</script>
+</body>
+</html>

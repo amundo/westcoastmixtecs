@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>word-view component documentation</title>
+  <link rel="stylesheet" href="documentation.css">
+  <link rel="stylesheet" href="word-view.css">
+</head>
+<body>
+<header>
+  <h1>&lt;word-view> component documentation</h1>
+  <p>A basic presentation of a <code>Word</code>.</p>
+</header>
+
+<h2>HTML</h2>
+<section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <pre>
+    &lt;word-view>&lt;/word-view>
+
+    &lt;word-view form="casa" gloss="house">&lt;/word-view>
+  </pre>
+</section>
+<section class=example>
+  <header>
+    <h3>Example</h3>
+  </header>
+    <word-view ></word-view>
+</section>
+<h2>Javascript</h2>
+<section class=properties>
+  <header>
+    <h3>Properties</h3>
+    <h4>data setter:</h4>
+    <p><code>wordView.data = {"form": "perro", "gloss": "dog"}</code></p>
+    <p>Also rerenders.</p>
+    <h4>data getter:</h4>
+    <p><code>wordView.data</code> </p>
+    <p>Returns word object.</p>
+  </header>
+</section>
+
+<section class=attributes>
+  <header>
+    <h3>Attributes</h3>
+  </header>
+</section>
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+</section>
+
+<script type=module>
+import {WordView} from './WordView.js'
+Object.assign(window, {WordView})
+
+document.querySelector('word-view').data = {gloss: 'house', form: 'casa'}
+
+</script>
+</body>
+</html>

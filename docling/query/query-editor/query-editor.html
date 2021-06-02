@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>query-editor component documentation</title>
+  <link rel="stylesheet" href="../../css/documentation.css">
+  <link rel="stylesheet" href="query-editor.css">
+</head>
+<body>
+<header>
+  <h1>&lt;query-editor> component documentation</h1>
+  <p>Manages a form for editing a search query.</p>
+</header>
+
+
+<section class=usage>
+  <header>
+    <h3>Demo</h3>
+
+    <query-editor id=basic-query-editor data-type="form gloss"></query-editor>
+    <output>
+    </output>
+
+  </header>
+  <p>A <code>&lt;query-editor></code> provides the user with an interface for editing a search query. <code>&lt;query-editor></code>s can be configured as to the fields which the user may edit. That query is processed and used to filter an array of objects in views whose data is “plural”. Thus, a <code>&lt;query-editor></code> is used inside <code>&lt;lexicon-view></code>s, <code>&lt;text-view></code>s, and <code>&lt;corpus-view></code>s. 
+  
+    <p>
+      Here is the code which intercepts the <code>query-created</code> event and prints it to the screen.
+    </p>
+    <script  class=visible-script type=module>
+      import {QueryEditor} from './QueryEditor.js'
+      
+      // grab the generated query and render it for inspection.
+      // normally passed to a view for filtering.
+
+      let basicQueryEditor = document.querySelector('#basic-query-editor')
+
+      basicQueryEditor.querySelectorAll('input')
+          .forEach(input => input.setAttribute('autocomplete', 'off'))
+
+      basicQueryEditor.addEventListener('keyup', keydownEvent => {
+        basicQueryEditor.read()
+
+        document.querySelector("output").textContent = JSON.stringify(basicQueryEditor.data, null, 2)
+      })
+      
+      Object.assign(window, {basicQueryEditor, QueryEditor})
+      </script>
+</section>
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+    <h4>query-created</h4>
+    <p>Triggered when the user submits query.</p>
+  </header>
+</section>
+
+
+</body>
+</html>

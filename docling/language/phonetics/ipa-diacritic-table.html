@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IPA Diacritic Table</title>
+<style>
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  display: block;
+  font-family: Gentium Plus;
+}
+
+thead {
+  display: none;
+}
+
+tbody {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 0;
+  border-top:1px solid gray;
+  border-left:1px solid gray;
+}
+
+tr {
+  display: flex;
+  align-items: baseline;
+  border-bottom:1px solid gray;
+  border-right:1px solid gray;
+}
+
+td, th {
+  flex: 1;
+}
+
+table tr td[data-header=display] {
+  flex-basis: 3em;
+  flex-grow:0;
+  font-size: 3vh;
+  text-align: center;
+}
+
+tbody tr:nth-child(23),
+tbody tr:nth-child(25),
+tbody tr:nth-child(27),
+tbody tr:nth-child(29),
+tbody tr:nth-child(31)
+{
+  grid-column: span 2;
+}
+
+
+</style>
+</head>
+<body>
+<header><h1>IPA Diacritic Table</h1></header>
+
+<ipa-diacritic-table></ipa-diacritic-table>
+
+<script type=module>
+import {IPADiacriticTable} from './IPADiacriticTable.js'
+</script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+word-view {
+  display: block;
+}
+
+word-view .form {
+  font-weight: bold;
+}
+
+word-view .gloss {
+}

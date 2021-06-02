@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>text-view component documentation</title>
+  <link rel="stylesheet" href="../../css/documentation.css">
+  <link rel="stylesheet" href="text-view.css">
+</head>
+<body>
+<header>
+  <h1>&lt;text-view> component documentation</h1>
+  <p>Renders a <code>Text</code> in the familiar interlinear format.</p>
+
+</header>
+
+<div>
+  <p>Try loading a different <code>*-text.json</code> file here:</p> 
+  <input type="file">
+</div>
+
+<section>
+  <header>
+    <details open>
+      <summary>Demo</summary>
+      <text-view src='../../../data/languages/hiligaynon/corpus/education_in_jaro/education_in_jaro-text.json'></text-view>
+    </details>
+  </header>
+</section>
+ 
+
+<script type=module>
+import {TextView} from './TextView.js'
+let textView = document.querySelector('text-view')
+
+document.querySelector("input[type=file]")
+  .addEventListener('input', inputEvent => {
+    let fileReader = new FileReader()
+    fileReader.addEventListener('load', loadEvent => {
+      let text = JSON.parse(loadEvent.target.result)
+      textView.data = text
+    })
+    fileReader.readAsText(inputEvent.target.files[0])
+  })
+Object.assign(window, {TextView})
+</script>
+</body>
+</html>

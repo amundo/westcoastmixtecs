@@ -1,0 +1,11 @@
+metadata-view {
+  display:block;
+}
+
+metadata-view data-viewer {
+  display:table;
+}
+
+metadata-view summary {
+  cursor: pointer;
+}

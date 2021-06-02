@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>text-list component documentation</title>
+  <link rel="stylesheet" href="../../css/documentation.css">
+  <link rel="stylesheet" href="text-list.css">
+</head>
+<body>
+<header>
+  <h1>&lt;text-list> component documentation</h1>
+  <p>Render an array of <code>Text</code> objects in <code>TextView</code>s.</p>
+</header>
+
+<h2>HTML</h2>
+<section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <pre>
+    &lt;text-list>&lt;/text-list>
+  </pre>
+</section>
+
+<section class=example>
+  <header>
+    <h3>Example</h3>
+  </header>
+    <text-list></text-list>
+<script type="module" class="visible-script">
+import {TextList} from './TextList.js'
+  
+  
+let textList = document.querySelector('text-list')
+let textURLs = [
+  "../../../data/languages/esperanto/corpus/proverbs-text.json",
+  // "../../../data/languages/turkish/corpus/finck_early_gloss/finck_early_gloss-text.json",
+  // "../../../data/languages/takelma/corpus/takelma_house/takelma_house-text.json",
+  // "../../../data/languages/nunggubuyu/corpus/grammar_excerpts/grammar_excerpts-text.json",
+  // "../../../data/languages/nisenan/corpus/texts/marriage_and_divorce/marriage_and_divorce-text.json",
+  // "../../../data/languages/san_juan_quiahije_chatino/texts/prayer_for_the_community/prayer_for_the_community_from_HTML-text.json",
+  "../../../data/languages/hiligaynon/corpus/education_in_jaro/education_in_jaro_sample-text.json",
+  // "../../../data/languages/hiligaynon/corpus/education_in_jaro/education_in_jaro-text.json",
+  // "../../../data/corpora/hello-world/hello_word-text.json"
+]
+
+let fetchAll0 = async urls =>  {
+  console.log(urls)
+  let results = await Promise.all(urls.map((url) => fetch(url).then((r) => r.json())))
+  return results
+}
+
+let fetchAll = async urls => {
+  let texts = [] 
+  for (let url of urls) {
+    let response = await fetch(url)
+    let text = await response.json()
+    texts.push(text)
+  }
+
+  return texts
+}
+
+fetchAll(textURLs)
+ .then(texts => {textList.data = texts})
+
+</script>
+      
+</section>
+
+<h2>Javascript</h2>
+<section class=properties>
+  <header>
+    <h3>Properties</h3>
+    <p>These may be set directly on an instance of the class.</p>
+  </header>
+</section>
+
+<section class=attributes>
+  <header>
+    <h3>Attributes</h3>
+  </header>
+</section>
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+</section>
+
+<script type=module>
+import {TextList} from './TextList.js'
+Object.assign(window, {TextList})
+</script>
+</body>
+</html>

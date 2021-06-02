@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>&lt;word-list></title>
+
+  <link rel="icon" type="image/svg" href="/book/images/docling-headshot.svg">
+  
+  <meta property="og:title" content="word-list" />
+  <meta property="og:description" content="word-list" />
+  <meta property="og:image" content="/book/images/docling-headshot.svg" />
+
+  <link rel="stylesheet" href="word-list.css">
+  <link rel="stylesheet" href="/book/docling/css/documentation.css">
+</head>
+<body>
+<header>
+  <h1>&lt;word-list></h1>
+  <p>A <code>&lt;word-list></code> is a container view for rendering a sequence of <code>&lt;word-view></code>s or <code>&lt;word-editors></code>s. 
+</p>
+</header>
+
+<h2>HTML</h2>
+<section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <p>Notice that the array of <code>Word</code> objects passed in as data is rendered exactly as passed. Sorting and searching is handled in other components such as a <code>&lt;LexiconView></code> or <code>&lt;TextView></code>. <code>&lt;word-list></code> data is typically edited inside of a <code>&lt;LexiconEditor></code> or a <code>&lt;TextEditor></code>.</p>
+</section>
+<section class=example>
+  <header>
+    <h3>Loading words in Javascript</h3>
+  </header>
+
+  <pre>
+    &lt;word-list id=basic>&lt;/word-list>
+  </pre>
+
+
+  <script class=visible-script type=module>
+    import {WordList} from './WordList.js'
+    
+    let fiveWords = [
+      { "form": "hello", "gloss": "hello" },
+      { "form": "akó", "gloss": "1S.ABS" },
+      { "form": "si", "gloss": "PERS" },
+      { "form": "Juan", "gloss": "Juan" },
+      { "form": "Lee", "gloss": "Lee" }
+    ]
+    let basicWordList = document.querySelector('word-list#basic')
+    basicWordList.data = fiveWords
+    </script>
+
+    <p>Which renders like this:</p>
+
+  <word-list id=basic></word-list>
+
+  <p>In this example, data is fetched and set directly via Javascript. However, this is usually handled internally via a <code>&lt;LexiconView></code>, <code>&lt;LexiconEditor></code>, <code>&lt;TextView></code>, or <code>&lt;TextEditor></code>.</p>
+  
+
+
+ <p>Notice that the  <code>&lt;word-view></code>s inside a <code>&lt;word-list></code> are rendered as block-level elements by default, with the contents of those views (<code>&lt;span></code>s containing <code>form</code> and <code>gloss</code> content, usually) being rendered as their default <code>inline</code> manner.</p>
+    <p>This is also the styling which is used when a <code>&lt;word-list</code> is rendered inside a <code>&lt;lexicon-view></code>.</p>
+    <p>Inside a <code>&lt;sentence-view></code>, however, <code>&lt;word-view</code>s are set to render as inline elements, with their constituent spans set to render as block-level elements: </p>
+ 
+</section>
+
+
+<section class=editable>
+  <header>
+    <h3>Editable &lt;word-list>s</h3>
+  </header>
+
+  <p><code>&lt;word-list></code>s also have an “editing” mode, which is different primarily in that each word is rendered inside a &lt;word-editor> instead of a &lt;word-view>. Here is an example with the same data from the previous example:</p>
+
+
+  <script class=visible-script type=module>
+    import {WordList} from './WordList.js'
+    
+    let fiveWords = [
+      { "form": "hello", "gloss": "hello" },
+      { "form": "akó", "gloss": "1S.ABS" },
+      { "form": "si", "gloss": "PERS" },
+      { "form": "Juan", "gloss": "Juan" },
+      { "form": "Lee", "gloss": "Lee" }
+    ]
+    let editableWordList = document.querySelector('word-list[editable]')
+    editableWordList.data = fiveWords
+    </script>
+
+    <p>Which renders like this:</p>
+
+  <word-list editable></word-list>
+
+  </section>
+
+
+
+<h2>Javascript</h2>
+
+<section class=properties>
+  <header>
+    <h3>Properties</h3>
+    <pre><code>set .data(words)</code></pre>
+    <p>Set the view’s data. Overwrites current data and re-renders the view.</p>
+    <pre><code>get .data</code></pre>
+    <p>Get the view’s data as an array of objects. For export purposes it is better to access this data via a <code>&lt;LexiconView</code>, as <code>metadata</code> will be attached.</p>
+    <p>It has a <code>.data</code> getter and setter, which accepts an <code>array</code> of <code>Word</code> objects.</p>
+    </header>
+</section>
+
+<section class=attributes>
+  <header>
+    <h3>Attributes</h3>
+    <h4>editable</h4>
+    <p>The <code>editable</code> attribute, when present, causes the <code>word-list</code> to render <code>&lt;word-editor></code>s instead of <code>&lt;word-view></code>s.</p>
+  </header>
+
+</section>
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+  <p>None</p>
+</section>
+
+<script type=module>
+import {WordList} from './WordList.js'
+import {TextView} from '../../text/text-view/TextView.js'
+
+
+Object.assign(window, {WordList})
+</script>
+</body>
+</html>

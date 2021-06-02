@@ -1,0 +1,9 @@
+@import url('../word-view/word-view.css');
+@import url('../word-editor/word-editor.css');
+@import url('../../lexicon/lexicon-view/lexicon-view.css');
+@import url('../../sentence/sentence-view/sentence-view.css');
+
+word-list {
+  display: block;
+}
+

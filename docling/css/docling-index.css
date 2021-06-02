@@ -1,0 +1,30 @@
+@import url(../components/component-index.css);
+
+@import url(../word/word-view/word-view.css);
+@import url(../word/word-list/word-list.css);
+@import url(../word/word-editor/word-editor.css);
+@import url(../sentence/sentence-view/sentence-view.css);
+@import url(../sentence/sentence-list/sentence-list.css);
+@import url(../sentence/sentence-editor/sentence-editor.css);
+@import url(../lexicon/lexicon-view/lexicon-view.css);
+@import url(../lexicon/lexicon-editor/lexicon-editor.css);
+@import url(../metadata/metadata-view/metadata-view.css);
+@import url(../metadata/metadata-editor/metadata-editor.css);
+
+/* @import url(sentence/sentence-editor/sentence-editor.css);
+@import url(word/word-editor/word-editor.css);
+@import url(text/text-view/text-view.css); */
+
+
+
+
+/*
+
+CSS files for each component are stored in their respective directories, and 
+imported from here via a series of @import statements.
+
+In this future all of these imports should probably be compiled into library-wide CSS
+file for performance, but for pedagogical reasons it seems wiser to keep all 
+files related to a single component in a single directory.
+
+*/

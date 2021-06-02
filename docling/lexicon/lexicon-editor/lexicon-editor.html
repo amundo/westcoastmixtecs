@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>&lt;lexicon-editor></title>
+  <link rel="stylesheet" href="/book/docling/css/documentation.css">
+  <link rel="stylesheet" href="lexicon-editor.css">
+</head>
+<body>
+<header>
+  <h1>&lt;lexicon-editor></h1>
+  <p>The &lt;lexicon-editor> allows the user to edit an array of <code>Word</code> objects interactively.</p>
+  <p>It has three sections:</p>
+  <ol>
+    <li>A &lt;metadata-view></li>
+    <li>A &lt;word-editor></li>
+    <li>A &lt;word-list></li>
+  </ol>
+</header>
+<nav>
+<directory-tree src=/book/docling/docling-index.json>
+</directory-tree>
+</nav>
+<main>
+<h2>HTML</h2>
+<section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <pre>
+    &lt;lexicon-editor>&lt;/lexicon-editor>
+  </pre>
+</section>
+<section class=example>
+  <header>
+    <h3>Example</h3>
+  </header>
+  <h4>Basic usage</h4>
+  <pre><code>
+    &lt;lexicon-editor>&lt;/lexicon-editor>
+  </code></pre>
+  <lexicon-editor id=basic></lexicon-editor>
+</section>
+<h2>Javascript</h2>
+<section class=properties>
+  <header>
+    <h3>Properties</h3>
+    <p>These may be set directly on an instance of the class.</p>
+  </header>
+</section>
+
+<section class=attributes>
+  <header>
+    <h3>Attributes</h3>
+  </header>
+  <p><code>src=[url]</code></p>
+
+</section>
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+</section>
+</main>
+
+<script type=module>
+import {LexiconEditor} from './LexiconEditor.js'
+// import {DirectoryTree} from '/book/book-components/directory-tree/DirectoryTree.js'
+Object.assign(window, {LexiconEditor})
+</script>
+</body>
+</html>

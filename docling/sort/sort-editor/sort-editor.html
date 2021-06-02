@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sort-editor component documentation</title>
+  <link rel="stylesheet" href="../../css/documentation.css">
+  <link rel="stylesheet" href="sort-editor.css">
+</head>
+<body>
+<header>
+  <h1>&lt;sort-editor> component documentation</h1>
+  <p>Allows user to modify sort order.</p>
+</header>
+
+<h2>Demo</h2>
+
+
+<pre><code>
+  &lt;sort-editor sortable-keys="form gloss">&lt;/sort-editor>
+</code></pre>
+
+
+<sort-editor sortable-keys="form gloss"></sort-editor>
+<output></output>
+
+<pre><code>
+  &lt;sort-editor sortable-keys="transcription translation">&lt;/sort-editor>
+</code></pre>
+
+<sort-editor sortable-keys="transcription translation"></sort-editor>
+<output></output>
+
+
+<script type="module">
+  import {SortEditor} from './SortEditor.js'
+  // grab the generated query and render it for inspection.
+  // normally passed to a view for filtering.
+  addEventListener('sort-edited', sortEditedEvent => {
+    let options = sortEditedEvent.target.data
+    console.log(options);
+    sortEditedEvent.target.nextElementSibling.textContent = JSON.stringify(options, null, 2)
+  })
+  Object.assign(window, {SortEditor})
+</script>
+
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+  <h4>sort-edited</h4>
+  <p>Emitted any time any control which affects the configuration of the component is changed.</p>
+</section>
+ 
+
+<section class=Resources>
+  <header>
+    <h3>Resources</h3>
+  </header>
+  <p>The &lt;sort-editor> serves to define a “collator” for sorting arrays.</p>
+
+<p>For information on the implementation of collation in Javascript, see:</p>
+
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator">Intl.Collator</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator/compare">compare</a></li>
+</ul>
+</section>
+
+
+</body>
+</html>

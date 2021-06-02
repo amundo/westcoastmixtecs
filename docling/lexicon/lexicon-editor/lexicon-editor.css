@@ -1,0 +1,15 @@
+@import url('../../word/word-view/word-view.css');
+
+lexicon-editor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+lexicon-editor lexicon-view header.lexicon-view-header {
+  display: none;
+}
+
+lexicon-editor word-list word-view {
+  display: block;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>word-editor component documentation</title>
+  <link rel="stylesheet" href="/book/docling/css/documentation.css">
+  <link rel="stylesheet" href="word-editor.css">
+</head>
+<body>
+<header>
+  <h1>&lt;word-editor> component documentation</h1>
+  <p>Manages a form for editing a word.</p>
+</header>
+
+<h2>HTML</h2>
+<section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <pre>
+    &lt;word-editor>&lt;/word-editor>
+  </pre>
+</section>
+
+<section class=example>
+  <header>
+    <h3>Example</h3>
+  </header>
+  <h4>Default (empty)</h4>
+  <word-editor></word-editor>
+
+  <h4>Word set via Javascript</h4>
+  <word-editor id=set-me></word-editor>
+  <script type=module>
+    import {WordEditor} from './WordEditor.js'
+
+    let wordEditor = document.querySelector('#set-me')
+
+    wordEditor.data = { form: "perro", "gloss": "dog"}
+  </script>
+
+
+  <h4>Word partially set via Javascript</h4>
+
+  <word-editor id=set-my-gloss></word-editor>
+
+  <script type=module class=visible-script>
+    import {WordEditor} from './WordEditor.js'
+
+    let wordEditor = document.querySelector('#set-my-gloss')
+
+    wordEditor.data = { "gloss": "swan"}
+  </script>
+
+</section>
+
+
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+  <div>
+    <h4><code>word-editor-submit</code></h4>
+    <p>Fired when the user has submitted a word.</p>
+  </div>
+</section>
+
+<script type=module>
+import {WordEditor} from './WordEditor.js'
+Object.assign(window, {WordEditor})
+
+addEventListener('word-editor-submit', wordSubmitEvent => {
+  console.log(wordSubmitEvent.target.data)
+})
+</script>
+</body>
+</html>

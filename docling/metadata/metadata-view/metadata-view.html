@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>metadata-view</title>
+  <link rel="stylesheet" href="metadata-view.css">
+</head>
+<body>
+<header><h1>metadata-view</h1></header>
+
+<metadata-view></metadata-view>
+
+<p>To customize the <code>summary</code> in the </p>
+
+<script type=module>
+import {MetadataView} from './MetadataView.js'
+
+let metadataView = document.querySelector('metadata-view')
+
+metadataView.data = {
+  title: 'Some metadata',
+  info: 1,
+  detail: "Something",
+  features: [
+    {"size": "small"},
+    {"size": "medium"},
+    {"size": "large"}
+  ]
+}
+</script>
+</body>
+</html>

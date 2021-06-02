@@ -1,0 +1,9 @@
+@import url(../../text/text-view/text-view.css);
+
+corpus-view {
+  display: block;
+}
+
+corpus-view aside a {
+  display: block;
+}

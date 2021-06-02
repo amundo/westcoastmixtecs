@@ -1,0 +1,52 @@
+@import url(../../word/word-view/word-view.css);
+
+sentence-view {
+  display: grid;
+  grid-template: 
+      "header transcription" auto 
+      "header words"         auto 
+      "header translation"   auto 
+    / auto 1fr;
+  align-items: baseline;
+}
+
+sentence-view header.sentence-view-header {
+  grid-area:header;
+}
+
+sentence-view word-list {
+  grid-area:words;
+}
+
+sentence-view p.transcription {
+  grid-area:transcription;
+}
+
+sentence-view p.translation {
+  grid-area:translation;
+}
+
+sentence-view header.sentence-view-header {
+  padding: 0 1em;
+}
+
+sentence-view header.sentence-view-header .sentence-number:not(:empty)::after {
+  content: ')';
+}
+
+sentence-view p.transcription {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+sentence-view p.translation {
+}
+
+sentence-view word-list {
+  display: block;
+}
+
+sentence-view word-view {
+  display: inline-grid;
+  margin: 1em;
+}

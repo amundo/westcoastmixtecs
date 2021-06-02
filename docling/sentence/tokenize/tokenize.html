@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>tokenize</title>
+  <style>
+    [data-first]{
+      border-bottom: 3px double red;
+    }
+
+
+    [data-first]{
+      border-bottom: 3px double rgb(222, 142, 50);
+    }
+  
+body {
+  font-family: Gentium Plus;
+  line-height:2;
+  width: 60ch;
+}
+  </style>
+</head>
+<body>
+<header><h1>tokenize</h1></header>
+<main>
+
+</main>
+<script type=module>
+
+
+let classify = token => {
+  if(token.match(/^[\p{Letter}]+$/gu)){
+    return 'word'
+  } else if(token.match(/^\p{White_Space}+$/gu)){
+    return 'whitespace'
+  } else if(token.match(/^\p{Punctuation}+$/gu)){
+    return 'punctuation'
+  } else {
+    return ''
+  }
+}
+
+ 
+let go = async () => {
+
+document.querySelectorAll('p').forEach(p => {
+
+    let tokenize = s => s.split(/(\P{Letter})/gu)
+    
+  let tokens = tokenize(p.textContent)
+
+  p.innerHTML = ``
+  
+  tokens
+    .map(token => {
+      let span = document.createElement('span')
+      span.textContent = token
+      span.dataset.tokenType = classify(token)
+      return span
+    })
+    .forEach(span => p.append(span))
+
+
+  let seen = []
+
+  Array.from(document.querySelectorAll('span[data-token-type="word"]'))
+    .reduce((seen, span) => {
+      if(!seen.includes(span.textContent)){
+        span.dataset.first = 'true'
+        seen.push(span.textContent)
+      }
+      return seen
+  }, seen)
+
+
+
+  })
+
+}
+
+fetch('sutta.html')
+  .then(r => r.text())
+  .then(html => document.body.innerHTML = html)
+  .then(go)
+
+</script>
+</body>
+</html>

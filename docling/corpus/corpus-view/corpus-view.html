@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>corpus-view component documentation</title>
+  <link rel="stylesheet" href="../../css/documentation.css">
+  <link rel="stylesheet" href="corpus-view.css">
+</head>
+<body>
+<header>
+  <h1>&lt;corpus-view> component documentation</h1>
+  <p>View all the texts in a corpus.</p>
+</header>
+
+<h2>HTML</h2>
+<section class=usage>
+  <header>
+    <h3>Usage</h3>
+    <p class=info></p>
+  </header>
+  <pre>
+    &lt;corpus-view >&lt;/corpus-view>
+  </pre>
+</section>
+<section class=example>
+  <header>
+    <h3>Example</h3>
+  </header>
+    <corpus-view ></corpus-view>
+    <script type="module" class="visible-script">
+      import {CorpusView} from './CorpusView.js'
+      let corpusView = document.querySelector('corpus-view')
+      corpusView.fetchTexts([
+  // "../../../data/miscellaneous/docling/data/languages/hiligaynon/corpus/oysters/oysters-text.json",
+  "../../../data/languages/esperanto/corpus/proverbs-text.json",
+  // "../../../data/languages/turkish/corpus/finck_early_gloss/finck_early_gloss-text.json",
+  // "../../../data/languages/takelma/corpus/takelma_house/takelma_house-text.json",
+  // "../../../data/languages/nunggubuyu/corpus/grammar_excerpts/grammar_excerpts-text.json",
+  "../../../data/languages/nisenan/corpus/texts/marriage_and_divorce/marriage_and_divorce-text.json",
+  // "../../../data/languages/san_juan_quiahije_chatino/texts/prayer_for_the_community/prayer_for_the_community_from_HTML-text.json",
+  "../../../data/languages/hiligaynon/corpus/education_in_jaro/education_in_jaro_sample-text.json",
+  // "../../../data/languages/hiligaynon/corpus/education_in_jaro/education_in_jaro-text.json",
+  // "../../../data/corpora/hello-world/hello_world-text.json"
+])
+    </script>
+</section>
+<h2>Javascript</h2>
+<section class=properties>
+  <header>
+    <h3>Properties</h3>
+    <p>These may be set directly on an instance of the class.</p>
+  </header>
+</section>
+
+<section class=attributes>
+  <header>
+    <h3>Attributes</h3>
+  </header>
+</section>
+
+<section class=Events>
+  <header>
+    <h3>Events</h3>
+  </header>
+</section>
+
+<script type=module>
+import {CorpusView} from './CorpusView.js'
+Object.assign(window, {CorpusView})
+</script>
+</body>
+</html>

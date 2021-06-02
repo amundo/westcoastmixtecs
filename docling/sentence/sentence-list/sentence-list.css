@@ -1,0 +1,5 @@
+@import url(../../sentence/sentence-view/sentence-view.css);
+
+sentence-list {
+  display: block;
+}

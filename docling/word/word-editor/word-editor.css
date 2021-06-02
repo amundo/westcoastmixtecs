@@ -1,0 +1,27 @@
+
+
+word-editor {  
+  margin: 0 1em 1em;
+  display: inline-block;
+}
+
+word-editor button {
+  justify-self: end;
+  display: none;
+}
+
+word-editor form {
+  display: inline-grid;
+}
+
+word-editor form input {
+  border:none;
+  border-bottom: 1px solid gainsboro;
+  min-width: 4ch;
+}
+
+word-editor form input[name=form] {
+}
+
+word-editor form input[name=gloss] {
+}
